@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf8'?>
-<nuitka-compilation-report nuitka_version="2.8.5" nuitka_commercial_version="not installed" mode="standalone" completion="yes">
+<nuitka-compilation-report nuitka_version="2.8.6" nuitka_commercial_version="not installed" mode="standalone" completion="yes">
   <scons_environment />
   <module name="__future__" kind="UncompiledPythonModule" usage="stdlib" reason="Including as part of the non-excluded parts of standard library." source_path="${sys.real_prefix}\lib\__future__.py">
     <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="8" merged_total="81" />
@@ -1023,9 +1023,9 @@
       <module_usage name="cv2" finding="absolute" line="61" />
       <module_usage name="cv2.mat_wrapper" finding="absolute" line="62" />
       <module_usage name="typing" finding="absolute" line="63" />
-      <module_usage name="cv2.dnn" finding="absolute" line="64" />
+      <module_usage name="cv2.gapi.wip.draw" finding="absolute" line="64" />
       <module_usage name="numpy" finding="absolute" line="65" />
-      <module_usage name="cv2.gapi.wip.draw" finding="absolute" line="66" />
+      <module_usage name="cv2.dnn" finding="absolute" line="66" />
     </module_usages>
   </module>
   <module name="cv2.utils" kind="CompiledPythonPackage" usage="plugin:implicit-imports" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\cv2\utils\__init__.py" distribution="opencv-python-headless">
@@ -3169,7 +3169,7 @@
   </module>
   <module name="numpy" kind="CompiledPythonPackage" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\numpy\__init__.py" distribution="numpy">
     <plugin-influence name="anti-bloat" influence="condition-used" condition="not use_setuptools" tags_used="use_setuptools" result="true" />
-    <plugin-influence name="delvewheel" influence="detection" detection="delvewheel_version" value="'1.10.0'" />
+    <plugin-influence name="delvewheel" influence="detection" detection="delvewheel_version" value="'1.10.1'" />
     <plugin-influence name="options-nanny" influence="condition-used" condition="standalone" tags_used="standalone" result="true" />
     <plugin-influence name="dll-files" influence="condition-used" condition="win32" tags_used="win32" result="true" />
     <plugin-influence name="dll-files" influence="condition-used" condition="is_conda_package(&quot;numpy&quot;) and version(&quot;numpy&quot;) &lt; (2,)" tags_used="is_conda_package" result="false" />
@@ -4521,7 +4521,7 @@
     </module_usages>
   </module>
   <module name="numpy.f2py.crackfortran" kind="UncompiledPythonModule" usage="import fromlist" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\numpy\f2py\crackfortran.py" distribution="numpy">
-    <optimization-time pass="1" time="volatile" micro_passes="9" max_branch_merge="852" merged_total="84719" />
+    <optimization-time pass="1" time="volatile" micro_passes="9" max_branch_merge="845" merged_total="84488" />
     <optimization-time pass="2" time="volatile" />
     <module_usages>
       <module_usage name="sys" finding="absolute" line="139" />
@@ -6801,8 +6801,8 @@
   <included_extension name="mtrand.pyd" dest_path="numpy\random\mtrand.pyd" source_path="${sys.prefix}\lib\site-packages\numpy\random\mtrand.cp310-win_amd64.pyd" package="numpy.random" ignored="no" reason="used extension module" />
   <included_extension name="select.pyd" dest_path="select.pyd" source_path="${sys.real_prefix}\DLLs\select.pyd" package="" ignored="no" reason="used extension module" />
   <included_extension name="unicodedata.pyd" dest_path="unicodedata.pyd" source_path="${sys.real_prefix}\DLLs\unicodedata.pyd" package="" ignored="no" reason="used extension module" />
-  <included_dll name="opencv_videoio_ffmpeg4110_64.dll" dest_path="cv2\opencv_videoio_ffmpeg4110_64.dll" source_path="${sys.prefix}\lib\site-packages\cv2\opencv_videoio_ffmpeg4110_64.dll" package="cv2" ignored="no" reason="Yaml config of 'cv2'" />
-  <included_dll name="libscipy_openblas64_-43e11ff0749b8cbe0a615c9cf6737e0e.dll" dest_path="numpy.libs\libscipy_openblas64_-43e11ff0749b8cbe0a615c9cf6737e0e.dll" source_path="${sys.prefix}\lib\site-packages\numpy.libs\libscipy_openblas64_-43e11ff0749b8cbe0a615c9cf6737e0e.dll" package="numpy" ignored="no" reason="needed by 'numpy'" />
+  <included_dll name="opencv_videoio_ffmpeg4120_64.dll" dest_path="cv2\opencv_videoio_ffmpeg4120_64.dll" source_path="${sys.prefix}\lib\site-packages\cv2\opencv_videoio_ffmpeg4120_64.dll" package="cv2" ignored="no" reason="Yaml config of 'cv2'" />
+  <included_dll name="libscipy_openblas64_-13e2df515630b4a41f92893938845698.dll" dest_path="numpy.libs\libscipy_openblas64_-13e2df515630b4a41f92893938845698.dll" source_path="${sys.prefix}\lib\site-packages\numpy.libs\libscipy_openblas64_-13e2df515630b4a41f92893938845698.dll" package="numpy" ignored="no" reason="needed by 'numpy'" />
   <included_dll name="msvcp140-263139962577ecda4cd9469ca360a746.dll" dest_path="numpy.libs\msvcp140-263139962577ecda4cd9469ca360a746.dll" source_path="${sys.prefix}\lib\site-packages\numpy.libs\msvcp140-263139962577ecda4cd9469ca360a746.dll" package="numpy" ignored="no" reason="needed by 'numpy'" />
   <included_dll name="python310.dll" dest_path="python310.dll" source_path="${sys.real_prefix}\python310.dll" package="" ignored="no" reason="Used by 'OpenCVUsing.exe'" />
   <included_dll name="vcruntime140.dll" dest_path="vcruntime140.dll" source_path="${sys.real_prefix}\vcruntime140.dll" package="" ignored="no" reason="Used by 'OpenCVUsing.exe'" />
@@ -6818,7 +6818,7 @@
     <option value="--assume-yes-for-downloads" />
     <option value="--report=compilation-report.xml" />
     <option value="--report-diffable" />
-    <option value="--report-user-provided=pipenv_hash=c6a1d396cbaafd2104c9db6520ecb2f9" />
+    <option value="--report-user-provided=pipenv_hash=3702a6e52215fb1d888a55454dea1e56" />
   </command_line>
   <plugins>
     <plugin name="anti-bloat" user_enabled="no" />
@@ -6842,8 +6842,8 @@
     <plugin name="transformers" user_enabled="no" />
   </plugins>
   <distributions>
-    <distribution name="numpy" version="2.2.4" installer="pip" />
-    <distribution name="opencv-python-headless" version="4.11.0.86" installer="pip" />
+    <distribution name="numpy" version="2.2.6" installer="pip" />
+    <distribution name="opencv-python-headless" version="4.12.0.88" installer="pip" />
     <distribution name="typing_extensions" version="4.12.2" installer="pip" />
   </distributions>
   <python python_exe="${sys.prefix}\Scripts\python.EXE" python_flavor="CPython Official" python_version="3.10.11" os_name="Windows" os_release="11" arch_name="x86_64" filesystem_encoding="utf-8">
@@ -6859,7 +6859,7 @@
     </search_path>
   </python>
   <user-data>
-    <pipenv_hash>c6a1d396cbaafd2104c9db6520ecb2f9</pipenv_hash>
+    <pipenv_hash>3702a6e52215fb1d888a55454dea1e56</pipenv_hash>
   </user-data>
   <output run_filename="${cwd}\OpenCVUsing.dist\OpenCVUsing.exe" />
 </nuitka-compilation-report>

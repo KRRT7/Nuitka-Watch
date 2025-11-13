@@ -18,13 +18,13 @@
     "default": {
         "aspose.email-for-python-via-net": {
             "hashes": [
-                "sha256:456759b6d4c71b710b2e2961f511a94b43396a5d4d222e50675ef332d2c0ccff",
-                "sha256:4f7cc5999faabb52b1624665f28f76d63daf52152ab89816c41386f935e193f1",
-                "sha256:bf796f6a743e73cc2663e676b2ed6d361116ddfaffa7520679216b56a744b6e9",
-                "sha256:f1c54ef14390d4f17d217aeaf02badb50e5d1e40c1eeaa3365bce682fe7edb5b"
+                "sha256:3d55c20f4bb6f8bd80482253bbf99c139bdace44c9d319816a391fdd93233ed3",
+                "sha256:53ee7a639582f85810ffeadf95f6050e17ee920c84008a4f81c8e3319c678044",
+                "sha256:aa4c7d97c5c397c459c36ceaf412e3c6715b5e1c7d584a982390c1a4aa35ea0d",
+                "sha256:accd9f19ecac636b84f1cb05f3805984d7427402a74d2502f62546052c4149a6"
             ],
             "markers": "python_version < '3.14' and python_version >= '3.5'",
-            "version": "==25.9"
+            "version": "==25.10"
         },
         "ordered-set": {
             "hashes": [

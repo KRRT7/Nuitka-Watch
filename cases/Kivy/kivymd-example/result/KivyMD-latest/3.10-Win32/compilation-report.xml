@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf8'?>
-<nuitka-compilation-report nuitka_version="2.8.5" nuitka_commercial_version="not installed" mode="standalone" completion="yes">
+<nuitka-compilation-report nuitka_version="2.8.6" nuitka_commercial_version="not installed" mode="standalone" completion="yes">
   <scons_environment />
   <module name="PIL" kind="CompiledPythonPackage" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\__init__.py" distribution="pillow">
     <optimization-time pass="1" time="volatile" micro_passes="6" max_branch_merge="15" merged_total="183" />
@@ -29,8 +29,8 @@
     </module_usages>
   </module>
   <module name="PIL.BmpImagePlugin" kind="CompiledPythonModule" usage="import fromlist" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\BmpImagePlugin.py" distribution="pillow">
-    <optimization-time pass="1" time="volatile" micro_passes="6" max_branch_merge="381" merged_total="6024" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="324" merged_total="972" />
+    <optimization-time pass="1" time="volatile" micro_passes="6" max_branch_merge="381" merged_total="6056" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="324" merged_total="978" />
     <module_usages>
       <module_usage name="__future__" finding="absolute" line="25" />
       <module_usage name="os" finding="absolute" line="27" />
@@ -59,14 +59,13 @@
     </module_usages>
   </module>
   <module name="PIL.CurImagePlugin" kind="CompiledPythonModule" usage="plugin:implicit-imports" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\CurImagePlugin.py" distribution="pillow">
-    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="49" merged_total="593" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="43" merged_total="115" />
+    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="51" merged_total="548" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="45" merged_total="106" />
     <module_usages>
       <module_usage name="__future__" finding="absolute" line="18" />
       <module_usage name="PIL" finding="absolute" line="20" />
       <module_usage name="PIL.BmpImagePlugin" finding="relative" line="20" />
       <module_usage name="PIL.Image" finding="relative" line="20" />
-      <module_usage name="PIL.ImageFile" finding="relative" line="20" />
       <module_usage name="PIL._binary" finding="relative" line="21" />
       <module_usage name="PIL._binary" finding="relative" line="22" />
     </module_usages>
@@ -104,8 +103,8 @@
     </module_usages>
   </module>
   <module name="PIL.EpsImagePlugin" kind="CompiledPythonModule" usage="plugin:implicit-imports" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\EpsImagePlugin.py" distribution="pillow">
-    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="140" merged_total="3443" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="117" merged_total="637" />
+    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="154" merged_total="3513" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="128" merged_total="650" />
     <module_usages>
       <module_usage name="__future__" finding="absolute" line="22" />
       <module_usage name="io" finding="absolute" line="24" />
@@ -131,8 +130,8 @@
     </module_usages>
   </module>
   <module name="PIL.FliImagePlugin" kind="CompiledPythonModule" usage="plugin:implicit-imports" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\FliImagePlugin.py" distribution="pillow">
-    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="87" merged_total="2325" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="81" merged_total="322" />
+    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="91" merged_total="2395" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="85" merged_total="332" />
     <module_usages>
       <module_usage name="__future__" finding="absolute" line="17" />
       <module_usage name="os" finding="absolute" line="19" />
@@ -183,8 +182,8 @@
     </module_usages>
   </module>
   <module name="PIL.GifImagePlugin" kind="CompiledPythonModule" usage="import fromlist" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\GifImagePlugin.py" distribution="pillow">
-    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="368" merged_total="16151" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="320" merged_total="2248" />
+    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="368" merged_total="16216" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="320" merged_total="2256" />
     <module_usages>
       <module_usage name="__future__" finding="absolute" line="26" />
       <module_usage name="itertools" finding="absolute" line="28" />
@@ -206,18 +205,17 @@
       <module_usage name="PIL._binary" finding="relative" line="46" />
       <module_usage name="PIL._binary" finding="relative" line="47" />
       <module_usage name="PIL._util" finding="relative" line="48" />
-      <module_usage name="copy" finding="absolute" line="329" />
-      <module_usage name="io" finding="absolute" line="1176" />
+      <module_usage name="copy" finding="absolute" line="331" />
+      <module_usage name="io" finding="absolute" line="1184" />
     </module_usages>
   </module>
   <module name="PIL.GimpGradientFile" kind="CompiledPythonModule" usage="import fromlist" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\GimpGradientFile.py" distribution="pillow">
-    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="95" merged_total="1896" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="86" merged_total="251" />
+    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="95" merged_total="1882" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="86" merged_total="249" />
     <module_usages>
       <module_usage name="__future__" finding="absolute" line="21" />
       <module_usage name="math" finding="absolute" line="23" />
-      <module_usage name="typing" finding="absolute" line="24" />
-      <module_usage name="PIL._binary" finding="relative" line="26" />
+      <module_usage name="PIL._binary" finding="relative" line="25" />
     </module_usages>
   </module>
   <module name="PIL.GimpPaletteFile" kind="CompiledPythonModule" usage="import fromlist" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\GimpPaletteFile.py" distribution="pillow">
@@ -227,12 +225,11 @@
       <module_usage name="__future__" finding="absolute" line="16" />
       <module_usage name="re" finding="absolute" line="18" />
       <module_usage name="io" finding="absolute" line="19" />
-      <module_usage name="typing" finding="absolute" line="20" />
     </module_usages>
   </module>
   <module name="PIL.GribStubImagePlugin" kind="CompiledPythonModule" usage="plugin:implicit-imports" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\GribStubImagePlugin.py" distribution="pillow">
-    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="21" merged_total="367" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="18" merged_total="62" />
+    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="21" merged_total="382" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="18" merged_total="64" />
     <module_usages>
       <module_usage name="__future__" finding="absolute" line="11" />
       <module_usage name="os" finding="absolute" line="13" />
@@ -255,8 +252,8 @@
     </module_usages>
   </module>
   <module name="PIL.IcnsImagePlugin" kind="CompiledPythonModule" usage="plugin:implicit-imports" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\IcnsImagePlugin.py" distribution="pillow">
-    <optimization-time pass="1" time="volatile" micro_passes="8" max_branch_merge="62" merged_total="5376" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="53" merged_total="617" />
+    <optimization-time pass="1" time="volatile" micro_passes="8" max_branch_merge="62" merged_total="5179" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="53" merged_total="594" />
     <module_usages>
       <module_usage name="__future__" finding="absolute" line="19" />
       <module_usage name="io" finding="absolute" line="21" />
@@ -269,16 +266,15 @@
       <module_usage name="PIL.ImageFile" finding="relative" line="27" />
       <module_usage name="PIL.PngImagePlugin" finding="relative" line="27" />
       <module_usage name="PIL.features" finding="relative" line="27" />
-      <module_usage name="PIL._deprecate" finding="relative" line="28" />
-      <module_usage name="PIL" finding="absolute" line="32" />
-      <module_usage name="PIL.Jpeg2KImagePlugin" finding="relative" line="32" />
-      <module_usage name="io" finding="absolute" line="138" />
-      <module_usage name="io" finding="absolute" line="355" />
+      <module_usage name="PIL" finding="absolute" line="31" />
+      <module_usage name="PIL.Jpeg2KImagePlugin" finding="relative" line="31" />
+      <module_usage name="io" finding="absolute" line="137" />
+      <module_usage name="io" finding="absolute" line="345" />
     </module_usages>
   </module>
   <module name="PIL.IcoImagePlugin" kind="CompiledPythonModule" usage="plugin:implicit-imports" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\IcoImagePlugin.py" distribution="pillow">
-    <optimization-time pass="1" time="volatile" micro_passes="6" max_branch_merge="99" merged_total="3989" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="97" merged_total="634" />
+    <optimization-time pass="1" time="volatile" micro_passes="6" max_branch_merge="99" merged_total="4019" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="97" merged_total="639" />
     <module_usages>
       <module_usage name="__future__" finding="absolute" line="23" />
       <module_usage name="warnings" finding="absolute" line="25" />
@@ -316,8 +312,8 @@
   <module name="PIL.Image" kind="CompiledPythonModule" usage="import fromlist" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\Image.py" distribution="pillow">
     <plugin-influence name="anti-bloat" influence="condition-used" condition="not plugin(&quot;pyqt5&quot;) and not plugin(&quot;pyqt6&quot;) and not plugin(&quot;pyside2&quot;) and not plugin(&quot;pyside6&quot;) and not plugin(&quot;no-qt&quot;)" tags_used="plugin" result="true" />
     <plugin-influence name="anti-bloat" influence="condition-used" condition="plugin(&quot;no-qt&quot;)" tags_used="plugin" result="false" />
-    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="231" merged_total="35951" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="205" merged_total="4760" />
+    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="238" merged_total="35804" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="191" merged_total="4738" />
     <module_usages>
       <module_usage name="__future__" finding="absolute" line="27" />
       <module_usage name="abc" finding="absolute" line="29" />
@@ -334,87 +330,90 @@
       <module_usage name="warnings" finding="absolute" line="40" />
       <module_usage name="collections.abc" finding="absolute" line="41" />
       <module_usage name="enum" finding="absolute" line="42" />
-      <module_usage name="types" finding="absolute" line="43" />
-      <module_usage name="typing" finding="absolute" line="44" />
-      <module_usage name="PIL" finding="absolute" line="49" />
-      <module_usage name="PIL.ExifTags" finding="relative" line="49" />
-      <module_usage name="PIL.ImageMode" finding="relative" line="49" />
-      <module_usage name="PIL.TiffTags" finding="relative" line="49" />
-      <module_usage name="PIL.UnidentifiedImageError" finding="not-found" line="49" />
-      <module_usage name="PIL.__version__" finding="not-found" line="49" />
-      <module_usage name="PIL._plugins" finding="not-found" line="49" />
-      <module_usage name="PIL._binary" finding="relative" line="57" />
-      <module_usage name="PIL._deprecate" finding="relative" line="58" />
-      <module_usage name="PIL._util" finding="relative" line="59" />
-      <module_usage name="defusedxml" finding="not-found" line="63" />
-      <module_usage name="PIL" finding="absolute" line="90" />
-      <module_usage name="PIL._imaging" finding="relative" line="90" />
-      <module_usage name="PIL" finding="absolute" line="350" />
-      <module_usage name="PIL.BmpImagePlugin" finding="relative" line="350" />
-      <module_usage name="PIL" finding="absolute" line="356" />
-      <module_usage name="PIL.GifImagePlugin" finding="relative" line="356" />
-      <module_usage name="PIL" finding="absolute" line="362" />
-      <module_usage name="PIL.JpegImagePlugin" finding="relative" line="362" />
-      <module_usage name="PIL" finding="absolute" line="368" />
-      <module_usage name="PIL.PpmImagePlugin" finding="relative" line="368" />
-      <module_usage name="PIL" finding="absolute" line="374" />
-      <module_usage name="PIL.PngImagePlugin" finding="relative" line="374" />
+      <module_usage name="typing" finding="absolute" line="43" />
+      <module_usage name="PIL" finding="absolute" line="48" />
+      <module_usage name="PIL.ExifTags" finding="relative" line="48" />
+      <module_usage name="PIL.ImageMode" finding="relative" line="48" />
+      <module_usage name="PIL.TiffTags" finding="relative" line="48" />
+      <module_usage name="PIL.UnidentifiedImageError" finding="not-found" line="48" />
+      <module_usage name="PIL.__version__" finding="not-found" line="48" />
+      <module_usage name="PIL._plugins" finding="not-found" line="48" />
+      <module_usage name="PIL._binary" finding="relative" line="56" />
+      <module_usage name="PIL._deprecate" finding="relative" line="57" />
+      <module_usage name="PIL._util" finding="relative" line="58" />
+      <module_usage name="defusedxml" finding="not-found" line="62" />
+      <module_usage name="PIL" finding="absolute" line="95" />
+      <module_usage name="PIL._imaging" finding="relative" line="95" />
+      <module_usage name="PIL" finding="absolute" line="339" />
+      <module_usage name="PIL.BmpImagePlugin" finding="relative" line="339" />
+      <module_usage name="PIL" finding="absolute" line="345" />
+      <module_usage name="PIL.GifImagePlugin" finding="relative" line="345" />
+      <module_usage name="PIL" finding="absolute" line="351" />
+      <module_usage name="PIL.JpegImagePlugin" finding="relative" line="351" />
+      <module_usage name="PIL" finding="absolute" line="357" />
+      <module_usage name="PIL.PpmImagePlugin" finding="relative" line="357" />
+      <module_usage name="PIL" finding="absolute" line="363" />
+      <module_usage name="PIL.PngImagePlugin" finding="relative" line="363" />
+      <module_usage name="PIL" finding="absolute" line="586" />
+      <module_usage name="PIL.ImagePalette" finding="relative" line="586" />
       <module_usage name="PIL" finding="absolute" line="597" />
-      <module_usage name="PIL.ImagePalette" finding="relative" line="597" />
-      <module_usage name="PIL" finding="absolute" line="608" />
-      <module_usage name="PIL.ImageFile" finding="relative" line="608" />
-      <module_usage name="io" finding="absolute" line="705" />
-      <module_usage name="PIL" finding="absolute" line="1095" />
-      <module_usage name="PIL.ImagePalette" finding="relative" line="1095" />
-      <module_usage name="PIL" finding="absolute" line="1126" />
-      <module_usage name="PIL.ImageCms" finding="relative" line="1126" />
-      <module_usage name="PIL" finding="absolute" line="1156" />
-      <module_usage name="PIL.ImagePalette" finding="relative" line="1156" />
-      <module_usage name="PIL" finding="absolute" line="1255" />
-      <module_usage name="PIL.ImagePalette" finding="relative" line="1255" />
-      <module_usage name="PIL" finding="absolute" line="1363" />
-      <module_usage name="PIL.ImageFilter" finding="relative" line="1363" />
-      <module_usage name="PIL" finding="absolute" line="1557" />
-      <module_usage name="PIL.ImageFile" finding="relative" line="1557" />
-      <module_usage name="PIL" finding="absolute" line="1625" />
-      <module_usage name="PIL.ImagePalette" finding="relative" line="1625" />
-      <module_usage name="PIL" finding="absolute" line="1798" />
-      <module_usage name="PIL.ImageColor" finding="relative" line="1798" />
-      <module_usage name="PIL" finding="absolute" line="2036" />
-      <module_usage name="PIL.ImagePalette" finding="relative" line="2036" />
-      <module_usage name="PIL" finding="absolute" line="2111" />
-      <module_usage name="PIL.ImagePalette" finding="relative" line="2111" />
-      <module_usage name="ntpath" finding="absolute" line="2531" />
-      <module_usage name="PIL" finding="absolute" line="2543" />
-      <module_usage name="PIL.ImageFile" finding="relative" line="2543" />
-      <module_usage name="PIL" finding="absolute" line="2988" />
-      <module_usage name="PIL.ImageQt" finding="excluded" line="2988" exclusion_reason="according to yaml 'no-auto-follow' configuration of 'PIL.Image' for 'PIL.ImageQt'" />
-      <module_usage name="PIL" finding="absolute" line="2997" />
-      <module_usage name="PIL.ImageQt" finding="excluded" line="2997" exclusion_reason="according to yaml 'no-auto-follow' configuration of 'PIL.Image' for 'PIL.ImageQt'" />
-      <module_usage name="PIL" finding="absolute" line="3091" />
-      <module_usage name="PIL.ImageColor" finding="relative" line="3091" />
-      <module_usage name="PIL" finding="absolute" line="3104" />
-      <module_usage name="PIL.ImagePalette" finding="relative" line="3104" />
-      <module_usage name="PIL" finding="absolute" line="3210" />
-      <module_usage name="PIL.ImagePalette" finding="relative" line="3210" />
+      <module_usage name="PIL.ImageFile" finding="relative" line="597" />
+      <module_usage name="io" finding="absolute" line="694" />
+      <module_usage name="PIL" finding="absolute" line="794" />
+      <module_usage name="PIL.ImageFile" finding="relative" line="794" />
+      <module_usage name="PIL" finding="absolute" line="1091" />
+      <module_usage name="PIL.ImagePalette" finding="relative" line="1091" />
+      <module_usage name="PIL" finding="absolute" line="1122" />
+      <module_usage name="PIL.ImageCms" finding="relative" line="1122" />
+      <module_usage name="PIL" finding="absolute" line="1152" />
+      <module_usage name="PIL.ImagePalette" finding="relative" line="1152" />
+      <module_usage name="PIL" finding="absolute" line="1251" />
+      <module_usage name="PIL.ImagePalette" finding="relative" line="1251" />
+      <module_usage name="PIL" finding="absolute" line="1353" />
+      <module_usage name="PIL.ImageFilter" finding="relative" line="1353" />
+      <module_usage name="PIL" finding="absolute" line="1548" />
+      <module_usage name="PIL.ImageFile" finding="relative" line="1548" />
+      <module_usage name="PIL" finding="absolute" line="1616" />
+      <module_usage name="PIL.ImagePalette" finding="relative" line="1616" />
+      <module_usage name="PIL" finding="absolute" line="1790" />
+      <module_usage name="PIL.ImageColor" finding="relative" line="1790" />
+      <module_usage name="PIL" finding="absolute" line="2029" />
+      <module_usage name="PIL.ImagePalette" finding="relative" line="2029" />
+      <module_usage name="PIL" finding="absolute" line="2102" />
+      <module_usage name="PIL.ImagePalette" finding="relative" line="2102" />
+      <module_usage name="ntpath" finding="absolute" line="2519" />
+      <module_usage name="PIL" finding="absolute" line="2531" />
+      <module_usage name="PIL.ImageFile" finding="relative" line="2531" />
+      <module_usage name="PIL" finding="absolute" line="2633" />
+      <module_usage name="PIL.ImageShow" finding="relative" line="2633" />
+      <module_usage name="PIL" finding="absolute" line="2982" />
+      <module_usage name="PIL.ImageQt" finding="excluded" line="2982" exclusion_reason="according to yaml 'no-auto-follow' configuration of 'PIL.Image' for 'PIL.ImageQt'" />
+      <module_usage name="PIL" finding="absolute" line="2991" />
+      <module_usage name="PIL.ImageQt" finding="excluded" line="2991" exclusion_reason="according to yaml 'no-auto-follow' configuration of 'PIL.Image' for 'PIL.ImageQt'" />
+      <module_usage name="PIL" finding="absolute" line="3082" />
+      <module_usage name="PIL.ImageColor" finding="relative" line="3082" />
+      <module_usage name="PIL" finding="absolute" line="3095" />
+      <module_usage name="PIL.ImagePalette" finding="relative" line="3095" />
+      <module_usage name="PIL" finding="absolute" line="3201" />
+      <module_usage name="PIL.ImagePalette" finding="relative" line="3201" />
+      <module_usage name="PIL" finding="absolute" line="3373" />
+      <module_usage name="PIL.ImageQt" finding="excluded" line="3373" exclusion_reason="according to yaml 'no-auto-follow' configuration of 'PIL.Image' for 'PIL.ImageQt'" />
       <module_usage name="PIL" finding="absolute" line="3383" />
       <module_usage name="PIL.ImageQt" finding="excluded" line="3383" exclusion_reason="according to yaml 'no-auto-follow' configuration of 'PIL.Image' for 'PIL.ImageQt'" />
-      <module_usage name="PIL" finding="absolute" line="3393" />
-      <module_usage name="PIL.ImageQt" finding="excluded" line="3393" exclusion_reason="according to yaml 'no-auto-follow' configuration of 'PIL.Image' for 'PIL.ImageQt'" />
-      <module_usage name="io" finding="absolute" line="3486" />
-      <module_usage name="io" finding="absolute" line="3513" />
-      <module_usage name="PIL" finding="absolute" line="3809" />
-      <module_usage name="PIL.ImageShow" finding="relative" line="3809" />
-      <module_usage name="PIL" finding="absolute" line="3975" />
-      <module_usage name="PIL.TiffImagePlugin" finding="relative" line="3975" />
-      <module_usage name="io" finding="absolute" line="4011" />
-      <module_usage name="PIL" finding="absolute" line="4014" />
-      <module_usage name="PIL.TiffImagePlugin" finding="relative" line="4014" />
-      <module_usage name="PIL" finding="absolute" line="4028" />
-      <module_usage name="PIL.TiffImagePlugin" finding="relative" line="4028" />
-      <module_usage name="PIL" finding="absolute" line="4062" />
-      <module_usage name="PIL.TiffImagePlugin" finding="relative" line="4062" />
-      <module_usage name="PIL.TiffImagePlugin" finding="relative" line="4103" />
+      <module_usage name="io" finding="absolute" line="3476" />
+      <module_usage name="io" finding="absolute" line="3501" />
+      <module_usage name="PIL" finding="absolute" line="3796" />
+      <module_usage name="PIL.ImageShow" finding="relative" line="3796" />
+      <module_usage name="PIL" finding="absolute" line="3963" />
+      <module_usage name="PIL.TiffImagePlugin" finding="relative" line="3963" />
+      <module_usage name="io" finding="absolute" line="3999" />
+      <module_usage name="PIL" finding="absolute" line="4002" />
+      <module_usage name="PIL.TiffImagePlugin" finding="relative" line="4002" />
+      <module_usage name="PIL" finding="absolute" line="4016" />
+      <module_usage name="PIL.TiffImagePlugin" finding="relative" line="4016" />
+      <module_usage name="PIL" finding="absolute" line="4050" />
+      <module_usage name="PIL.TiffImagePlugin" finding="relative" line="4050" />
+      <module_usage name="PIL.TiffImagePlugin" finding="relative" line="4091" />
     </module_usages>
   </module>
   <module name="PIL.ImageChops" kind="CompiledPythonModule" usage="import fromlist" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\ImageChops.py" distribution="pillow">
@@ -427,8 +426,8 @@
     </module_usages>
   </module>
   <module name="PIL.ImageCms" kind="CompiledPythonModule" usage="import fromlist" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\ImageCms.py" distribution="pillow">
-    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="37" merged_total="6342" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="36" merged_total="854" />
+    <optimization-time pass="1" time="volatile" micro_passes="6" max_branch_merge="37" merged_total="5256" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="36" merged_total="812" />
     <module_usages>
       <module_usage name="__future__" finding="absolute" line="20" />
       <module_usage name="operator" finding="absolute" line="22" />
@@ -438,14 +437,13 @@
       <module_usage name="typing" finding="absolute" line="26" />
       <module_usage name="PIL" finding="absolute" line="28" />
       <module_usage name="PIL.Image" finding="relative" line="28" />
-      <module_usage name="PIL.__version__" finding="not-found" line="28" />
       <module_usage name="PIL._deprecate" finding="relative" line="29" />
       <module_usage name="PIL._typing" finding="relative" line="30" />
       <module_usage name="PIL" finding="absolute" line="33" />
       <module_usage name="PIL._imagingcms" finding="relative" line="33" />
       <module_usage name="PIL._util" finding="relative" line="41" />
-      <module_usage name="PIL" finding="absolute" line="381" />
-      <module_usage name="PIL.ImageWin" finding="relative" line="381" />
+      <module_usage name="PIL" finding="absolute" line="345" />
+      <module_usage name="PIL.ImageWin" finding="relative" line="345" />
     </module_usages>
   </module>
   <module name="PIL.ImageColor" kind="CompiledPythonModule" usage="import fromlist" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\ImageColor.py" distribution="pillow">
@@ -463,26 +461,24 @@
     </module_usages>
   </module>
   <module name="PIL.ImageDraw" kind="CompiledPythonModule" usage="import fromlist" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\ImageDraw.py" distribution="pillow">
-    <optimization-time pass="1" time="volatile" micro_passes="9" max_branch_merge="235" merged_total="17194" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="151" merged_total="1841" />
+    <optimization-time pass="1" time="volatile" micro_passes="9" max_branch_merge="235" merged_total="14476" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="151" merged_total="1548" />
     <module_usages>
       <module_usage name="__future__" finding="absolute" line="32" />
       <module_usage name="math" finding="absolute" line="34" />
       <module_usage name="struct" finding="absolute" line="35" />
       <module_usage name="collections.abc" finding="absolute" line="36" />
-      <module_usage name="types" finding="absolute" line="37" />
-      <module_usage name="typing" finding="absolute" line="38" />
-      <module_usage name="PIL" finding="absolute" line="40" />
-      <module_usage name="PIL.Image" finding="relative" line="40" />
-      <module_usage name="PIL.ImageColor" finding="relative" line="40" />
-      <module_usage name="PIL._deprecate" finding="relative" line="41" />
-      <module_usage name="PIL._typing" finding="relative" line="42" />
-      <module_usage name="PIL" finding="absolute" line="130" />
-      <module_usage name="PIL.ImageFont" finding="relative" line="130" />
-      <module_usage name="PIL" finding="absolute" line="139" />
-      <module_usage name="PIL.ImageFont" finding="relative" line="139" />
-      <module_usage name="PIL" finding="absolute" line="1021" />
-      <module_usage name="PIL.ImageDraw2" finding="relative" line="1021" />
+      <module_usage name="typing" finding="absolute" line="37" />
+      <module_usage name="PIL" finding="absolute" line="39" />
+      <module_usage name="PIL.Image" finding="relative" line="39" />
+      <module_usage name="PIL.ImageColor" finding="relative" line="39" />
+      <module_usage name="PIL.ImageText" finding="relative" line="39" />
+      <module_usage name="PIL" finding="absolute" line="128" />
+      <module_usage name="PIL.ImageFont" finding="relative" line="128" />
+      <module_usage name="PIL" finding="absolute" line="137" />
+      <module_usage name="PIL.ImageFont" finding="relative" line="137" />
+      <module_usage name="PIL" finding="absolute" line="826" />
+      <module_usage name="PIL.ImageDraw2" finding="relative" line="826" />
     </module_usages>
   </module>
   <module name="PIL.ImageDraw2" kind="CompiledPythonModule" usage="import fromlist" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\ImageDraw2.py" distribution="pillow">
@@ -501,8 +497,8 @@
     </module_usages>
   </module>
   <module name="PIL.ImageFile" kind="CompiledPythonModule" usage="import fromlist" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\ImageFile.py" distribution="pillow">
-    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="104" merged_total="10267" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="85" merged_total="1367" />
+    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="108" merged_total="10293" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="87" merged_total="1371" />
     <module_usages>
       <module_usage name="__future__" finding="absolute" line="29" />
       <module_usage name="abc" finding="absolute" line="31" />
@@ -515,37 +511,32 @@
       <module_usage name="PIL" finding="absolute" line="39" />
       <module_usage name="PIL.ExifTags" finding="relative" line="39" />
       <module_usage name="PIL.Image" finding="relative" line="39" />
-      <module_usage name="PIL._deprecate" finding="relative" line="40" />
-      <module_usage name="PIL._util" finding="relative" line="41" />
-      <module_usage name="io" finding="absolute" line="230" />
-      <module_usage name="PIL" finding="absolute" line="233" />
-      <module_usage name="PIL.TiffImagePlugin" finding="relative" line="233" />
-      <module_usage name="mmap" finding="absolute" line="316" />
-      <module_usage name="io" finding="absolute" line="559" />
-      <module_usage name="io" finding="absolute" line="613" />
+      <module_usage name="PIL._util" finding="relative" line="40" />
+      <module_usage name="io" finding="absolute" line="231" />
+      <module_usage name="PIL" finding="absolute" line="234" />
+      <module_usage name="PIL.TiffImagePlugin" finding="relative" line="234" />
+      <module_usage name="mmap" finding="absolute" line="321" />
+      <module_usage name="io" finding="absolute" line="564" />
+      <module_usage name="io" finding="absolute" line="618" />
     </module_usages>
   </module>
   <module name="PIL.ImageFilter" kind="CompiledPythonModule" usage="import fromlist" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\ImageFilter.py" distribution="pillow">
-    <optimization-time pass="1" time="volatile" micro_passes="9" max_branch_merge="76" merged_total="10727" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="58" merged_total="1163" />
+    <optimization-time pass="1" time="volatile" micro_passes="9" max_branch_merge="76" merged_total="10700" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="58" merged_total="1160" />
     <module_usages>
       <module_usage name="__future__" finding="absolute" line="17" />
       <module_usage name="abc" finding="absolute" line="19" />
       <module_usage name="functools" finding="absolute" line="20" />
       <module_usage name="collections.abc" finding="absolute" line="21" />
-      <module_usage name="types" finding="absolute" line="22" />
-      <module_usage name="typing" finding="absolute" line="23" />
-      <module_usage name="numpy" finding="not-found" line="421" />
-      <module_usage name="PIL" finding="absolute" line="596" />
-      <module_usage name="PIL.Image" finding="relative" line="596" />
+      <module_usage name="typing" finding="absolute" line="22" />
+      <module_usage name="numpy" finding="not-found" line="424" />
+      <module_usage name="PIL" finding="absolute" line="599" />
+      <module_usage name="PIL.Image" finding="relative" line="599" />
     </module_usages>
   </module>
   <module name="PIL.ImageFont" kind="CompiledPythonModule" usage="import fromlist" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\ImageFont.py" distribution="pillow">
-    <optimization-time pass="1" time="volatile" micro_passes="9" max_branch_merge="92" merged_total="7066" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="66" merged_total="713" />
-    <distribution-usages>
-      <distribution-usage name="packaging" />
-    </distribution-usages>
+    <optimization-time pass="1" time="volatile" micro_passes="9" max_branch_merge="81" merged_total="6643" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="55" merged_total="668" />
     <module_usages>
       <module_usage name="__future__" finding="absolute" line="28" />
       <module_usage name="base64" finding="absolute" line="30" />
@@ -558,50 +549,44 @@
       <module_usage name="typing" finding="absolute" line="37" />
       <module_usage name="PIL" finding="absolute" line="39" />
       <module_usage name="PIL.Image" finding="relative" line="39" />
-      <module_usage name="PIL.features" finding="relative" line="39" />
       <module_usage name="PIL._typing" finding="relative" line="40" />
       <module_usage name="PIL._util" finding="relative" line="41" />
       <module_usage name="PIL" finding="absolute" line="67" />
       <module_usage name="PIL._imagingft" finding="relative" line="67" />
       <module_usage name="ntpath" finding="absolute" line="102" />
-      <module_usage name="packaging.version" finding="absolute" line="240" />
-      <module_usage name="ntpath" finding="absolute" line="893" />
-      <module_usage name="ntpath" finding="absolute" line="917" />
-      <module_usage name="ntpath" finding="absolute" line="923" />
-      <module_usage name="ntpath" finding="absolute" line="924" />
-      <module_usage name="ntpath" finding="absolute" line="925" />
-      <module_usage name="ntpath" finding="absolute" line="926" />
-      <module_usage name="ntpath" finding="absolute" line="948" />
+      <module_usage name="ntpath" finding="absolute" line="866" />
+      <module_usage name="ntpath" finding="absolute" line="890" />
+      <module_usage name="ntpath" finding="absolute" line="896" />
+      <module_usage name="ntpath" finding="absolute" line="897" />
+      <module_usage name="ntpath" finding="absolute" line="898" />
+      <module_usage name="ntpath" finding="absolute" line="899" />
+      <module_usage name="ntpath" finding="absolute" line="921" />
     </module_usages>
   </module>
   <module name="PIL.ImageMath" kind="CompiledPythonModule" usage="import fromlist" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\ImageMath.py" distribution="pillow">
-    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="86" merged_total="1975" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="84" merged_total="303" />
+    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="86" merged_total="1851" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="84" merged_total="282" />
     <module_usages>
       <module_usage name="__future__" finding="absolute" line="17" />
       <module_usage name="builtins" finding="absolute" line="19" />
-      <module_usage name="types" finding="absolute" line="20" />
-      <module_usage name="typing" finding="absolute" line="21" />
-      <module_usage name="PIL" finding="absolute" line="23" />
-      <module_usage name="PIL.Image" finding="relative" line="23" />
-      <module_usage name="PIL._imagingmath" finding="relative" line="23" />
-      <module_usage name="PIL._deprecate" finding="relative" line="24" />
+      <module_usage name="PIL" finding="absolute" line="21" />
+      <module_usage name="PIL.Image" finding="relative" line="21" />
+      <module_usage name="PIL._imagingmath" finding="relative" line="21" />
     </module_usages>
   </module>
   <module name="PIL.ImageMode" kind="CompiledPythonModule" usage="import fromlist" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\ImageMode.py" distribution="pillow">
-    <optimization-time pass="1" time="volatile" micro_passes="6" max_branch_merge="19" merged_total="389" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="15" merged_total="62" />
+    <optimization-time pass="1" time="volatile" micro_passes="6" max_branch_merge="16" merged_total="353" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="14" merged_total="56" />
     <module_usages>
       <module_usage name="__future__" finding="absolute" line="15" />
       <module_usage name="sys" finding="absolute" line="17" />
       <module_usage name="functools" finding="absolute" line="18" />
       <module_usage name="typing" finding="absolute" line="19" />
-      <module_usage name="PIL._deprecate" finding="relative" line="21" />
     </module_usages>
   </module>
   <module name="PIL.ImageOps" kind="CompiledPythonModule" usage="import fromlist" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\ImageOps.py" distribution="pillow">
-    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="78" merged_total="7744" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="75" merged_total="1042" />
+    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="78" merged_total="7765" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="75" merged_total="1045" />
     <module_usages>
       <module_usage name="__future__" finding="absolute" line="19" />
       <module_usage name="functools" finding="absolute" line="21" />
@@ -647,15 +632,14 @@
     <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="9" merged_total="76" />
     <module_usages>
       <module_usage name="__future__" finding="absolute" line="17" />
-      <module_usage name="typing" finding="absolute" line="19" />
-      <module_usage name="PIL" finding="absolute" line="21" />
-      <module_usage name="PIL.Image" finding="relative" line="21" />
+      <module_usage name="PIL" finding="absolute" line="19" />
+      <module_usage name="PIL.Image" finding="relative" line="19" />
     </module_usages>
   </module>
   <module name="PIL.ImageShow" kind="CompiledPythonModule" usage="import fromlist" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\ImageShow.py" distribution="pillow">
     <plugin-influence name="anti-bloat" influence="condition-used" condition="not use_ipython" tags_used="use_ipython" result="true" />
-    <optimization-time pass="1" time="volatile" micro_passes="6" max_branch_merge="19" merged_total="3010" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="19" merged_total="448" />
+    <optimization-time pass="1" time="volatile" micro_passes="6" max_branch_merge="26" merged_total="3059" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="19" merged_total="455" />
     <module_usages>
       <module_usage name="__future__" finding="absolute" line="14" />
       <module_usage name="abc" finding="absolute" line="16" />
@@ -667,6 +651,16 @@
       <module_usage name="typing" finding="absolute" line="22" />
       <module_usage name="PIL" finding="absolute" line="24" />
       <module_usage name="PIL.Image" finding="relative" line="24" />
+    </module_usages>
+  </module>
+  <module name="PIL.ImageText" kind="CompiledPythonModule" usage="import fromlist" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\ImageText.py" distribution="pillow">
+    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="91" merged_total="2505" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="66" merged_total="332" />
+    <module_usages>
+      <module_usage name="__future__" finding="absolute" line="1" />
+      <module_usage name="PIL" finding="absolute" line="3" />
+      <module_usage name="PIL.ImageFont" finding="relative" line="3" />
+      <module_usage name="PIL._typing" finding="relative" line="4" />
     </module_usages>
   </module>
   <module name="PIL.ImageTk" kind="CompiledPythonModule" usage="import fromlist" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\ImageTk.py" distribution="pillow">
@@ -705,45 +699,42 @@
     </module_usages>
   </module>
   <module name="PIL.IptcImagePlugin" kind="CompiledPythonModule" usage="plugin:implicit-imports" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\IptcImagePlugin.py" distribution="pillow">
-    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="82" merged_total="2170" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="80" merged_total="410" />
+    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="80" merged_total="2133" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="78" merged_total="410" />
     <module_usages>
       <module_usage name="__future__" finding="absolute" line="17" />
-      <module_usage name="collections.abc" finding="absolute" line="19" />
-      <module_usage name="io" finding="absolute" line="20" />
-      <module_usage name="typing" finding="absolute" line="21" />
-      <module_usage name="PIL" finding="absolute" line="23" />
-      <module_usage name="PIL.Image" finding="relative" line="23" />
-      <module_usage name="PIL.ImageFile" finding="relative" line="23" />
+      <module_usage name="io" finding="absolute" line="19" />
+      <module_usage name="typing" finding="absolute" line="20" />
+      <module_usage name="PIL" finding="absolute" line="22" />
+      <module_usage name="PIL.Image" finding="relative" line="22" />
+      <module_usage name="PIL.ImageFile" finding="relative" line="22" />
+      <module_usage name="PIL._binary" finding="relative" line="23" />
       <module_usage name="PIL._binary" finding="relative" line="24" />
-      <module_usage name="PIL._binary" finding="relative" line="25" />
-      <module_usage name="PIL._deprecate" finding="relative" line="26" />
-      <module_usage name="PIL" finding="absolute" line="200" />
-      <module_usage name="PIL.JpegImagePlugin" finding="relative" line="200" />
-      <module_usage name="PIL.TiffImagePlugin" finding="relative" line="200" />
+      <module_usage name="PIL" finding="absolute" line="180" />
+      <module_usage name="PIL.JpegImagePlugin" finding="relative" line="180" />
+      <module_usage name="PIL.TiffImagePlugin" finding="relative" line="180" />
     </module_usages>
   </module>
   <module name="PIL.Jpeg2KImagePlugin" kind="CompiledPythonModule" usage="plugin:implicit-imports" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\Jpeg2KImagePlugin.py" distribution="pillow">
-    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="152" merged_total="3897" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="125" merged_total="724" />
+    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="152" merged_total="3887" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="125" merged_total="722" />
     <module_usages>
       <module_usage name="__future__" finding="absolute" line="16" />
       <module_usage name="io" finding="absolute" line="18" />
       <module_usage name="os" finding="absolute" line="19" />
       <module_usage name="struct" finding="absolute" line="20" />
-      <module_usage name="collections.abc" finding="absolute" line="21" />
-      <module_usage name="typing" finding="absolute" line="22" />
-      <module_usage name="PIL" finding="absolute" line="24" />
-      <module_usage name="PIL.Image" finding="relative" line="24" />
-      <module_usage name="PIL.ImageFile" finding="relative" line="24" />
-      <module_usage name="PIL.ImagePalette" finding="relative" line="24" />
-      <module_usage name="PIL._binary" finding="relative" line="24" />
-      <module_usage name="io" finding="absolute" line="71" />
+      <module_usage name="typing" finding="absolute" line="21" />
+      <module_usage name="PIL" finding="absolute" line="23" />
+      <module_usage name="PIL.Image" finding="relative" line="23" />
+      <module_usage name="PIL.ImageFile" finding="relative" line="23" />
+      <module_usage name="PIL.ImagePalette" finding="relative" line="23" />
+      <module_usage name="PIL._binary" finding="relative" line="23" />
+      <module_usage name="io" finding="absolute" line="75" />
     </module_usages>
   </module>
   <module name="PIL.JpegImagePlugin" kind="CompiledPythonModule" usage="import fromlist" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\JpegImagePlugin.py" distribution="pillow">
-    <optimization-time pass="1" time="volatile" micro_passes="8" max_branch_merge="208" merged_total="10792" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="156" merged_total="1293" />
+    <optimization-time pass="1" time="volatile" micro_passes="8" max_branch_merge="204" merged_total="10759" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="152" merged_total="1292" />
     <module_usages>
       <module_usage name="__future__" finding="absolute" line="34" />
       <module_usage name="array" finding="absolute" line="36" />
@@ -755,20 +746,18 @@
       <module_usage name="sys" finding="absolute" line="42" />
       <module_usage name="tempfile" finding="absolute" line="43" />
       <module_usage name="warnings" finding="absolute" line="44" />
-      <module_usage name="typing" finding="absolute" line="45" />
-      <module_usage name="PIL" finding="absolute" line="47" />
-      <module_usage name="PIL.Image" finding="relative" line="47" />
-      <module_usage name="PIL.ImageFile" finding="relative" line="47" />
+      <module_usage name="PIL" finding="absolute" line="46" />
+      <module_usage name="PIL.Image" finding="relative" line="46" />
+      <module_usage name="PIL.ImageFile" finding="relative" line="46" />
+      <module_usage name="PIL._binary" finding="relative" line="47" />
       <module_usage name="PIL._binary" finding="relative" line="48" />
       <module_usage name="PIL._binary" finding="relative" line="49" />
       <module_usage name="PIL._binary" finding="relative" line="50" />
-      <module_usage name="PIL._binary" finding="relative" line="51" />
-      <module_usage name="PIL._deprecate" finding="relative" line="52" />
-      <module_usage name="PIL.JpegPresets" finding="relative" line="53" />
-      <module_usage name="io" finding="absolute" line="549" />
-      <module_usage name="PIL" finding="absolute" line="553" />
-      <module_usage name="PIL.TiffImagePlugin" finding="relative" line="553" />
-      <module_usage name="PIL.MpoImagePlugin" finding="relative" line="882" />
+      <module_usage name="PIL.JpegPresets" finding="relative" line="51" />
+      <module_usage name="io" finding="absolute" line="545" />
+      <module_usage name="PIL" finding="absolute" line="549" />
+      <module_usage name="PIL.TiffImagePlugin" finding="relative" line="549" />
+      <module_usage name="PIL.MpoImagePlugin" finding="relative" line="865" />
     </module_usages>
   </module>
   <module name="PIL.JpegPresets" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\JpegPresets.py" distribution="pillow">
@@ -779,7 +768,7 @@
     </module_usages>
   </module>
   <module name="PIL.McIdasImagePlugin" kind="CompiledPythonModule" usage="plugin:implicit-imports" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\McIdasImagePlugin.py" distribution="pillow">
-    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="45" merged_total="461" />
+    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="45" merged_total="458" />
     <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="39" merged_total="88" />
     <module_usages>
       <module_usage name="__future__" finding="absolute" line="18" />
@@ -801,8 +790,8 @@
     </module_usages>
   </module>
   <module name="PIL.MpegImagePlugin" kind="CompiledPythonModule" usage="plugin:implicit-imports" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\MpegImagePlugin.py" distribution="pillow">
-    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="32" merged_total="620" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="29" merged_total="102" />
+    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="29" merged_total="524" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="16" merged_total="72" />
     <module_usages>
       <module_usage name="__future__" finding="absolute" line="15" />
       <module_usage name="PIL" finding="absolute" line="17" />
@@ -813,22 +802,21 @@
     </module_usages>
   </module>
   <module name="PIL.MpoImagePlugin" kind="CompiledPythonModule" usage="plugin:implicit-imports" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\MpoImagePlugin.py" distribution="pillow">
-    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="59" merged_total="2173" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="56" merged_total="277" />
+    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="62" merged_total="2310" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="56" merged_total="295" />
     <module_usages>
       <module_usage name="__future__" finding="absolute" line="20" />
-      <module_usage name="itertools" finding="absolute" line="22" />
-      <module_usage name="os" finding="absolute" line="23" />
-      <module_usage name="struct" finding="absolute" line="24" />
-      <module_usage name="typing" finding="absolute" line="25" />
-      <module_usage name="PIL" finding="absolute" line="27" />
-      <module_usage name="PIL.Image" finding="relative" line="27" />
-      <module_usage name="PIL.ImageFile" finding="relative" line="27" />
-      <module_usage name="PIL.ImageSequence" finding="relative" line="27" />
-      <module_usage name="PIL.JpegImagePlugin" finding="relative" line="27" />
-      <module_usage name="PIL.TiffImagePlugin" finding="relative" line="27" />
-      <module_usage name="PIL._binary" finding="relative" line="34" />
-      <module_usage name="PIL._util" finding="relative" line="35" />
+      <module_usage name="os" finding="absolute" line="22" />
+      <module_usage name="struct" finding="absolute" line="23" />
+      <module_usage name="typing" finding="absolute" line="24" />
+      <module_usage name="PIL" finding="absolute" line="26" />
+      <module_usage name="PIL.Image" finding="relative" line="26" />
+      <module_usage name="PIL.ImageFile" finding="relative" line="26" />
+      <module_usage name="PIL.ImageSequence" finding="relative" line="26" />
+      <module_usage name="PIL.JpegImagePlugin" finding="relative" line="26" />
+      <module_usage name="PIL.TiffImagePlugin" finding="relative" line="26" />
+      <module_usage name="PIL._binary" finding="relative" line="33" />
+      <module_usage name="PIL._util" finding="relative" line="34" />
     </module_usages>
   </module>
   <module name="PIL.MspImagePlugin" kind="CompiledPythonModule" usage="plugin:implicit-imports" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\MspImagePlugin.py" distribution="pillow">
@@ -870,8 +858,8 @@
     </module_usages>
   </module>
   <module name="PIL.PcdImagePlugin" kind="CompiledPythonModule" usage="plugin:implicit-imports" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\PcdImagePlugin.py" distribution="pillow">
-    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="29" merged_total="379" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="27" merged_total="71" />
+    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="28" merged_total="429" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="26" merged_total="77" />
     <module_usages>
       <module_usage name="__future__" finding="absolute" line="16" />
       <module_usage name="PIL" finding="absolute" line="18" />
@@ -880,8 +868,8 @@
     </module_usages>
   </module>
   <module name="PIL.PcxImagePlugin" kind="CompiledPythonModule" usage="plugin:implicit-imports" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\PcxImagePlugin.py" distribution="pillow">
-    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="127" merged_total="1699" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="109" merged_total="328" />
+    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="125" merged_total="1704" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="107" merged_total="328" />
     <module_usages>
       <module_usage name="__future__" finding="absolute" line="27" />
       <module_usage name="io" finding="absolute" line="29" />
@@ -897,8 +885,8 @@
     </module_usages>
   </module>
   <module name="PIL.PdfImagePlugin" kind="CompiledPythonModule" usage="plugin:implicit-imports" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\PdfImagePlugin.py" distribution="pillow">
-    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="132" merged_total="2963" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="115" merged_total="415" />
+    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="132" merged_total="2942" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="115" merged_total="412" />
     <module_usages>
       <module_usage name="__future__" finding="absolute" line="22" />
       <module_usage name="io" finding="absolute" line="24" />
@@ -911,15 +899,14 @@
       <module_usage name="PIL.ImageFile" finding="relative" line="30" />
       <module_usage name="PIL.ImageSequence" finding="relative" line="30" />
       <module_usage name="PIL.PdfParser" finding="relative" line="30" />
-      <module_usage name="PIL.__version__" finding="not-found" line="30" />
       <module_usage name="PIL.features" finding="relative" line="30" />
       <module_usage name="io" finding="absolute" line="138" />
       <module_usage name="ntpath" finding="absolute" line="203" />
     </module_usages>
   </module>
   <module name="PIL.PdfParser" kind="CompiledPythonModule" usage="import fromlist" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\PdfParser.py" distribution="pillow">
-    <optimization-time pass="1" time="volatile" micro_passes="8" max_branch_merge="308" merged_total="16907" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="277" merged_total="1930" />
+    <optimization-time pass="1" time="volatile" micro_passes="8" max_branch_merge="308" merged_total="16899" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="277" merged_total="1929" />
     <module_usages>
       <module_usage name="__future__" finding="absolute" line="1" />
       <module_usage name="calendar" finding="absolute" line="3" />
@@ -945,8 +932,8 @@
     </module_usages>
   </module>
   <module name="PIL.PngImagePlugin" kind="CompiledPythonModule" usage="import fromlist" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\PngImagePlugin.py" distribution="pillow">
-    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="310" merged_total="20034" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="274" merged_total="2740" />
+    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="314" merged_total="20056" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="277" merged_total="2743" />
     <module_usages>
       <module_usage name="__future__" finding="absolute" line="33" />
       <module_usage name="itertools" finding="absolute" line="35" />
@@ -955,26 +942,26 @@
       <module_usage name="struct" finding="absolute" line="38" />
       <module_usage name="warnings" finding="absolute" line="39" />
       <module_usage name="zlib" finding="absolute" line="40" />
-      <module_usage name="collections.abc" finding="absolute" line="41" />
-      <module_usage name="enum" finding="absolute" line="42" />
-      <module_usage name="typing" finding="absolute" line="43" />
-      <module_usage name="PIL" finding="absolute" line="45" />
-      <module_usage name="PIL.Image" finding="relative" line="45" />
-      <module_usage name="PIL.ImageChops" finding="relative" line="45" />
-      <module_usage name="PIL.ImageFile" finding="relative" line="45" />
-      <module_usage name="PIL.ImagePalette" finding="relative" line="45" />
-      <module_usage name="PIL.ImageSequence" finding="relative" line="45" />
+      <module_usage name="enum" finding="absolute" line="41" />
+      <module_usage name="typing" finding="absolute" line="42" />
+      <module_usage name="PIL" finding="absolute" line="44" />
+      <module_usage name="PIL.Image" finding="relative" line="44" />
+      <module_usage name="PIL.ImageChops" finding="relative" line="44" />
+      <module_usage name="PIL.ImageFile" finding="relative" line="44" />
+      <module_usage name="PIL.ImagePalette" finding="relative" line="44" />
+      <module_usage name="PIL.ImageSequence" finding="relative" line="44" />
+      <module_usage name="PIL._binary" finding="relative" line="45" />
       <module_usage name="PIL._binary" finding="relative" line="46" />
       <module_usage name="PIL._binary" finding="relative" line="47" />
       <module_usage name="PIL._binary" finding="relative" line="48" />
       <module_usage name="PIL._binary" finding="relative" line="49" />
-      <module_usage name="PIL._binary" finding="relative" line="50" />
+      <module_usage name="PIL._deprecate" finding="relative" line="50" />
       <module_usage name="PIL._util" finding="relative" line="51" />
-      <module_usage name="io" finding="absolute" line="1519" />
+      <module_usage name="io" finding="absolute" line="1524" />
     </module_usages>
   </module>
   <module name="PIL.PpmImagePlugin" kind="CompiledPythonModule" usage="import fromlist" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\PpmImagePlugin.py" distribution="pillow">
-    <optimization-time pass="1" time="volatile" micro_passes="8" max_branch_merge="69" merged_total="5562" />
+    <optimization-time pass="1" time="volatile" micro_passes="8" max_branch_merge="69" merged_total="5567" />
     <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="56" merged_total="672" />
     <module_usages>
       <module_usage name="__future__" finding="absolute" line="16" />
@@ -1010,8 +997,8 @@
     </module_usages>
   </module>
   <module name="PIL.SgiImagePlugin" kind="CompiledPythonModule" usage="plugin:implicit-imports" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\SgiImagePlugin.py" distribution="pillow">
-    <optimization-time pass="1" time="volatile" micro_passes="6" max_branch_merge="130" merged_total="2175" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="111" merged_total="352" />
+    <optimization-time pass="1" time="volatile" micro_passes="6" max_branch_merge="113" merged_total="2053" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="99" merged_total="333" />
     <module_usages>
       <module_usage name="__future__" finding="absolute" line="23" />
       <module_usage name="os" finding="absolute" line="25" />
@@ -1022,7 +1009,7 @@
       <module_usage name="PIL.ImageFile" finding="relative" line="29" />
       <module_usage name="PIL._binary" finding="relative" line="30" />
       <module_usage name="PIL._binary" finding="relative" line="31" />
-      <module_usage name="ntpath" finding="absolute" line="183" />
+      <module_usage name="ntpath" finding="absolute" line="167" />
     </module_usages>
   </module>
   <module name="PIL.SpiderImagePlugin" kind="CompiledPythonModule" usage="plugin:implicit-imports" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\SpiderImagePlugin.py" distribution="pillow">
@@ -1073,8 +1060,8 @@
     </module_usages>
   </module>
   <module name="PIL.TiffImagePlugin" kind="CompiledPythonModule" usage="import fromlist" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\TiffImagePlugin.py" distribution="pillow">
-    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="415" merged_total="30727" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="354" merged_total="4161" />
+    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="415" merged_total="31445" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="354" merged_total="4318" />
     <module_usages>
       <module_usage name="__future__" finding="absolute" line="41" />
       <module_usage name="io" finding="absolute" line="43" />
@@ -1098,12 +1085,10 @@
       <module_usage name="PIL._binary" finding="relative" line="56" />
       <module_usage name="PIL._binary" finding="relative" line="57" />
       <module_usage name="PIL._binary" finding="relative" line="58" />
-      <module_usage name="PIL._deprecate" finding="relative" line="59" />
-      <module_usage name="PIL._typing" finding="relative" line="60" />
-      <module_usage name="PIL._util" finding="relative" line="61" />
-      <module_usage name="PIL.TiffTags" finding="relative" line="62" />
-      <module_usage name="PIL.TiffTags" finding="relative" line="478" />
-      <module_usage name="PIL.TiffTags" finding="relative" line="497" />
+      <module_usage name="PIL._util" finding="relative" line="59" />
+      <module_usage name="PIL.TiffTags" finding="relative" line="60" />
+      <module_usage name="PIL.TiffTags" finding="relative" line="477" />
+      <module_usage name="PIL.TiffTags" finding="relative" line="496" />
       <module_usage name="io" finding="absolute" line="2004" />
     </module_usages>
   </module>
@@ -1116,17 +1101,16 @@
     </module_usages>
   </module>
   <module name="PIL.WebPImagePlugin" kind="CompiledPythonModule" usage="plugin:implicit-imports" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\WebPImagePlugin.py" distribution="pillow">
-    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="135" merged_total="3771" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="112" merged_total="516" />
+    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="135" merged_total="3757" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="112" merged_total="514" />
     <module_usages>
       <module_usage name="__future__" finding="absolute" line="1" />
       <module_usage name="io" finding="absolute" line="3" />
-      <module_usage name="typing" finding="absolute" line="4" />
-      <module_usage name="PIL" finding="absolute" line="6" />
-      <module_usage name="PIL.Image" finding="relative" line="6" />
-      <module_usage name="PIL.ImageFile" finding="relative" line="6" />
-      <module_usage name="PIL" finding="absolute" line="9" />
-      <module_usage name="PIL._webp" finding="relative" line="9" />
+      <module_usage name="PIL" finding="absolute" line="5" />
+      <module_usage name="PIL.Image" finding="relative" line="5" />
+      <module_usage name="PIL.ImageFile" finding="relative" line="5" />
+      <module_usage name="PIL" finding="absolute" line="8" />
+      <module_usage name="PIL._webp" finding="relative" line="8" />
     </module_usages>
   </module>
   <module name="PIL.WmfImagePlugin" kind="CompiledPythonModule" usage="plugin:implicit-imports" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\WmfImagePlugin.py" distribution="pillow">
@@ -1168,8 +1152,8 @@
     </module_usages>
   </module>
   <module name="PIL.XpmImagePlugin" kind="CompiledPythonModule" usage="plugin:implicit-imports" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\XpmImagePlugin.py" distribution="pillow">
-    <optimization-time pass="1" time="volatile" micro_passes="6" max_branch_merge="70" merged_total="1202" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="58" merged_total="191" />
+    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="80" merged_total="2200" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="67" merged_total="303" />
     <module_usages>
       <module_usage name="__future__" finding="absolute" line="16" />
       <module_usage name="re" finding="absolute" line="18" />
@@ -1189,8 +1173,8 @@
     </module_usages>
   </module>
   <module name="PIL._deprecate" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\_deprecate.py" distribution="pillow">
-    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="40" merged_total="226" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="26" merged_total="41" />
+    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="39" merged_total="211" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="25" merged_total="38" />
     <module_usages>
       <module_usage name="__future__" finding="absolute" line="1" />
       <module_usage name="warnings" finding="absolute" line="3" />
@@ -1233,25 +1217,22 @@
     </module_usages>
   </module>
   <module name="PIL._typing" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\_typing.py" distribution="pillow">
-    <optimization-time pass="1" time="volatile" micro_passes="4" max_branch_merge="16" merged_total="150" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="16" merged_total="36" />
+    <optimization-time pass="1" time="volatile" micro_passes="4" max_branch_merge="16" merged_total="145" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="16" merged_total="35" />
     <module_usages>
       <module_usage name="__future__" finding="absolute" line="1" />
       <module_usage name="os" finding="absolute" line="3" />
       <module_usage name="sys" finding="absolute" line="4" />
       <module_usage name="collections.abc" finding="absolute" line="5" />
       <module_usage name="typing" finding="absolute" line="6" />
-      <module_usage name="typing" finding="absolute" line="30" />
     </module_usages>
   </module>
   <module name="PIL._util" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\_util.py" distribution="pillow">
-    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="9" merged_total="102" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="2" merged_total="10" />
+    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="9" merged_total="82" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="1" merged_total="6" />
     <module_usages>
       <module_usage name="__future__" finding="absolute" line="1" />
       <module_usage name="os" finding="absolute" line="3" />
-      <module_usage name="typing" finding="absolute" line="4" />
-      <module_usage name="PIL._typing" finding="relative" line="6" />
     </module_usages>
   </module>
   <module name="PIL._version" kind="CompiledPythonModule" usage="import fromlist" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\_version.py" distribution="pillow">
@@ -1267,8 +1248,8 @@
     <module_usages />
   </module>
   <module name="PIL.features" kind="CompiledPythonModule" usage="import fromlist" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\PIL\features.py" distribution="pillow">
-    <optimization-time pass="1" time="volatile" micro_passes="6" max_branch_merge="99" merged_total="3047" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="60" merged_total="464" />
+    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="99" merged_total="2295" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="60" merged_total="410" />
     <module_usages>
       <module_usage name="__future__" finding="absolute" line="1" />
       <module_usage name="collections" finding="absolute" line="3" />
@@ -1279,7 +1260,6 @@
       <module_usage name="PIL" finding="absolute" line="9" />
       <module_usage name="PIL" finding="absolute" line="11" />
       <module_usage name="PIL.Image" finding="relative" line="11" />
-      <module_usage name="PIL._deprecate" finding="relative" line="12" />
     </module_usages>
   </module>
   <module name="__future__" kind="UncompiledPythonModule" usage="stdlib" reason="Including as part of the non-excluded parts of standard library." source_path="${sys.real_prefix}\lib\__future__.py">
@@ -2376,7 +2356,7 @@
   <module name="certifi.core" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\certifi\core.py" distribution="certifi">
     <plugin-influence name="anti-bloat" influence="condition-used" condition="version(&quot;certifi&quot;) &lt; (2025,)" tags_used="version" result="false" />
     <plugin-influence name="options-nanny" influence="condition-used" condition="standalone" tags_used="standalone" result="true" />
-    <optimization-time pass="1" time="volatile" micro_passes="4" max_branch_merge="2" merged_total="15" />
+    <optimization-time pass="1" time="volatile" micro_passes="4" max_branch_merge="2" merged_total="14" />
     <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="2" merged_total="3" />
     <module_usages>
       <module_usage name="sys" finding="absolute" line="7" />
@@ -2753,82 +2733,91 @@
     </module_usages>
   </module>
   <module name="docutils" kind="UncompiledPythonPackage" usage="import path parent" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\docutils\__init__.py" distribution="docutils">
-    <optimization-time pass="1" time="volatile" micro_passes="6" max_branch_merge="19" merged_total="1241" />
+    <optimization-time pass="1" time="volatile" micro_passes="6" max_branch_merge="19" merged_total="1357" />
     <optimization-time pass="2" time="volatile" />
     <module_usages>
       <module_usage name="os" finding="absolute" line="1" />
-      <module_usage name="collections" finding="absolute" line="53" />
-      <module_usage name="collections.namedtuple" finding="not-found" line="53" />
-      <module_usage name="warnings" finding="absolute" line="232" />
+      <module_usage name="__future__" finding="absolute" line="53" />
+      <module_usage name="collections" finding="absolute" line="55" />
+      <module_usage name="collections.namedtuple" finding="not-found" line="55" />
+      <module_usage name="warnings" finding="absolute" line="274" />
     </module_usages>
   </module>
   <module name="docutils.frontend" kind="UncompiledPythonModule" usage="import fromlist" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\docutils\frontend.py" distribution="docutils">
-    <optimization-time pass="1" time="volatile" micro_passes="9" max_branch_merge="118" merged_total="13911" />
+    <optimization-time pass="1" time="volatile" micro_passes="9" max_branch_merge="126" merged_total="14219" />
     <optimization-time pass="2" time="volatile" />
     <module_usages>
-      <module_usage name="codecs" finding="absolute" line="56" />
-      <module_usage name="configparser" finding="absolute" line="57" />
-      <module_usage name="optparse" finding="absolute" line="58" />
-      <module_usage name="optparse" finding="absolute" line="59" />
-      <module_usage name="os" finding="absolute" line="60" />
-      <module_usage name="ntpath" finding="absolute" line="61" />
-      <module_usage name="pathlib" finding="absolute" line="62" />
+      <module_usage name="__future__" finding="absolute" line="53" />
+      <module_usage name="codecs" finding="absolute" line="58" />
+      <module_usage name="configparser" finding="absolute" line="59" />
+      <module_usage name="optparse" finding="absolute" line="60" />
+      <module_usage name="os" finding="absolute" line="61" />
+      <module_usage name="ntpath" finding="absolute" line="62" />
       <module_usage name="sys" finding="absolute" line="63" />
       <module_usage name="warnings" finding="absolute" line="64" />
-      <module_usage name="docutils" finding="absolute" line="66" />
-      <module_usage name="docutils" finding="absolute" line="67" />
-      <module_usage name="docutils.io" finding="relative" line="67" />
-      <module_usage name="docutils.utils" finding="relative" line="67" />
+      <module_usage name="optparse" finding="absolute" line="65" />
+      <module_usage name="pathlib" finding="absolute" line="66" />
+      <module_usage name="docutils" finding="absolute" line="68" />
+      <module_usage name="docutils" finding="absolute" line="69" />
+      <module_usage name="docutils.io" finding="relative" line="69" />
+      <module_usage name="docutils.utils" finding="relative" line="69" />
     </module_usages>
   </module>
   <module name="docutils.io" kind="UncompiledPythonModule" usage="import fromlist" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\docutils\io.py" distribution="docutils">
-    <optimization-time pass="1" time="volatile" micro_passes="6" max_branch_merge="44" merged_total="5854" />
+    <optimization-time pass="1" time="volatile" micro_passes="6" max_branch_merge="56" merged_total="6329" />
     <optimization-time pass="2" time="volatile" />
     <module_usages>
-      <module_usage name="codecs" finding="absolute" line="12" />
-      <module_usage name="locale" finding="absolute" line="13" />
-      <module_usage name="os" finding="absolute" line="14" />
-      <module_usage name="re" finding="absolute" line="15" />
-      <module_usage name="sys" finding="absolute" line="16" />
-      <module_usage name="warnings" finding="absolute" line="17" />
-      <module_usage name="docutils" finding="absolute" line="19" />
-      <module_usage name="docutils.TransformSpec" finding="not-found" line="19" />
+      <module_usage name="__future__" finding="absolute" line="10" />
+      <module_usage name="codecs" finding="absolute" line="14" />
+      <module_usage name="locale" finding="absolute" line="15" />
+      <module_usage name="os" finding="absolute" line="16" />
+      <module_usage name="re" finding="absolute" line="17" />
+      <module_usage name="sys" finding="absolute" line="18" />
+      <module_usage name="warnings" finding="absolute" line="19" />
+      <module_usage name="docutils" finding="absolute" line="21" />
+      <module_usage name="docutils.TransformSpec" finding="not-found" line="21" />
     </module_usages>
   </module>
   <module name="docutils.languages" kind="UncompiledPythonPackage" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\docutils\languages\__init__.py" distribution="docutils">
-    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="32" merged_total="613" />
+    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="33" merged_total="651" />
     <optimization-time pass="2" time="volatile" />
     <module_usages>
       <module_usage name="os" finding="absolute" line="1" />
-      <module_usage name="importlib" finding="absolute" line="14" />
-      <module_usage name="docutils.utils" finding="absolute" line="16" />
-      <module_usage name="docutils.utils.normalize_language_tag" finding="not-found" line="16" />
+      <module_usage name="__future__" finding="absolute" line="12" />
+      <module_usage name="importlib" finding="absolute" line="16" />
+      <module_usage name="docutils.utils" finding="absolute" line="18" />
+      <module_usage name="docutils.utils.normalize_language_tag" finding="not-found" line="18" />
+      <module_usage name="docutils.utils._typing" finding="absolute" line="36" />
     </module_usages>
   </module>
   <module name="docutils.nodes" kind="UncompiledPythonModule" usage="import fromlist" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\docutils\nodes.py" distribution="docutils">
-    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="84" merged_total="40796" />
+    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="100" merged_total="49599" />
     <optimization-time pass="2" time="volatile" />
     <module_usages>
-      <module_usage name="collections" finding="absolute" line="25" />
-      <module_usage name="collections.Counter" finding="not-found" line="25" />
-      <module_usage name="re" finding="absolute" line="26" />
-      <module_usage name="sys" finding="absolute" line="27" />
-      <module_usage name="warnings" finding="absolute" line="28" />
-      <module_usage name="unicodedata" finding="absolute" line="29" />
-      <module_usage name="xml.dom.minidom" finding="absolute" line="80" />
-      <module_usage name="docutils.transforms" finding="absolute" line="1317" />
-      <module_usage name="xml.dom.minidom" finding="absolute" line="1341" />
+      <module_usage name="__future__" finding="absolute" line="27" />
+      <module_usage name="os" finding="absolute" line="31" />
+      <module_usage name="re" finding="absolute" line="32" />
+      <module_usage name="sys" finding="absolute" line="33" />
+      <module_usage name="unicodedata" finding="absolute" line="34" />
+      <module_usage name="warnings" finding="absolute" line="35" />
+      <module_usage name="collections" finding="absolute" line="36" />
+      <module_usage name="collections.Counter" finding="not-found" line="36" />
+      <module_usage name="xml.dom.minidom" finding="absolute" line="126" />
+      <module_usage name="docutils.transforms" finding="absolute" line="1798" />
+      <module_usage name="xml.dom.minidom" finding="absolute" line="1822" />
     </module_usages>
   </module>
   <module name="docutils.parsers" kind="UncompiledPythonPackage" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\docutils\parsers\__init__.py" distribution="docutils">
-    <optimization-time pass="1" time="volatile" micro_passes="4" max_branch_merge="20" merged_total="331" />
+    <optimization-time pass="1" time="volatile" micro_passes="4" max_branch_merge="27" merged_total="393" />
     <optimization-time pass="2" time="volatile" />
     <module_usages>
       <module_usage name="os" finding="absolute" line="1" />
-      <module_usage name="importlib" finding="absolute" line="11" />
-      <module_usage name="docutils" finding="absolute" line="13" />
-      <module_usage name="docutils.Component" finding="not-found" line="13" />
-      <module_usage name="docutils.frontend" finding="relative" line="13" />
+      <module_usage name="__future__" finding="absolute" line="9" />
+      <module_usage name="importlib" finding="absolute" line="13" />
+      <module_usage name="docutils" finding="absolute" line="15" />
+      <module_usage name="docutils.Component" finding="not-found" line="15" />
+      <module_usage name="docutils.frontend" finding="relative" line="15" />
+      <module_usage name="docutils.transforms" finding="relative" line="15" />
     </module_usages>
   </module>
   <module name="docutils.parsers.rst" kind="UncompiledPythonPackage" usage="import fromlist" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\docutils\parsers\rst\__init__.py" distribution="docutils">
@@ -2836,43 +2825,47 @@
     <optimization-time pass="2" time="volatile" />
     <module_usages>
       <module_usage name="os" finding="absolute" line="1" />
-      <module_usage name="docutils.parsers" finding="absolute" line="73" />
-      <module_usage name="docutils.statemachine" finding="absolute" line="74" />
-      <module_usage name="docutils.parsers.rst" finding="absolute" line="75" />
-      <module_usage name="docutils.parsers.rst.roles" finding="relative" line="75" />
-      <module_usage name="docutils.parsers.rst.states" finding="relative" line="75" />
-      <module_usage name="docutils" finding="absolute" line="76" />
-      <module_usage name="docutils.frontend" finding="relative" line="76" />
-      <module_usage name="docutils.nodes" finding="relative" line="76" />
-      <module_usage name="docutils.transforms" finding="absolute" line="77" />
-      <module_usage name="docutils.transforms.universal" finding="relative" line="77" />
+      <module_usage name="__future__" finding="absolute" line="70" />
+      <module_usage name="docutils.parsers" finding="absolute" line="74" />
+      <module_usage name="docutils.statemachine" finding="absolute" line="75" />
+      <module_usage name="docutils.parsers.rst" finding="absolute" line="76" />
+      <module_usage name="docutils.parsers.rst.roles" finding="relative" line="76" />
+      <module_usage name="docutils.parsers.rst.states" finding="relative" line="76" />
+      <module_usage name="docutils" finding="absolute" line="77" />
+      <module_usage name="docutils.frontend" finding="relative" line="77" />
+      <module_usage name="docutils.nodes" finding="relative" line="77" />
+      <module_usage name="docutils.transforms" finding="absolute" line="78" />
+      <module_usage name="docutils.transforms.universal" finding="relative" line="78" />
     </module_usages>
   </module>
   <module name="docutils.parsers.rst.directives" kind="UncompiledPythonPackage" usage="import fromlist" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\docutils\parsers\rst\directives\__init__.py" distribution="docutils">
-    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="20" merged_total="1780" />
+    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="20" merged_total="1754" />
     <optimization-time pass="2" time="volatile" />
     <module_usages>
       <module_usage name="os" finding="absolute" line="1" />
-      <module_usage name="re" finding="absolute" line="11" />
-      <module_usage name="codecs" finding="absolute" line="12" />
-      <module_usage name="importlib" finding="absolute" line="13" />
-      <module_usage name="docutils" finding="absolute" line="15" />
-      <module_usage name="docutils.nodes" finding="relative" line="15" />
-      <module_usage name="docutils.parsers" finding="relative" line="15" />
-      <module_usage name="docutils.utils" finding="absolute" line="16" />
-      <module_usage name="docutils.utils.split_escaped_whitespace" finding="not-found" line="16" />
-      <module_usage name="docutils.utils.escape2null" finding="not-found" line="16" />
-      <module_usage name="docutils.parsers.rst.languages" finding="absolute" line="17" />
-      <module_usage name="docutils.parsers.rst.languages.en" finding="relative" line="17" />
+      <module_usage name="__future__" finding="absolute" line="9" />
+      <module_usage name="re" finding="absolute" line="13" />
+      <module_usage name="codecs" finding="absolute" line="14" />
+      <module_usage name="importlib" finding="absolute" line="15" />
+      <module_usage name="docutils" finding="absolute" line="17" />
+      <module_usage name="docutils.nodes" finding="relative" line="17" />
+      <module_usage name="docutils.parsers" finding="relative" line="17" />
+      <module_usage name="docutils.utils" finding="absolute" line="18" />
+      <module_usage name="docutils.utils.split_escaped_whitespace" finding="not-found" line="18" />
+      <module_usage name="docutils.utils.escape2null" finding="not-found" line="18" />
+      <module_usage name="docutils.parsers.rst.languages" finding="absolute" line="19" />
+      <module_usage name="docutils.parsers.rst.languages.en" finding="relative" line="19" />
     </module_usages>
   </module>
   <module name="docutils.parsers.rst.languages" kind="UncompiledPythonPackage" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\docutils\parsers\rst\languages\__init__.py" distribution="docutils">
-    <optimization-time pass="1" time="volatile" micro_passes="4" max_branch_merge="14" merged_total="169" />
+    <optimization-time pass="1" time="volatile" micro_passes="4" max_branch_merge="18" merged_total="226" />
     <optimization-time pass="2" time="volatile" />
     <module_usages>
       <module_usage name="os" finding="absolute" line="1" />
-      <module_usage name="docutils.languages" finding="absolute" line="16" />
-      <module_usage name="docutils.languages.LanguageImporter" finding="not-found" line="16" />
+      <module_usage name="__future__" finding="absolute" line="13" />
+      <module_usage name="docutils.languages" finding="absolute" line="17" />
+      <module_usage name="docutils.languages.LanguageImporter" finding="not-found" line="17" />
+      <module_usage name="docutils.utils._typing" finding="absolute" line="30" />
     </module_usages>
   </module>
   <module name="docutils.parsers.rst.languages.en" kind="UncompiledPythonModule" usage="import fromlist" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\docutils\parsers\rst\languages\en.py" distribution="docutils">
@@ -2881,140 +2874,168 @@
     <module_usages />
   </module>
   <module name="docutils.parsers.rst.roles" kind="UncompiledPythonModule" usage="import fromlist" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\docutils\parsers\rst\roles.py" distribution="docutils">
-    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="25" merged_total="1892" />
+    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="25" merged_total="1916" />
     <optimization-time pass="2" time="volatile" />
     <module_usages>
-      <module_usage name="docutils" finding="absolute" line="80" />
-      <module_usage name="docutils.nodes" finding="relative" line="80" />
-      <module_usage name="docutils.parsers.rst" finding="absolute" line="81" />
-      <module_usage name="docutils.parsers.rst.directives" finding="relative" line="81" />
-      <module_usage name="docutils.parsers.rst.languages" finding="absolute" line="82" />
-      <module_usage name="docutils.parsers.rst.languages.en" finding="relative" line="82" />
-      <module_usage name="docutils.utils.code_analyzer" finding="absolute" line="83" />
+      <module_usage name="__future__" finding="absolute" line="77" />
+      <module_usage name="warnings" finding="absolute" line="81" />
+      <module_usage name="docutils" finding="absolute" line="83" />
+      <module_usage name="docutils.nodes" finding="relative" line="83" />
+      <module_usage name="docutils.parsers.rst" finding="absolute" line="84" />
+      <module_usage name="docutils.parsers.rst.directives" finding="relative" line="84" />
+      <module_usage name="docutils.parsers.rst.languages" finding="absolute" line="85" />
+      <module_usage name="docutils.parsers.rst.languages.en" finding="relative" line="85" />
+      <module_usage name="docutils.utils.code_analyzer" finding="absolute" line="86" />
     </module_usages>
   </module>
   <module name="docutils.parsers.rst.states" kind="UncompiledPythonModule" usage="import fromlist" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\docutils\parsers\rst\states.py" distribution="docutils">
-    <optimization-time pass="1" time="volatile" micro_passes="6" max_branch_merge="258" merged_total="41691" />
+    <optimization-time pass="1" time="volatile" micro_passes="6" max_branch_merge="264" merged_total="42761" />
     <optimization-time pass="2" time="volatile" />
     <module_usages>
-      <module_usage name="re" finding="absolute" line="106" />
-      <module_usage name="types" finding="absolute" line="107" />
-      <module_usage name="docutils" finding="absolute" line="109" />
-      <module_usage name="docutils.nodes" finding="relative" line="109" />
-      <module_usage name="docutils.statemachine" finding="relative" line="109" />
-      <module_usage name="docutils.utils" finding="relative" line="109" />
-      <module_usage name="docutils" finding="absolute" line="110" />
-      <module_usage name="docutils.ApplicationError" finding="not-found" line="110" />
-      <module_usage name="docutils.DataError" finding="not-found" line="110" />
-      <module_usage name="docutils.statemachine" finding="absolute" line="111" />
-      <module_usage name="docutils.nodes" finding="absolute" line="112" />
-      <module_usage name="docutils.nodes" finding="absolute" line="113" />
-      <module_usage name="docutils.parsers.rst" finding="absolute" line="114" />
-      <module_usage name="docutils.parsers.rst" finding="absolute" line="115" />
-      <module_usage name="docutils.parsers.rst.directives" finding="relative" line="115" />
-      <module_usage name="docutils.parsers.rst.languages" finding="relative" line="115" />
-      <module_usage name="docutils.parsers.rst.tableparser" finding="relative" line="115" />
-      <module_usage name="docutils.parsers.rst.roles" finding="relative" line="115" />
-      <module_usage name="docutils.utils" finding="absolute" line="116" />
-      <module_usage name="docutils.utils.escape2null" finding="not-found" line="116" />
-      <module_usage name="docutils.utils.column_width" finding="not-found" line="116" />
-      <module_usage name="docutils.utils" finding="absolute" line="117" />
-      <module_usage name="docutils.utils.punctuation_chars" finding="relative" line="117" />
-      <module_usage name="docutils.utils.roman" finding="relative" line="117" />
-      <module_usage name="docutils.utils.urischemes" finding="relative" line="117" />
-      <module_usage name="docutils.utils" finding="absolute" line="118" />
-      <module_usage name="docutils.utils.split_escaped_whitespace" finding="not-found" line="118" />
-      <module_usage name="docutils.parsers.rst" finding="absolute" line="2133" />
-      <module_usage name="docutils.parsers.rst.convert_directive_function" finding="not-found" line="2133" />
+      <module_usage name="__future__" finding="absolute" line="103" />
+      <module_usage name="re" finding="absolute" line="107" />
+      <module_usage name="types" finding="absolute" line="108" />
+      <module_usage name="types" finding="absolute" line="109" />
+      <module_usage name="warnings" finding="absolute" line="110" />
+      <module_usage name="docutils" finding="absolute" line="112" />
+      <module_usage name="docutils.nodes" finding="relative" line="112" />
+      <module_usage name="docutils.statemachine" finding="relative" line="112" />
+      <module_usage name="docutils.utils" finding="relative" line="112" />
+      <module_usage name="docutils" finding="absolute" line="113" />
+      <module_usage name="docutils.ApplicationError" finding="not-found" line="113" />
+      <module_usage name="docutils.DataError" finding="not-found" line="113" />
+      <module_usage name="docutils.statemachine" finding="absolute" line="114" />
+      <module_usage name="docutils.nodes" finding="absolute" line="115" />
+      <module_usage name="docutils.nodes" finding="absolute" line="116" />
+      <module_usage name="docutils.parsers.rst" finding="absolute" line="117" />
+      <module_usage name="docutils.parsers.rst" finding="absolute" line="118" />
+      <module_usage name="docutils.parsers.rst.directives" finding="relative" line="118" />
+      <module_usage name="docutils.parsers.rst.languages" finding="relative" line="118" />
+      <module_usage name="docutils.parsers.rst.tableparser" finding="relative" line="118" />
+      <module_usage name="docutils.parsers.rst.roles" finding="relative" line="118" />
+      <module_usage name="docutils.utils" finding="absolute" line="119" />
+      <module_usage name="docutils.utils.escape2null" finding="not-found" line="119" />
+      <module_usage name="docutils.utils.column_width" finding="not-found" line="119" />
+      <module_usage name="docutils.utils.strip_combining_chars" finding="not-found" line="119" />
+      <module_usage name="docutils.utils" finding="absolute" line="120" />
+      <module_usage name="docutils.utils.punctuation_chars" finding="relative" line="120" />
+      <module_usage name="docutils.utils.urischemes" finding="relative" line="120" />
+      <module_usage name="docutils.utils" finding="absolute" line="121" />
+      <module_usage name="docutils.utils.split_escaped_whitespace" finding="not-found" line="121" />
+      <module_usage name="docutils.utils._roman_numerals" finding="absolute" line="122" />
+      <module_usage name="docutils.parsers.rst" finding="absolute" line="2263" />
+      <module_usage name="docutils.parsers.rst.convert_directive_function" finding="not-found" line="2263" />
     </module_usages>
   </module>
   <module name="docutils.parsers.rst.tableparser" kind="UncompiledPythonModule" usage="import fromlist" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\docutils\parsers\rst\tableparser.py" distribution="docutils">
-    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="64" merged_total="6950" />
+    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="64" merged_total="7048" />
     <optimization-time pass="2" time="volatile" />
     <module_usages>
-      <module_usage name="re" finding="absolute" line="23" />
-      <module_usage name="sys" finding="absolute" line="24" />
-      <module_usage name="docutils" finding="absolute" line="25" />
-      <module_usage name="docutils.DataError" finding="not-found" line="25" />
-      <module_usage name="docutils.utils" finding="absolute" line="26" />
-      <module_usage name="docutils.utils.strip_combining_chars" finding="not-found" line="26" />
+      <module_usage name="__future__" finding="absolute" line="20" />
+      <module_usage name="re" finding="absolute" line="24" />
+      <module_usage name="sys" finding="absolute" line="25" />
+      <module_usage name="docutils" finding="absolute" line="26" />
+      <module_usage name="docutils.DataError" finding="not-found" line="26" />
+      <module_usage name="docutils.utils" finding="absolute" line="27" />
+      <module_usage name="docutils.utils.strip_combining_chars" finding="not-found" line="27" />
     </module_usages>
   </module>
   <module name="docutils.statemachine" kind="UncompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\docutils\statemachine.py" distribution="docutils">
-    <optimization-time pass="1" time="volatile" micro_passes="6" max_branch_merge="64" merged_total="12815" />
+    <optimization-time pass="1" time="volatile" micro_passes="6" max_branch_merge="64" merged_total="12724" />
     <optimization-time pass="2" time="volatile" />
     <module_usages>
-      <module_usage name="sys" finding="absolute" line="110" />
-      <module_usage name="re" finding="absolute" line="111" />
-      <module_usage name="unicodedata" finding="absolute" line="112" />
-      <module_usage name="docutils" finding="absolute" line="114" />
-      <module_usage name="docutils.utils" finding="relative" line="114" />
+      <module_usage name="__future__" finding="absolute" line="108" />
+      <module_usage name="sys" finding="absolute" line="112" />
+      <module_usage name="re" finding="absolute" line="113" />
+      <module_usage name="unicodedata" finding="absolute" line="114" />
+      <module_usage name="docutils" finding="absolute" line="116" />
+      <module_usage name="docutils.utils" finding="relative" line="116" />
     </module_usages>
   </module>
   <module name="docutils.transforms" kind="UncompiledPythonPackage" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\docutils\transforms\__init__.py" distribution="docutils">
-    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="37" merged_total="1091" />
+    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="37" merged_total="1131" />
     <optimization-time pass="2" time="volatile" />
     <module_usages>
       <module_usage name="os" finding="absolute" line="1" />
-      <module_usage name="docutils" finding="absolute" line="27" />
-      <module_usage name="docutils.languages" finding="relative" line="27" />
-      <module_usage name="docutils.ApplicationError" finding="not-found" line="27" />
-      <module_usage name="docutils.TransformSpec" finding="not-found" line="27" />
+      <module_usage name="__future__" finding="absolute" line="24" />
+      <module_usage name="warnings" finding="absolute" line="28" />
+      <module_usage name="docutils" finding="absolute" line="30" />
+      <module_usage name="docutils.languages" finding="relative" line="30" />
+      <module_usage name="docutils.ApplicationError" finding="not-found" line="30" />
+      <module_usage name="docutils.TransformSpec" finding="not-found" line="30" />
     </module_usages>
   </module>
   <module name="docutils.transforms.universal" kind="UncompiledPythonModule" usage="import fromlist" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\docutils\transforms\universal.py" distribution="docutils">
-    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="58" merged_total="6147" />
+    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="58" merged_total="6677" />
     <optimization-time pass="2" time="volatile" />
     <module_usages>
-      <module_usage name="re" finding="absolute" line="23" />
-      <module_usage name="time" finding="absolute" line="24" />
-      <module_usage name="docutils" finding="absolute" line="25" />
-      <module_usage name="docutils.nodes" finding="relative" line="25" />
-      <module_usage name="docutils.utils" finding="relative" line="25" />
-      <module_usage name="docutils.transforms" finding="absolute" line="26" />
-      <module_usage name="docutils.transforms.Transform" finding="not-found" line="26" />
-      <module_usage name="docutils.utils" finding="absolute" line="27" />
-      <module_usage name="docutils.utils.smartquotes" finding="relative" line="27" />
+      <module_usage name="__future__" finding="absolute" line="22" />
+      <module_usage name="re" finding="absolute" line="26" />
+      <module_usage name="time" finding="absolute" line="27" />
+      <module_usage name="docutils" finding="absolute" line="28" />
+      <module_usage name="docutils.nodes" finding="relative" line="28" />
+      <module_usage name="docutils.utils" finding="relative" line="28" />
+      <module_usage name="docutils.transforms" finding="absolute" line="29" />
+      <module_usage name="docutils.transforms.Transform" finding="not-found" line="29" />
+      <module_usage name="docutils.utils" finding="absolute" line="30" />
+      <module_usage name="docutils.utils.smartquotes" finding="relative" line="30" />
     </module_usages>
   </module>
   <module name="docutils.utils" kind="UncompiledPythonPackage" usage="import fromlist" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\docutils\utils\__init__.py" distribution="docutils">
-    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="74" merged_total="8143" />
+    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="76" merged_total="7683" />
     <optimization-time pass="2" time="volatile" />
     <module_usages>
       <module_usage name="os" finding="absolute" line="1" />
-      <module_usage name="sys" finding="absolute" line="11" />
-      <module_usage name="os" finding="absolute" line="12" />
-      <module_usage name="ntpath" finding="absolute" line="13" />
-      <module_usage name="pathlib" finding="absolute" line="14" />
-      <module_usage name="re" finding="absolute" line="15" />
-      <module_usage name="itertools" finding="absolute" line="16" />
-      <module_usage name="warnings" finding="absolute" line="17" />
+      <module_usage name="__future__" finding="absolute" line="9" />
+      <module_usage name="itertools" finding="absolute" line="13" />
+      <module_usage name="os" finding="absolute" line="14" />
+      <module_usage name="ntpath" finding="absolute" line="15" />
+      <module_usage name="re" finding="absolute" line="16" />
+      <module_usage name="sys" finding="absolute" line="17" />
       <module_usage name="unicodedata" finding="absolute" line="18" />
-      <module_usage name="docutils" finding="absolute" line="20" />
-      <module_usage name="docutils.ApplicationError" finding="not-found" line="20" />
-      <module_usage name="docutils.DataError" finding="not-found" line="20" />
-      <module_usage name="docutils.__version_info__" finding="not-found" line="20" />
-      <module_usage name="docutils" finding="absolute" line="21" />
-      <module_usage name="docutils.io" finding="relative" line="21" />
-      <module_usage name="docutils.nodes" finding="relative" line="21" />
-      <module_usage name="docutils.nodes" finding="absolute" line="23" />
-      <module_usage name="docutils" finding="absolute" line="458" />
-      <module_usage name="docutils.frontend" finding="relative" line="458" />
+      <module_usage name="warnings" finding="absolute" line="19" />
+      <module_usage name="pathlib" finding="absolute" line="20" />
+      <module_usage name="docutils" finding="absolute" line="22" />
+      <module_usage name="docutils.ApplicationError" finding="not-found" line="22" />
+      <module_usage name="docutils.DataError" finding="not-found" line="22" />
+      <module_usage name="docutils" finding="absolute" line="23" />
+      <module_usage name="docutils.io" finding="relative" line="23" />
+      <module_usage name="docutils.nodes" finding="relative" line="23" />
+      <module_usage name="docutils.nodes" finding="absolute" line="25" />
+      <module_usage name="docutils" finding="absolute" line="488" />
+      <module_usage name="docutils.frontend" finding="relative" line="488" />
+    </module_usages>
+  </module>
+  <module name="docutils.utils._roman_numerals" kind="UncompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\docutils\utils\_roman_numerals.py" distribution="docutils">
+    <optimization-time pass="1" time="volatile" micro_passes="6" max_branch_merge="174" merged_total="2434" />
+    <optimization-time pass="2" time="volatile" />
+    <module_usages>
+      <module_usage name="__future__" finding="absolute" line="11" />
+      <module_usage name="sys" finding="absolute" line="13" />
+      <module_usage name="docutils.utils._typing" finding="absolute" line="21" />
+    </module_usages>
+  </module>
+  <module name="docutils.utils._typing" kind="UncompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\docutils\utils\_typing.py" distribution="docutils">
+    <optimization-time pass="1" time="volatile" micro_passes="4" max_branch_merge="2" merged_total="13" />
+    <optimization-time pass="2" time="volatile" />
+    <module_usages>
+      <module_usage name="__future__" finding="absolute" line="6" />
     </module_usages>
   </module>
   <module name="docutils.utils.code_analyzer" kind="UncompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\docutils\utils\code_analyzer.py" distribution="docutils">
-    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="17" merged_total="1553" />
+    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="17" merged_total="1511" />
     <optimization-time pass="2" time="volatile" />
     <distribution-usages>
       <distribution-usage name="Pygments" />
     </distribution-usages>
     <module_usages>
-      <module_usage name="docutils" finding="absolute" line="7" />
-      <module_usage name="docutils.ApplicationError" finding="not-found" line="7" />
-      <module_usage name="pygments" finding="absolute" line="9" />
-      <module_usage name="pygments.lexers" finding="absolute" line="10" />
-      <module_usage name="pygments.lexers.get_lexer_by_name" finding="not-found" line="10" />
-      <module_usage name="pygments.formatters.html" finding="absolute" line="11" />
+      <module_usage name="__future__" finding="absolute" line="7" />
+      <module_usage name="pygments" finding="absolute" line="12" />
+      <module_usage name="pygments.lexers" finding="absolute" line="13" />
+      <module_usage name="pygments.lexers.get_lexer_by_name" finding="not-found" line="13" />
+      <module_usage name="pygments.formatters.html" finding="absolute" line="14" />
+      <module_usage name="docutils" finding="absolute" line="19" />
+      <module_usage name="docutils.ApplicationError" finding="not-found" line="19" />
     </module_usages>
   </module>
   <module name="docutils.utils.punctuation_chars" kind="UncompiledPythonModule" usage="import fromlist" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\docutils\utils\punctuation_chars.py" distribution="docutils">
@@ -3022,25 +3043,17 @@
     <optimization-time pass="2" time="volatile" />
     <module_usages />
   </module>
-  <module name="docutils.utils.roman" kind="UncompiledPythonModule" usage="import fromlist" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\docutils\utils\roman.py" distribution="docutils">
-    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="22" merged_total="1685" />
-    <optimization-time pass="2" time="volatile" />
-    <module_usages>
-      <module_usage name="argparse" finding="absolute" line="30" />
-      <module_usage name="re" finding="absolute" line="31" />
-      <module_usage name="sys" finding="absolute" line="32" />
-    </module_usages>
-  </module>
   <module name="docutils.utils.smartquotes" kind="UncompiledPythonModule" usage="import fromlist" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\docutils\utils\smartquotes.py" distribution="docutils">
-    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="87" merged_total="2817" />
+    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="87" merged_total="2795" />
     <optimization-time pass="2" time="volatile" />
     <module_usages>
-      <module_usage name="re" finding="absolute" line="318" />
-      <module_usage name="sys" finding="absolute" line="319" />
+      <module_usage name="__future__" finding="absolute" line="318" />
+      <module_usage name="re" finding="absolute" line="320" />
+      <module_usage name="sys" finding="absolute" line="321" />
     </module_usages>
   </module>
   <module name="docutils.utils.urischemes" kind="UncompiledPythonModule" usage="import fromlist" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\docutils\utils\urischemes.py" distribution="docutils">
-    <optimization-time pass="1" time="volatile" micro_passes="3" />
+    <optimization-time pass="1" time="volatile" micro_passes="4" />
     <optimization-time pass="2" time="volatile" />
     <module_usages />
   </module>
@@ -7767,7 +7780,7 @@
     </module_usages>
   </module>
   <module name="kivymd.uix.behaviors.backgroundcolor_behavior" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\kivymd\uix\behaviors\backgroundcolor_behavior.py" distribution="kivymd">
-    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="60" merged_total="1099" />
+    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="60" merged_total="1092" />
     <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="47" merged_total="180" />
     <distribution-usages>
       <distribution-usage name="Kivy" />
@@ -10459,29 +10472,6 @@
       <module_usage name="nt" finding="absolute" line="1117" />
     </module_usages>
   </module>
-  <module name="packaging" kind="UncompiledPythonPackage" usage="import path parent" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\setuptools\_vendor\packaging\__init__.py" distribution="packaging">
-    <optimization-time pass="1" time="volatile" micro_passes="3" />
-    <optimization-time pass="2" time="volatile" />
-    <module_usages>
-      <module_usage name="os" finding="absolute" line="1" />
-    </module_usages>
-  </module>
-  <module name="packaging._structures" kind="UncompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\setuptools\_vendor\packaging\_structures.py" distribution="packaging">
-    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="39" merged_total="312" />
-    <optimization-time pass="2" time="volatile" />
-    <module_usages />
-  </module>
-  <module name="packaging.version" kind="UncompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\setuptools\_vendor\packaging\version.py" distribution="packaging">
-    <optimization-time pass="1" time="volatile" micro_passes="6" max_branch_merge="83" merged_total="3277" />
-    <optimization-time pass="2" time="volatile" />
-    <module_usages>
-      <module_usage name="__future__" finding="absolute" line="10" />
-      <module_usage name="itertools" finding="absolute" line="12" />
-      <module_usage name="re" finding="absolute" line="13" />
-      <module_usage name="typing" finding="absolute" line="14" />
-      <module_usage name="packaging._structures" finding="relative" line="16" />
-    </module_usages>
-  </module>
   <module name="pathlib" kind="UncompiledPythonModule" usage="stdlib" reason="Including as part of the non-excluded parts of standard library." source_path="${sys.real_prefix}\lib\pathlib.py">
     <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="106" merged_total="18075" />
     <optimization-time pass="2" time="volatile" />
@@ -12411,7 +12401,7 @@
     <memory_usage name="before_c_code_generation" value="volatile" />
     <memory_usage name="before_running_scons" value="volatile" />
   </performance>
-  <data_file name="certifi\cacert.pem" source="${sys.prefix}\lib\site-packages\certifi\cacert.pem" size="297255" reason="package data for 'certifi'" tags="config,copy" />
+  <data_file name="certifi\cacert.pem" source="${sys.prefix}\lib\site-packages\certifi\cacert.pem" size="283932" reason="package data for 'certifi'" tags="config,copy" />
   <data_file name="kivy\data\settings_kivy.json" source="${sys.prefix}\lib\site-packages\kivy\data\settings_kivy.json" size="2720" reason="package data directory 'data' for 'kivy'" tags="config,copy,data-dir-contents" />
   <data_file name="kivy\data\style.kv" source="${sys.prefix}\lib\site-packages\kivy\data\style.kv" size="44878" reason="package data directory 'data' for 'kivy'" tags="config,copy,data-dir-contents" />
   <data_file name="kivy\data\fonts\DejaVuSans.ttf" source="${sys.prefix}\lib\site-packages\kivy\data\fonts\DejaVuSans.ttf" size="741536" reason="package data directory 'data' for 'kivy'" tags="config,copy,data-dir-contents" />
@@ -12597,7 +12587,7 @@
     <option value="--assume-yes-for-downloads" />
     <option value="--report=compilation-report.xml" />
     <option value="--report-diffable" />
-    <option value="--report-user-provided=pipenv_hash=aa089c4dffab33d072af42ee4e843910" />
+    <option value="--report-user-provided=pipenv_hash=dda6e4686465ef02e8d3093bf5713c4a" />
   </command_line>
   <plugins>
     <plugin name="anti-bloat" user_enabled="no" />
@@ -12622,17 +12612,16 @@
   </plugins>
   <distributions>
     <distribution name="Kivy" version="2.3.1" installer="pip" />
-    <distribution name="Pygments" version="2.19.1" installer="pip" />
-    <distribution name="certifi" version="2025.1.31" installer="pip" />
-    <distribution name="docutils" version="0.21.2" installer="pip" />
+    <distribution name="Pygments" version="2.19.2" installer="pip" />
+    <distribution name="certifi" version="2025.11.12" installer="pip" />
+    <distribution name="docutils" version="0.22.3" installer="pip" />
     <distribution name="filetype" version="1.2.0" installer="pip" />
     <distribution name="kivy-deps.angle" version="0.4.0" installer="pip" />
     <distribution name="kivy-deps.glew" version="0.3.1" installer="pip" />
     <distribution name="kivy_deps.sdl2" version="0.8.0" installer="pip" />
     <distribution name="kivymd" version="1.2.0" installer="pip" />
-    <distribution name="packaging" version="24.1" installer="pip" />
-    <distribution name="pillow" version="11.2.1" installer="pip" />
-    <distribution name="pywin32" version="310" installer="pip" />
+    <distribution name="pillow" version="12.0.0" installer="pip" />
+    <distribution name="pywin32" version="311" installer="pip" />
   </distributions>
   <python python_exe="${sys.prefix}\Scripts\python.EXE" python_flavor="CPython Official" python_version="3.10.11" os_name="Windows" os_release="11" arch_name="x86_64" filesystem_encoding="utf-8">
     <search_path>
@@ -12650,7 +12639,7 @@
     </search_path>
   </python>
   <user-data>
-    <pipenv_hash>aa089c4dffab33d072af42ee4e843910</pipenv_hash>
+    <pipenv_hash>dda6e4686465ef02e8d3093bf5713c4a</pipenv_hash>
   </user-data>
   <output run_filename="${cwd}\KivyMDTest.dist\KivyMDTest.exe" />
 </nuitka-compilation-report>

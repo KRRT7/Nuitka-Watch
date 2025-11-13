@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf8'?>
-<nuitka-compilation-report nuitka_version="2.8.5" nuitka_commercial_version="not installed" mode="standalone" completion="yes">
+<nuitka-compilation-report nuitka_version="2.8.6" nuitka_commercial_version="not installed" mode="standalone" completion="yes">
   <scons_environment />
   <module name="__future__" kind="UncompiledPythonModule" usage="stdlib" reason="Including as part of the non-excluded parts of standard library." source_path="${sys.real_prefix}\Lib\__future__.py">
     <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="8" merged_total="81" />
@@ -5671,8 +5671,8 @@
     </module_usages>
   </module>
   <module name="numpy._core._ufunc_config" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\numpy\_core\_ufunc_config.py" distribution="numpy">
-    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="36" merged_total="727" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="36" merged_total="133" />
+    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="36" merged_total="740" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="36" merged_total="135" />
     <module_usages>
       <module_usage name="functools" finding="absolute" line="7" />
       <module_usage name="numpy._utils" finding="absolute" line="9" />
@@ -8163,8 +8163,8 @@
     </module_usages>
   </module>
   <module name="pandas.compat" kind="CompiledPythonPackage" usage="import path parent" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\pandas\compat\__init__.py" distribution="pandas">
-    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="12" merged_total="116" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="12" merged_total="20" />
+    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="12" merged_total="126" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="12" merged_total="22" />
     <module_usages>
       <module_usage name="os" finding="absolute" line="1" />
       <module_usage name="__future__" finding="absolute" line="10" />
@@ -8172,10 +8172,10 @@
       <module_usage name="platform" finding="absolute" line="13" />
       <module_usage name="sys" finding="absolute" line="14" />
       <module_usage name="pandas.compat._constants" finding="absolute" line="17" />
-      <module_usage name="pandas.compat.compressors" finding="absolute" line="25" />
-      <module_usage name="pandas.compat.numpy" finding="absolute" line="26" />
-      <module_usage name="pandas.compat.numpy.is_numpy_dev" finding="not-found" line="26" />
-      <module_usage name="pandas.compat.pyarrow" finding="absolute" line="27" />
+      <module_usage name="pandas.compat.compressors" finding="absolute" line="27" />
+      <module_usage name="pandas.compat.numpy" finding="absolute" line="28" />
+      <module_usage name="pandas.compat.numpy.is_numpy_dev" finding="not-found" line="28" />
+      <module_usage name="pandas.compat.pyarrow" finding="absolute" line="29" />
     </module_usages>
   </module>
   <module name="pandas.compat._constants" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\pandas\compat\_constants.py" distribution="pandas">
@@ -8659,8 +8659,8 @@
     </module_usages>
   </module>
   <module name="pandas.core.arrays._arrow_string_mixins" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\pandas\core\arrays\_arrow_string_mixins.py" distribution="pandas">
-    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="79" merged_total="3234" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="66" merged_total="576" />
+    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="79" merged_total="3377" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="66" merged_total="607" />
     <distribution-usages>
       <distribution-usage name="numpy" />
       <distribution-usage name="pyarrow" />
@@ -8678,10 +8678,11 @@
       <module_usage name="pandas.compat.pa_version_under11p0" finding="not-found" line="14" />
       <module_usage name="pandas.compat.pa_version_under13p0" finding="not-found" line="14" />
       <module_usage name="pandas.compat.pa_version_under17p0" finding="not-found" line="14" />
-      <module_usage name="pyarrow" finding="absolute" line="22" />
-      <module_usage name="pyarrow.compute" finding="absolute" line="23" />
-      <module_usage name="pandas" finding="absolute" line="95" />
-      <module_usage name="pandas.array" finding="not-found" line="95" />
+      <module_usage name="pandas.compat.pa_version_under21p0" finding="not-found" line="14" />
+      <module_usage name="pyarrow" finding="absolute" line="23" />
+      <module_usage name="pyarrow.compute" finding="absolute" line="24" />
+      <module_usage name="pandas" finding="absolute" line="96" />
+      <module_usage name="pandas.array" finding="not-found" line="96" />
     </module_usages>
   </module>
   <module name="pandas.core.arrays._mixins" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\pandas\core\arrays\_mixins.py" distribution="pandas">
@@ -8819,8 +8820,8 @@
     </module_usages>
   </module>
   <module name="pandas.core.arrays.arrow.array" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\pandas\core\arrays\arrow\array.py" distribution="pandas">
-    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="316" merged_total="32577" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="308" merged_total="4317" />
+    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="316" merged_total="33118" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="308" merged_total="4380" />
     <distribution-usages>
       <distribution-usage name="numpy" />
       <distribution-usage name="pyarrow" />
@@ -8829,68 +8830,70 @@
       <module_usage name="__future__" finding="absolute" line="1" />
       <module_usage name="functools" finding="absolute" line="3" />
       <module_usage name="operator" finding="absolute" line="4" />
-      <module_usage name="re" finding="absolute" line="5" />
-      <module_usage name="textwrap" finding="absolute" line="6" />
-      <module_usage name="typing" finding="absolute" line="7" />
-      <module_usage name="unicodedata" finding="absolute" line="14" />
-      <module_usage name="warnings" finding="absolute" line="15" />
-      <module_usage name="numpy" finding="absolute" line="17" />
-      <module_usage name="pandas._libs" finding="absolute" line="19" />
-      <module_usage name="pandas._libs.lib" finding="relative" line="19" />
-      <module_usage name="pandas._libs.tslibs" finding="absolute" line="20" />
-      <module_usage name="pandas._libs.tslibs.NaT" finding="not-found" line="20" />
-      <module_usage name="pandas._libs.tslibs.Timedelta" finding="not-found" line="20" />
-      <module_usage name="pandas._libs.tslibs.Timestamp" finding="not-found" line="20" />
-      <module_usage name="pandas._libs.tslibs.timezones" finding="relative" line="20" />
-      <module_usage name="pandas.compat" finding="absolute" line="26" />
-      <module_usage name="pandas.compat.pa_version_under10p1" finding="not-found" line="26" />
-      <module_usage name="pandas.compat.pa_version_under11p0" finding="not-found" line="26" />
-      <module_usage name="pandas.compat.pa_version_under13p0" finding="not-found" line="26" />
-      <module_usage name="pandas.util._decorators" finding="absolute" line="31" />
-      <module_usage name="pandas.util._exceptions" finding="absolute" line="32" />
-      <module_usage name="pandas.util._validators" finding="absolute" line="33" />
-      <module_usage name="pandas.core.dtypes.cast" finding="absolute" line="35" />
-      <module_usage name="pandas.core.dtypes.common" finding="absolute" line="39" />
-      <module_usage name="pandas.core.dtypes.dtypes" finding="absolute" line="49" />
-      <module_usage name="pandas.core.dtypes.missing" finding="absolute" line="50" />
-      <module_usage name="pandas.core" finding="absolute" line="52" />
-      <module_usage name="pandas.core.algorithms" finding="relative" line="52" />
-      <module_usage name="pandas.core.missing" finding="relative" line="52" />
-      <module_usage name="pandas.core.ops" finding="relative" line="52" />
-      <module_usage name="pandas.core.roperator" finding="relative" line="52" />
-      <module_usage name="pandas.core.algorithms" finding="absolute" line="58" />
-      <module_usage name="pandas.core.arraylike" finding="absolute" line="59" />
-      <module_usage name="pandas.core.arrays._arrow_string_mixins" finding="absolute" line="60" />
-      <module_usage name="pandas.core.arrays._utils" finding="absolute" line="61" />
-      <module_usage name="pandas.core.arrays.base" finding="absolute" line="62" />
-      <module_usage name="pandas.core.arrays.masked" finding="absolute" line="66" />
-      <module_usage name="pandas.core.arrays.string_" finding="absolute" line="67" />
-      <module_usage name="pandas.core.common" finding="absolute" line="68" />
-      <module_usage name="pandas.core.indexers" finding="absolute" line="69" />
-      <module_usage name="pandas.core.indexers.check_array_indexer" finding="not-found" line="69" />
-      <module_usage name="pandas.core.indexers.unpack_tuple_and_ellipses" finding="not-found" line="69" />
-      <module_usage name="pandas.core.indexers.validate_indices" finding="not-found" line="69" />
-      <module_usage name="pandas.core.nanops" finding="absolute" line="74" />
-      <module_usage name="pandas.core.strings.base" finding="absolute" line="75" />
-      <module_usage name="pandas.io._util" finding="absolute" line="77" />
-      <module_usage name="pandas.tseries.frequencies" finding="absolute" line="78" />
-      <module_usage name="pyarrow" finding="absolute" line="81" />
-      <module_usage name="pyarrow.compute" finding="absolute" line="82" />
-      <module_usage name="pandas.core.dtypes.dtypes" finding="absolute" line="84" />
-      <module_usage name="pandas.core.tools.datetimes" finding="absolute" line="334" />
-      <module_usage name="pandas.core.tools.datetimes" finding="absolute" line="338" />
-      <module_usage name="pandas.core.tools.timedeltas" finding="absolute" line="342" />
-      <module_usage name="pandas.core.tools.times" finding="absolute" line="358" />
-      <module_usage name="pandas.core.tools.numeric" finding="absolute" line="381" />
-      <module_usage name="pandas.core.tools.timedeltas" finding="absolute" line="496" />
-      <module_usage name="pandas.core.tools.timedeltas" finding="absolute" line="509" />
-      <module_usage name="pandas.core.arrays.datetimes" finding="absolute" line="1397" />
-      <module_usage name="pandas.core.arrays.timedeltas" finding="absolute" line="1412" />
-      <module_usage name="pandas" finding="absolute" line="1562" />
-      <module_usage name="pandas.Index" finding="not-found" line="1562" />
-      <module_usage name="pandas.Series" finding="not-found" line="1562" />
-      <module_usage name="functools" finding="absolute" line="2556" />
-      <module_usage name="functools" finding="absolute" line="2558" />
+      <module_usage name="pathlib" finding="absolute" line="5" />
+      <module_usage name="pathlib.Path" finding="not-found" line="5" />
+      <module_usage name="re" finding="absolute" line="6" />
+      <module_usage name="textwrap" finding="absolute" line="7" />
+      <module_usage name="typing" finding="absolute" line="8" />
+      <module_usage name="unicodedata" finding="absolute" line="15" />
+      <module_usage name="warnings" finding="absolute" line="16" />
+      <module_usage name="numpy" finding="absolute" line="18" />
+      <module_usage name="pandas._libs" finding="absolute" line="20" />
+      <module_usage name="pandas._libs.lib" finding="relative" line="20" />
+      <module_usage name="pandas._libs.tslibs" finding="absolute" line="21" />
+      <module_usage name="pandas._libs.tslibs.NaT" finding="not-found" line="21" />
+      <module_usage name="pandas._libs.tslibs.Timedelta" finding="not-found" line="21" />
+      <module_usage name="pandas._libs.tslibs.Timestamp" finding="not-found" line="21" />
+      <module_usage name="pandas._libs.tslibs.timezones" finding="relative" line="21" />
+      <module_usage name="pandas.compat" finding="absolute" line="27" />
+      <module_usage name="pandas.compat.pa_version_under10p1" finding="not-found" line="27" />
+      <module_usage name="pandas.compat.pa_version_under11p0" finding="not-found" line="27" />
+      <module_usage name="pandas.compat.pa_version_under13p0" finding="not-found" line="27" />
+      <module_usage name="pandas.util._decorators" finding="absolute" line="32" />
+      <module_usage name="pandas.util._exceptions" finding="absolute" line="33" />
+      <module_usage name="pandas.util._validators" finding="absolute" line="34" />
+      <module_usage name="pandas.core.dtypes.cast" finding="absolute" line="36" />
+      <module_usage name="pandas.core.dtypes.common" finding="absolute" line="40" />
+      <module_usage name="pandas.core.dtypes.dtypes" finding="absolute" line="50" />
+      <module_usage name="pandas.core.dtypes.missing" finding="absolute" line="51" />
+      <module_usage name="pandas.core" finding="absolute" line="53" />
+      <module_usage name="pandas.core.algorithms" finding="relative" line="53" />
+      <module_usage name="pandas.core.missing" finding="relative" line="53" />
+      <module_usage name="pandas.core.ops" finding="relative" line="53" />
+      <module_usage name="pandas.core.roperator" finding="relative" line="53" />
+      <module_usage name="pandas.core.algorithms" finding="absolute" line="59" />
+      <module_usage name="pandas.core.arraylike" finding="absolute" line="60" />
+      <module_usage name="pandas.core.arrays._arrow_string_mixins" finding="absolute" line="61" />
+      <module_usage name="pandas.core.arrays._utils" finding="absolute" line="62" />
+      <module_usage name="pandas.core.arrays.base" finding="absolute" line="63" />
+      <module_usage name="pandas.core.arrays.masked" finding="absolute" line="67" />
+      <module_usage name="pandas.core.arrays.string_" finding="absolute" line="68" />
+      <module_usage name="pandas.core.common" finding="absolute" line="69" />
+      <module_usage name="pandas.core.indexers" finding="absolute" line="70" />
+      <module_usage name="pandas.core.indexers.check_array_indexer" finding="not-found" line="70" />
+      <module_usage name="pandas.core.indexers.unpack_tuple_and_ellipses" finding="not-found" line="70" />
+      <module_usage name="pandas.core.indexers.validate_indices" finding="not-found" line="70" />
+      <module_usage name="pandas.core.nanops" finding="absolute" line="75" />
+      <module_usage name="pandas.core.strings.base" finding="absolute" line="76" />
+      <module_usage name="pandas.io._util" finding="absolute" line="78" />
+      <module_usage name="pandas.tseries.frequencies" finding="absolute" line="79" />
+      <module_usage name="pyarrow" finding="absolute" line="82" />
+      <module_usage name="pyarrow.compute" finding="absolute" line="83" />
+      <module_usage name="pandas.core.dtypes.dtypes" finding="absolute" line="85" />
+      <module_usage name="pandas.core.tools.datetimes" finding="absolute" line="335" />
+      <module_usage name="pandas.core.tools.datetimes" finding="absolute" line="339" />
+      <module_usage name="pandas.core.tools.timedeltas" finding="absolute" line="343" />
+      <module_usage name="pandas.core.tools.times" finding="absolute" line="359" />
+      <module_usage name="pandas.core.tools.numeric" finding="absolute" line="382" />
+      <module_usage name="pandas.core.tools.timedeltas" finding="absolute" line="497" />
+      <module_usage name="pandas.core.tools.timedeltas" finding="absolute" line="510" />
+      <module_usage name="pandas.core.arrays.datetimes" finding="absolute" line="1420" />
+      <module_usage name="pandas.core.arrays.timedeltas" finding="absolute" line="1435" />
+      <module_usage name="pandas" finding="absolute" line="1585" />
+      <module_usage name="pandas.Index" finding="not-found" line="1585" />
+      <module_usage name="pandas.Series" finding="not-found" line="1585" />
+      <module_usage name="functools" finding="absolute" line="2579" />
+      <module_usage name="functools" finding="absolute" line="2581" />
     </module_usages>
   </module>
   <module name="pandas.core.arrays.arrow.extension_types" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\pandas\core\arrays\arrow\extension_types.py" distribution="pandas">
@@ -9432,8 +9435,8 @@
     </module_usages>
   </module>
   <module name="pandas.core.arrays.numpy_" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\pandas\core\arrays\numpy_.py" distribution="pandas">
-    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="57" merged_total="3009" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="56" merged_total="557" />
+    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="57" merged_total="3065" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="56" merged_total="566" />
     <distribution-usages>
       <distribution-usage name="numpy" />
     </distribution-usages>
@@ -9461,8 +9464,8 @@
       <module_usage name="pandas.core.arrays._mixins" finding="absolute" line="28" />
       <module_usage name="pandas.core.construction" finding="absolute" line="29" />
       <module_usage name="pandas.core.strings.object_array" finding="absolute" line="30" />
-      <module_usage name="pandas.core.arrays" finding="absolute" line="562" />
-      <module_usage name="pandas.core.arrays.TimedeltaArray" finding="not-found" line="562" />
+      <module_usage name="pandas.core.arrays" finding="absolute" line="570" />
+      <module_usage name="pandas.core.arrays.TimedeltaArray" finding="not-found" line="570" />
     </module_usages>
   </module>
   <module name="pandas.core.arrays.period" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\pandas\core\arrays\period.py" distribution="pandas">
@@ -9624,8 +9627,8 @@
     </module_usages>
   </module>
   <module name="pandas.core.arrays.string_" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\pandas\core\arrays\string_.py" distribution="pandas">
-    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="123" merged_total="7772" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="105" merged_total="1417" />
+    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="126" merged_total="7851" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="107" merged_total="1437" />
     <distribution-usages>
       <distribution-usage name="numpy" />
       <distribution-usage name="pyarrow" />
@@ -9634,62 +9637,64 @@
       <module_usage name="__future__" finding="absolute" line="1" />
       <module_usage name="functools" finding="absolute" line="3" />
       <module_usage name="operator" finding="absolute" line="4" />
-      <module_usage name="typing" finding="absolute" line="5" />
-      <module_usage name="warnings" finding="absolute" line="11" />
-      <module_usage name="numpy" finding="absolute" line="13" />
-      <module_usage name="pandas._config" finding="absolute" line="15" />
-      <module_usage name="pandas._config.get_option" finding="not-found" line="15" />
-      <module_usage name="pandas._config.using_string_dtype" finding="not-found" line="15" />
-      <module_usage name="pandas._libs" finding="absolute" line="20" />
-      <module_usage name="pandas._libs.lib" finding="relative" line="20" />
-      <module_usage name="pandas._libs.missing" finding="relative" line="20" />
-      <module_usage name="pandas._libs.arrays" finding="absolute" line="24" />
-      <module_usage name="pandas._libs.lib" finding="absolute" line="25" />
-      <module_usage name="pandas.compat" finding="absolute" line="26" />
-      <module_usage name="pandas.compat.HAS_PYARROW" finding="not-found" line="26" />
-      <module_usage name="pandas.compat.pa_version_under10p1" finding="not-found" line="26" />
-      <module_usage name="pandas.compat.numpy" finding="absolute" line="30" />
-      <module_usage name="pandas.compat.numpy.function" finding="relative" line="30" />
-      <module_usage name="pandas.util._decorators" finding="absolute" line="31" />
-      <module_usage name="pandas.util._exceptions" finding="absolute" line="32" />
-      <module_usage name="pandas.core.dtypes.base" finding="absolute" line="34" />
-      <module_usage name="pandas.core.dtypes.common" finding="absolute" line="39" />
-      <module_usage name="pandas.core" finding="absolute" line="48" />
-      <module_usage name="pandas.core.missing" finding="relative" line="48" />
-      <module_usage name="pandas.core.nanops" finding="relative" line="48" />
-      <module_usage name="pandas.core.ops" finding="relative" line="48" />
-      <module_usage name="pandas.core.roperator" finding="relative" line="48" />
-      <module_usage name="pandas.core.algorithms" finding="absolute" line="54" />
-      <module_usage name="pandas.core.array_algos" finding="absolute" line="55" />
-      <module_usage name="pandas.core.array_algos.masked_reductions" finding="relative" line="55" />
-      <module_usage name="pandas.core.arrays.base" finding="absolute" line="56" />
-      <module_usage name="pandas.core.arrays.floating" finding="absolute" line="57" />
-      <module_usage name="pandas.core.arrays.integer" finding="absolute" line="61" />
-      <module_usage name="pandas.core.arrays.numpy_" finding="absolute" line="65" />
-      <module_usage name="pandas.core.construction" finding="absolute" line="66" />
-      <module_usage name="pandas.core.indexers" finding="absolute" line="67" />
-      <module_usage name="pandas.core.indexers.check_array_indexer" finding="not-found" line="67" />
-      <module_usage name="pandas.core.missing" finding="absolute" line="68" />
-      <module_usage name="pandas.io.formats" finding="absolute" line="70" />
-      <module_usage name="pandas.io.formats.printing" finding="relative" line="70" />
-      <module_usage name="pandas.core.arrays.string_arrow" finding="absolute" line="294" />
-      <module_usage name="pandas.core.arrays.string_arrow" finding="absolute" line="344" />
-      <module_usage name="pandas.core.arrays.string_arrow" finding="absolute" line="348" />
-      <module_usage name="pyarrow" finding="absolute" line="355" />
-      <module_usage name="pandas.arrays" finding="absolute" line="442" />
-      <module_usage name="pandas.arrays.BooleanArray" finding="not-found" line="442" />
-      <module_usage name="pyarrow" finding="absolute" line="500" />
-      <module_usage name="pandas.core.arrays.masked" finding="absolute" line="707" />
-      <module_usage name="pyarrow" finding="absolute" line="749" />
-      <module_usage name="pandas.core.algorithms" finding="absolute" line="1014" />
-      <module_usage name="pandas.arrays" finding="absolute" line="1045" />
-      <module_usage name="pandas.arrays.ArrowExtensionArray" finding="not-found" line="1045" />
-      <module_usage name="pandas.arrays.BooleanArray" finding="not-found" line="1045" />
+      <module_usage name="pathlib" finding="absolute" line="5" />
+      <module_usage name="pathlib.Path" finding="not-found" line="5" />
+      <module_usage name="typing" finding="absolute" line="6" />
+      <module_usage name="warnings" finding="absolute" line="12" />
+      <module_usage name="numpy" finding="absolute" line="14" />
+      <module_usage name="pandas._config" finding="absolute" line="16" />
+      <module_usage name="pandas._config.get_option" finding="not-found" line="16" />
+      <module_usage name="pandas._config.using_string_dtype" finding="not-found" line="16" />
+      <module_usage name="pandas._libs" finding="absolute" line="21" />
+      <module_usage name="pandas._libs.lib" finding="relative" line="21" />
+      <module_usage name="pandas._libs.missing" finding="relative" line="21" />
+      <module_usage name="pandas._libs.arrays" finding="absolute" line="25" />
+      <module_usage name="pandas._libs.lib" finding="absolute" line="26" />
+      <module_usage name="pandas.compat" finding="absolute" line="27" />
+      <module_usage name="pandas.compat.HAS_PYARROW" finding="not-found" line="27" />
+      <module_usage name="pandas.compat.pa_version_under10p1" finding="not-found" line="27" />
+      <module_usage name="pandas.compat.numpy" finding="absolute" line="31" />
+      <module_usage name="pandas.compat.numpy.function" finding="relative" line="31" />
+      <module_usage name="pandas.util._decorators" finding="absolute" line="32" />
+      <module_usage name="pandas.util._exceptions" finding="absolute" line="33" />
+      <module_usage name="pandas.core.dtypes.base" finding="absolute" line="35" />
+      <module_usage name="pandas.core.dtypes.common" finding="absolute" line="40" />
+      <module_usage name="pandas.core" finding="absolute" line="49" />
+      <module_usage name="pandas.core.missing" finding="relative" line="49" />
+      <module_usage name="pandas.core.nanops" finding="relative" line="49" />
+      <module_usage name="pandas.core.ops" finding="relative" line="49" />
+      <module_usage name="pandas.core.roperator" finding="relative" line="49" />
+      <module_usage name="pandas.core.algorithms" finding="absolute" line="55" />
+      <module_usage name="pandas.core.array_algos" finding="absolute" line="56" />
+      <module_usage name="pandas.core.array_algos.masked_reductions" finding="relative" line="56" />
+      <module_usage name="pandas.core.arrays.base" finding="absolute" line="57" />
+      <module_usage name="pandas.core.arrays.floating" finding="absolute" line="58" />
+      <module_usage name="pandas.core.arrays.integer" finding="absolute" line="62" />
+      <module_usage name="pandas.core.arrays.numpy_" finding="absolute" line="66" />
+      <module_usage name="pandas.core.construction" finding="absolute" line="67" />
+      <module_usage name="pandas.core.indexers" finding="absolute" line="68" />
+      <module_usage name="pandas.core.indexers.check_array_indexer" finding="not-found" line="68" />
+      <module_usage name="pandas.core.missing" finding="absolute" line="69" />
+      <module_usage name="pandas.io.formats" finding="absolute" line="71" />
+      <module_usage name="pandas.io.formats.printing" finding="relative" line="71" />
+      <module_usage name="pandas.core.arrays.string_arrow" finding="absolute" line="295" />
+      <module_usage name="pandas.core.arrays.string_arrow" finding="absolute" line="345" />
+      <module_usage name="pandas.core.arrays.string_arrow" finding="absolute" line="349" />
+      <module_usage name="pyarrow" finding="absolute" line="356" />
+      <module_usage name="pandas.arrays" finding="absolute" line="443" />
+      <module_usage name="pandas.arrays.BooleanArray" finding="not-found" line="443" />
+      <module_usage name="pyarrow" finding="absolute" line="501" />
+      <module_usage name="pandas.core.arrays.masked" finding="absolute" line="708" />
+      <module_usage name="pyarrow" finding="absolute" line="750" />
+      <module_usage name="pandas.core.algorithms" finding="absolute" line="1015" />
+      <module_usage name="pandas.arrays" finding="absolute" line="1046" />
+      <module_usage name="pandas.arrays.ArrowExtensionArray" finding="not-found" line="1046" />
+      <module_usage name="pandas.arrays.BooleanArray" finding="not-found" line="1046" />
     </module_usages>
   </module>
   <module name="pandas.core.arrays.string_arrow" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\pandas\core\arrays\string_arrow.py" distribution="pandas">
-    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="176" merged_total="5312" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="172" merged_total="999" />
+    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="184" merged_total="5925" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="178" merged_total="1109" />
     <distribution-usages>
       <distribution-usage name="numpy" />
       <distribution-usage name="pyarrow" />
@@ -9722,7 +9727,7 @@
       <module_usage name="pandas.core.strings.object_array" finding="absolute" line="41" />
       <module_usage name="pyarrow" finding="absolute" line="44" />
       <module_usage name="pyarrow.compute" finding="absolute" line="45" />
-      <module_usage name="pandas.core.arrays.masked" finding="absolute" line="180" />
+      <module_usage name="pandas.core.arrays.masked" finding="absolute" line="181" />
     </module_usages>
   </module>
   <module name="pandas.core.arrays.timedeltas" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\pandas\core\arrays\timedeltas.py" distribution="pandas">
@@ -10260,13 +10265,13 @@
       <module_usage name="pandas.core.arrays" finding="absolute" line="650" />
       <module_usage name="pandas.core.arrays.DatetimeArray" finding="not-found" line="650" />
       <module_usage name="pandas.core.arrays.string_" finding="absolute" line="802" />
-      <module_usage name="pandas.core.arrays.string_" finding="absolute" line="1028" />
-      <module_usage name="pandas.core.arrays.integer" finding="absolute" line="1050" />
-      <module_usage name="pandas.core.arrays.floating" finding="absolute" line="1072" />
-      <module_usage name="pandas.core.arrays.arrow.array" finding="absolute" line="1119" />
-      <module_usage name="pyarrow" finding="absolute" line="1148" />
-      <module_usage name="pandas.core.arrays.datetimes" finding="absolute" line="1219" />
-      <module_usage name="pandas.core.arrays.timedeltas" finding="absolute" line="1220" />
+      <module_usage name="pandas.core.arrays.string_" finding="absolute" line="1030" />
+      <module_usage name="pandas.core.arrays.integer" finding="absolute" line="1052" />
+      <module_usage name="pandas.core.arrays.floating" finding="absolute" line="1074" />
+      <module_usage name="pandas.core.arrays.arrow.array" finding="absolute" line="1121" />
+      <module_usage name="pyarrow" finding="absolute" line="1150" />
+      <module_usage name="pandas.core.arrays.datetimes" finding="absolute" line="1221" />
+      <module_usage name="pandas.core.arrays.timedeltas" finding="absolute" line="1222" />
     </module_usages>
   </module>
   <module name="pandas.core.dtypes.common" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\pandas\core\dtypes\common.py" distribution="pandas">
@@ -10490,8 +10495,8 @@
     </module_usages>
   </module>
   <module name="pandas.core.frame" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\pandas\core\frame.py" distribution="pandas">
-    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="1187" merged_total="66159" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="1182" merged_total="9050" />
+    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="1187" merged_total="66413" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="1182" merged_total="9086" />
     <distribution-usages>
       <distribution-usage name="numpy" />
     </distribution-usages>
@@ -10527,108 +10532,109 @@
       <module_usage name="pandas.compat" finding="absolute" line="56" />
       <module_usage name="pandas.compat.PYPY" finding="not-found" line="56" />
       <module_usage name="pandas.compat._constants" finding="absolute" line="57" />
-      <module_usage name="pandas.compat._optional" finding="absolute" line="58" />
-      <module_usage name="pandas.compat.numpy" finding="absolute" line="59" />
-      <module_usage name="pandas.compat.numpy.function" finding="relative" line="59" />
-      <module_usage name="pandas.errors" finding="absolute" line="60" />
-      <module_usage name="pandas.errors.ChainedAssignmentError" finding="not-found" line="60" />
-      <module_usage name="pandas.errors.InvalidIndexError" finding="not-found" line="60" />
-      <module_usage name="pandas.errors._chained_assignment_method_msg" finding="not-found" line="60" />
-      <module_usage name="pandas.errors._chained_assignment_msg" finding="not-found" line="60" />
-      <module_usage name="pandas.errors._chained_assignment_warning_method_msg" finding="not-found" line="60" />
-      <module_usage name="pandas.errors._chained_assignment_warning_msg" finding="not-found" line="60" />
-      <module_usage name="pandas.util._decorators" finding="absolute" line="68" />
-      <module_usage name="pandas.util._exceptions" finding="absolute" line="74" />
-      <module_usage name="pandas.util._validators" finding="absolute" line="78" />
-      <module_usage name="pandas.core.dtypes.cast" finding="absolute" line="84" />
-      <module_usage name="pandas.core.dtypes.common" finding="absolute" line="95" />
-      <module_usage name="pandas.core.dtypes.concat" finding="absolute" line="114" />
-      <module_usage name="pandas.core.dtypes.dtypes" finding="absolute" line="115" />
-      <module_usage name="pandas.core.dtypes.missing" finding="absolute" line="120" />
-      <module_usage name="pandas.core" finding="absolute" line="125" />
-      <module_usage name="pandas.core.algorithms" finding="relative" line="125" />
-      <module_usage name="pandas.core.common" finding="relative" line="125" />
-      <module_usage name="pandas.core.nanops" finding="relative" line="125" />
-      <module_usage name="pandas.core.ops" finding="relative" line="125" />
-      <module_usage name="pandas.core.roperator" finding="relative" line="125" />
-      <module_usage name="pandas.core.accessor" finding="absolute" line="132" />
-      <module_usage name="pandas.core.apply" finding="absolute" line="133" />
-      <module_usage name="pandas.core.array_algos.take" finding="absolute" line="134" />
-      <module_usage name="pandas.core.arraylike" finding="absolute" line="135" />
-      <module_usage name="pandas.core.arrays" finding="absolute" line="136" />
-      <module_usage name="pandas.core.arrays.BaseMaskedArray" finding="not-found" line="136" />
-      <module_usage name="pandas.core.arrays.DatetimeArray" finding="not-found" line="136" />
-      <module_usage name="pandas.core.arrays.ExtensionArray" finding="not-found" line="136" />
-      <module_usage name="pandas.core.arrays.PeriodArray" finding="not-found" line="136" />
-      <module_usage name="pandas.core.arrays.TimedeltaArray" finding="not-found" line="136" />
-      <module_usage name="pandas.core.arrays.sparse" finding="absolute" line="143" />
-      <module_usage name="pandas.core.arrays.sparse.SparseFrameAccessor" finding="not-found" line="143" />
-      <module_usage name="pandas.core.construction" finding="absolute" line="144" />
-      <module_usage name="pandas.core.generic" finding="absolute" line="149" />
-      <module_usage name="pandas.core.indexers" finding="absolute" line="153" />
-      <module_usage name="pandas.core.indexers.check_key_length" finding="not-found" line="153" />
-      <module_usage name="pandas.core.indexes.api" finding="absolute" line="154" />
-      <module_usage name="pandas.core.indexes.multi" finding="absolute" line="162" />
-      <module_usage name="pandas.core.indexing" finding="absolute" line="166" />
-      <module_usage name="pandas.core.internals" finding="absolute" line="170" />
-      <module_usage name="pandas.core.internals.ArrayManager" finding="not-found" line="170" />
-      <module_usage name="pandas.core.internals.BlockManager" finding="not-found" line="170" />
-      <module_usage name="pandas.core.internals.construction" finding="absolute" line="174" />
-      <module_usage name="pandas.core.methods" finding="absolute" line="186" />
-      <module_usage name="pandas.core.methods.selectn" finding="relative" line="186" />
-      <module_usage name="pandas.core.reshape.melt" finding="absolute" line="187" />
-      <module_usage name="pandas.core.series" finding="absolute" line="188" />
-      <module_usage name="pandas.core.shared_docs" finding="absolute" line="189" />
-      <module_usage name="pandas.core.sorting" finding="absolute" line="190" />
-      <module_usage name="pandas.io.common" finding="absolute" line="196" />
-      <module_usage name="pandas.io.formats" finding="absolute" line="197" />
-      <module_usage name="pandas.io.formats.console" finding="relative" line="197" />
-      <module_usage name="pandas.io.formats.format" finding="relative" line="197" />
-      <module_usage name="pandas.io.formats.info" finding="absolute" line="201" />
-      <module_usage name="pandas.plotting" finding="absolute" line="206" />
-      <module_usage name="numpy.ma" finding="absolute" line="780" />
-      <module_usage name="numpy.ma.mrecords" finding="relative" line="780" />
-      <module_usage name="pandas.core.interchange.dataframe" finding="absolute" line="982" />
-      <module_usage name="pandas" finding="absolute" line="1373" />
-      <module_usage name="pandas.option_context" finding="not-found" line="1373" />
-      <module_usage name="pandas.io.formats.style" finding="absolute" line="1447" />
-      <module_usage name="pandas.core.methods.to_dict" finding="absolute" line="2181" />
-      <module_usage name="pandas.io" finding="absolute" line="2307" />
-      <module_usage name="pandas.io.gbq" finding="relative" line="2307" />
-      <module_usage name="pandas.io.stata" finding="absolute" line="2876" />
-      <module_usage name="pandas.io.stata" finding="absolute" line="2880" />
+      <module_usage name="pandas.compat._optional" finding="absolute" line="61" />
+      <module_usage name="pandas.compat.numpy" finding="absolute" line="62" />
+      <module_usage name="pandas.compat.numpy.function" finding="relative" line="62" />
+      <module_usage name="pandas.errors" finding="absolute" line="63" />
+      <module_usage name="pandas.errors.ChainedAssignmentError" finding="not-found" line="63" />
+      <module_usage name="pandas.errors.InvalidIndexError" finding="not-found" line="63" />
+      <module_usage name="pandas.errors._chained_assignment_method_msg" finding="not-found" line="63" />
+      <module_usage name="pandas.errors._chained_assignment_msg" finding="not-found" line="63" />
+      <module_usage name="pandas.errors._chained_assignment_warning_method_msg" finding="not-found" line="63" />
+      <module_usage name="pandas.errors._chained_assignment_warning_msg" finding="not-found" line="63" />
+      <module_usage name="pandas.util._decorators" finding="absolute" line="71" />
+      <module_usage name="pandas.util._exceptions" finding="absolute" line="77" />
+      <module_usage name="pandas.util._validators" finding="absolute" line="81" />
+      <module_usage name="pandas.core.dtypes.cast" finding="absolute" line="87" />
+      <module_usage name="pandas.core.dtypes.common" finding="absolute" line="98" />
+      <module_usage name="pandas.core.dtypes.concat" finding="absolute" line="117" />
+      <module_usage name="pandas.core.dtypes.dtypes" finding="absolute" line="118" />
+      <module_usage name="pandas.core.dtypes.missing" finding="absolute" line="123" />
+      <module_usage name="pandas.core" finding="absolute" line="128" />
+      <module_usage name="pandas.core.algorithms" finding="relative" line="128" />
+      <module_usage name="pandas.core.common" finding="relative" line="128" />
+      <module_usage name="pandas.core.nanops" finding="relative" line="128" />
+      <module_usage name="pandas.core.ops" finding="relative" line="128" />
+      <module_usage name="pandas.core.roperator" finding="relative" line="128" />
+      <module_usage name="pandas.core.accessor" finding="absolute" line="135" />
+      <module_usage name="pandas.core.apply" finding="absolute" line="136" />
+      <module_usage name="pandas.core.array_algos.take" finding="absolute" line="137" />
+      <module_usage name="pandas.core.arraylike" finding="absolute" line="138" />
+      <module_usage name="pandas.core.arrays" finding="absolute" line="139" />
+      <module_usage name="pandas.core.arrays.BaseMaskedArray" finding="not-found" line="139" />
+      <module_usage name="pandas.core.arrays.DatetimeArray" finding="not-found" line="139" />
+      <module_usage name="pandas.core.arrays.ExtensionArray" finding="not-found" line="139" />
+      <module_usage name="pandas.core.arrays.PeriodArray" finding="not-found" line="139" />
+      <module_usage name="pandas.core.arrays.TimedeltaArray" finding="not-found" line="139" />
+      <module_usage name="pandas.core.arrays.sparse" finding="absolute" line="146" />
+      <module_usage name="pandas.core.arrays.sparse.SparseFrameAccessor" finding="not-found" line="146" />
+      <module_usage name="pandas.core.arrays.string_" finding="absolute" line="147" />
+      <module_usage name="pandas.core.construction" finding="absolute" line="148" />
+      <module_usage name="pandas.core.generic" finding="absolute" line="153" />
+      <module_usage name="pandas.core.indexers" finding="absolute" line="157" />
+      <module_usage name="pandas.core.indexers.check_key_length" finding="not-found" line="157" />
+      <module_usage name="pandas.core.indexes.api" finding="absolute" line="158" />
+      <module_usage name="pandas.core.indexes.multi" finding="absolute" line="166" />
+      <module_usage name="pandas.core.indexing" finding="absolute" line="170" />
+      <module_usage name="pandas.core.internals" finding="absolute" line="174" />
+      <module_usage name="pandas.core.internals.ArrayManager" finding="not-found" line="174" />
+      <module_usage name="pandas.core.internals.BlockManager" finding="not-found" line="174" />
+      <module_usage name="pandas.core.internals.construction" finding="absolute" line="178" />
+      <module_usage name="pandas.core.methods" finding="absolute" line="190" />
+      <module_usage name="pandas.core.methods.selectn" finding="relative" line="190" />
+      <module_usage name="pandas.core.reshape.melt" finding="absolute" line="191" />
+      <module_usage name="pandas.core.series" finding="absolute" line="192" />
+      <module_usage name="pandas.core.shared_docs" finding="absolute" line="193" />
+      <module_usage name="pandas.core.sorting" finding="absolute" line="194" />
+      <module_usage name="pandas.io.common" finding="absolute" line="200" />
+      <module_usage name="pandas.io.formats" finding="absolute" line="201" />
+      <module_usage name="pandas.io.formats.console" finding="relative" line="201" />
+      <module_usage name="pandas.io.formats.format" finding="relative" line="201" />
+      <module_usage name="pandas.io.formats.info" finding="absolute" line="205" />
+      <module_usage name="pandas.plotting" finding="absolute" line="210" />
+      <module_usage name="numpy.ma" finding="absolute" line="784" />
+      <module_usage name="numpy.ma.mrecords" finding="relative" line="784" />
+      <module_usage name="pandas.core.interchange.dataframe" finding="absolute" line="986" />
+      <module_usage name="pandas" finding="absolute" line="1377" />
+      <module_usage name="pandas.option_context" finding="not-found" line="1377" />
+      <module_usage name="pandas.io.formats.style" finding="absolute" line="1451" />
+      <module_usage name="pandas.core.methods.to_dict" finding="absolute" line="2185" />
+      <module_usage name="pandas.io" finding="absolute" line="2311" />
+      <module_usage name="pandas.io.gbq" finding="relative" line="2311" />
+      <module_usage name="pandas.io.stata" finding="absolute" line="2882" />
       <module_usage name="pandas.io.stata" finding="absolute" line="2886" />
-      <module_usage name="pandas.io.feather_format" finding="absolute" line="2941" />
-      <module_usage name="pandas.io.parquet" finding="absolute" line="3116" />
-      <module_usage name="pandas.io.orc" finding="absolute" line="3211" />
-      <module_usage name="pandas.io.formats.xml" finding="absolute" line="3606" />
-      <module_usage name="pandas.core.arrays.masked" finding="absolute" line="3910" />
-      <module_usage name="pandas.core.arrays.arrow.array" finding="absolute" line="3919" />
-      <module_usage name="pandas.core.computation.eval" finding="absolute" line="4943" />
-      <module_usage name="pandas.core.reshape.concat" finding="absolute" line="5895" />
-      <module_usage name="pandas.core.computation" finding="absolute" line="8834" />
-      <module_usage name="pandas.core.computation.expressions" finding="relative" line="8834" />
-      <module_usage name="pandas.core.groupby.generic" finding="absolute" line="9185" />
-      <module_usage name="pandas.core.reshape.pivot" finding="absolute" line="9344" />
-      <module_usage name="pandas.core.reshape.pivot" finding="absolute" line="9514" />
-      <module_usage name="pandas.core.reshape.reshape" finding="absolute" line="9680" />
-      <module_usage name="pandas.core.reshape.reshape" finding="absolute" line="9709" />
-      <module_usage name="pandas.core.reshape.reshape" finding="absolute" line="9933" />
-      <module_usage name="pandas.core.apply" finding="absolute" line="10151" />
-      <module_usage name="pandas.core.apply" finding="absolute" line="10170" />
-      <module_usage name="pandas.core.apply" finding="absolute" line="10367" />
-      <module_usage name="functools" finding="absolute" line="10470" />
-      <module_usage name="pandas.core.reshape.concat" finding="absolute" line="10572" />
-      <module_usage name="pandas.core.reshape.concat" finding="absolute" line="10745" />
-      <module_usage name="pandas.core.reshape.merge" finding="absolute" line="10746" />
-      <module_usage name="pandas.core.reshape.merge" finding="absolute" line="10837" />
-      <module_usage name="pandas.core.reshape.concat" finding="absolute" line="10934" />
-      <module_usage name="pandas.core.reshape.concat" finding="absolute" line="12451" />
+      <module_usage name="pandas.io.stata" finding="absolute" line="2892" />
+      <module_usage name="pandas.io.feather_format" finding="absolute" line="2947" />
+      <module_usage name="pandas.io.parquet" finding="absolute" line="3122" />
+      <module_usage name="pandas.io.orc" finding="absolute" line="3217" />
+      <module_usage name="pandas.io.formats.xml" finding="absolute" line="3612" />
+      <module_usage name="pandas.core.arrays.masked" finding="absolute" line="3916" />
+      <module_usage name="pandas.core.arrays.arrow.array" finding="absolute" line="3925" />
+      <module_usage name="pandas.core.computation.eval" finding="absolute" line="4949" />
+      <module_usage name="pandas.core.reshape.concat" finding="absolute" line="5910" />
+      <module_usage name="pandas.core.computation" finding="absolute" line="8849" />
+      <module_usage name="pandas.core.computation.expressions" finding="relative" line="8849" />
+      <module_usage name="pandas.core.groupby.generic" finding="absolute" line="9205" />
+      <module_usage name="pandas.core.reshape.pivot" finding="absolute" line="9364" />
+      <module_usage name="pandas.core.reshape.pivot" finding="absolute" line="9534" />
+      <module_usage name="pandas.core.reshape.reshape" finding="absolute" line="9700" />
+      <module_usage name="pandas.core.reshape.reshape" finding="absolute" line="9729" />
+      <module_usage name="pandas.core.reshape.reshape" finding="absolute" line="9953" />
+      <module_usage name="pandas.core.apply" finding="absolute" line="10171" />
+      <module_usage name="pandas.core.apply" finding="absolute" line="10190" />
+      <module_usage name="pandas.core.apply" finding="absolute" line="10387" />
+      <module_usage name="functools" finding="absolute" line="10490" />
+      <module_usage name="pandas.core.reshape.concat" finding="absolute" line="10592" />
+      <module_usage name="pandas.core.reshape.concat" finding="absolute" line="10765" />
+      <module_usage name="pandas.core.reshape.merge" finding="absolute" line="10766" />
+      <module_usage name="pandas.core.reshape.merge" finding="absolute" line="10857" />
+      <module_usage name="pandas.core.reshape.concat" finding="absolute" line="10954" />
+      <module_usage name="pandas.core.reshape.concat" finding="absolute" line="12471" />
     </module_usages>
   </module>
   <module name="pandas.core.generic" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\pandas\core\generic.py" distribution="pandas">
-    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="1285" merged_total="63600" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="1277" merged_total="8671" />
+    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="1282" merged_total="63938" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="1274" merged_total="8720" />
     <distribution-usages>
       <distribution-usage name="numpy" />
     </distribution-usages>
@@ -10666,82 +10672,82 @@
       <module_usage name="pandas.compat" finding="absolute" line="92" />
       <module_usage name="pandas.compat.PYPY" finding="not-found" line="92" />
       <module_usage name="pandas.compat._constants" finding="absolute" line="93" />
-      <module_usage name="pandas.compat._optional" finding="absolute" line="94" />
-      <module_usage name="pandas.compat.numpy" finding="absolute" line="95" />
-      <module_usage name="pandas.compat.numpy.function" finding="relative" line="95" />
-      <module_usage name="pandas.errors" finding="absolute" line="96" />
-      <module_usage name="pandas.errors.AbstractMethodError" finding="not-found" line="96" />
-      <module_usage name="pandas.errors.ChainedAssignmentError" finding="not-found" line="96" />
-      <module_usage name="pandas.errors.InvalidIndexError" finding="not-found" line="96" />
-      <module_usage name="pandas.errors.SettingWithCopyError" finding="not-found" line="96" />
-      <module_usage name="pandas.errors.SettingWithCopyWarning" finding="not-found" line="96" />
-      <module_usage name="pandas.errors._chained_assignment_method_msg" finding="not-found" line="96" />
-      <module_usage name="pandas.errors._chained_assignment_warning_method_msg" finding="not-found" line="96" />
-      <module_usage name="pandas.errors._check_cacher" finding="not-found" line="96" />
-      <module_usage name="pandas.util._decorators" finding="absolute" line="106" />
-      <module_usage name="pandas.util._exceptions" finding="absolute" line="110" />
-      <module_usage name="pandas.util._validators" finding="absolute" line="111" />
-      <module_usage name="pandas.core.dtypes.astype" finding="absolute" line="119" />
-      <module_usage name="pandas.core.dtypes.common" finding="absolute" line="120" />
-      <module_usage name="pandas.core.dtypes.dtypes" finding="absolute" line="135" />
-      <module_usage name="pandas.core.dtypes.generic" finding="absolute" line="139" />
-      <module_usage name="pandas.core.dtypes.inference" finding="absolute" line="143" />
-      <module_usage name="pandas.core.dtypes.missing" finding="absolute" line="147" />
-      <module_usage name="pandas.core" finding="absolute" line="152" />
-      <module_usage name="pandas.core.algorithms" finding="relative" line="152" />
-      <module_usage name="pandas.core.arraylike" finding="relative" line="152" />
-      <module_usage name="pandas.core.common" finding="relative" line="152" />
-      <module_usage name="pandas.core.indexing" finding="relative" line="152" />
-      <module_usage name="pandas.core.missing" finding="relative" line="152" />
-      <module_usage name="pandas.core.nanops" finding="relative" line="152" />
-      <module_usage name="pandas.core.sample" finding="relative" line="152" />
-      <module_usage name="pandas.core.array_algos.replace" finding="absolute" line="161" />
-      <module_usage name="pandas.core.arrays" finding="absolute" line="162" />
-      <module_usage name="pandas.core.arrays.ExtensionArray" finding="not-found" line="162" />
-      <module_usage name="pandas.core.base" finding="absolute" line="163" />
-      <module_usage name="pandas.core.construction" finding="absolute" line="164" />
-      <module_usage name="pandas.core.flags" finding="absolute" line="165" />
-      <module_usage name="pandas.core.indexes.api" finding="absolute" line="166" />
-      <module_usage name="pandas.core.internals" finding="absolute" line="175" />
-      <module_usage name="pandas.core.internals.ArrayManager" finding="not-found" line="175" />
-      <module_usage name="pandas.core.internals.BlockManager" finding="not-found" line="175" />
-      <module_usage name="pandas.core.internals.SingleArrayManager" finding="not-found" line="175" />
-      <module_usage name="pandas.core.internals.construction" finding="absolute" line="180" />
-      <module_usage name="pandas.core.methods.describe" finding="absolute" line="184" />
-      <module_usage name="pandas.core.missing" finding="absolute" line="185" />
-      <module_usage name="pandas.core.reshape.concat" finding="absolute" line="190" />
-      <module_usage name="pandas.core.shared_docs" finding="absolute" line="191" />
-      <module_usage name="pandas.core.sorting" finding="absolute" line="192" />
-      <module_usage name="pandas.core.window" finding="absolute" line="193" />
-      <module_usage name="pandas.core.window.Expanding" finding="not-found" line="193" />
-      <module_usage name="pandas.core.window.ExponentialMovingWindow" finding="not-found" line="193" />
-      <module_usage name="pandas.core.window.Rolling" finding="not-found" line="193" />
-      <module_usage name="pandas.core.window.Window" finding="not-found" line="193" />
-      <module_usage name="pandas.io.formats.format" finding="absolute" line="200" />
-      <module_usage name="pandas.io.formats.printing" finding="absolute" line="204" />
-      <module_usage name="pandas.core.computation.parsing" finding="absolute" line="636" />
-      <module_usage name="pandas.core.computation.parsing" finding="absolute" line="653" />
-      <module_usage name="pandas.core.series" finding="absolute" line="654" />
-      <module_usage name="pandas.io.formats.excel" finding="absolute" line="2423" />
-      <module_usage name="pandas.io" finding="absolute" line="2711" />
-      <module_usage name="pandas.io.json" finding="relative" line="2711" />
-      <module_usage name="pandas.io" finding="absolute" line="2870" />
-      <module_usage name="pandas.io.pytables" finding="relative" line="2870" />
-      <module_usage name="pandas.io" finding="absolute" line="3104" />
-      <module_usage name="pandas.io.sql" finding="relative" line="3104" />
-      <module_usage name="pandas.io.pickle" finding="absolute" line="3182" />
-      <module_usage name="pandas.io" finding="absolute" line="3264" />
-      <module_usage name="pandas.io.clipboards" finding="relative" line="3264" />
-      <module_usage name="pandas.io.formats.style" finding="absolute" line="3742" />
-      <module_usage name="pandas" finding="absolute" line="6618" />
-      <module_usage name="pandas.Series" finding="not-found" line="6618" />
-      <module_usage name="pandas" finding="absolute" line="7354" />
-      <module_usage name="pandas.Series" finding="not-found" line="7354" />
-      <module_usage name="pandas" finding="absolute" line="8014" />
-      <module_usage name="pandas.Series" finding="not-found" line="8014" />
-      <module_usage name="pandas.core.resample" finding="absolute" line="9248" />
-      <module_usage name="pandas.core.resample" finding="absolute" line="9745" />
-      <module_usage name="pandas.core.tools.datetimes" finding="absolute" line="11441" />
+      <module_usage name="pandas.compat._optional" finding="absolute" line="97" />
+      <module_usage name="pandas.compat.numpy" finding="absolute" line="98" />
+      <module_usage name="pandas.compat.numpy.function" finding="relative" line="98" />
+      <module_usage name="pandas.errors" finding="absolute" line="99" />
+      <module_usage name="pandas.errors.AbstractMethodError" finding="not-found" line="99" />
+      <module_usage name="pandas.errors.ChainedAssignmentError" finding="not-found" line="99" />
+      <module_usage name="pandas.errors.InvalidIndexError" finding="not-found" line="99" />
+      <module_usage name="pandas.errors.SettingWithCopyError" finding="not-found" line="99" />
+      <module_usage name="pandas.errors.SettingWithCopyWarning" finding="not-found" line="99" />
+      <module_usage name="pandas.errors._chained_assignment_method_msg" finding="not-found" line="99" />
+      <module_usage name="pandas.errors._chained_assignment_warning_method_msg" finding="not-found" line="99" />
+      <module_usage name="pandas.errors._check_cacher" finding="not-found" line="99" />
+      <module_usage name="pandas.util._decorators" finding="absolute" line="109" />
+      <module_usage name="pandas.util._exceptions" finding="absolute" line="113" />
+      <module_usage name="pandas.util._validators" finding="absolute" line="114" />
+      <module_usage name="pandas.core.dtypes.astype" finding="absolute" line="122" />
+      <module_usage name="pandas.core.dtypes.common" finding="absolute" line="123" />
+      <module_usage name="pandas.core.dtypes.dtypes" finding="absolute" line="138" />
+      <module_usage name="pandas.core.dtypes.generic" finding="absolute" line="142" />
+      <module_usage name="pandas.core.dtypes.inference" finding="absolute" line="146" />
+      <module_usage name="pandas.core.dtypes.missing" finding="absolute" line="150" />
+      <module_usage name="pandas.core" finding="absolute" line="155" />
+      <module_usage name="pandas.core.algorithms" finding="relative" line="155" />
+      <module_usage name="pandas.core.arraylike" finding="relative" line="155" />
+      <module_usage name="pandas.core.common" finding="relative" line="155" />
+      <module_usage name="pandas.core.indexing" finding="relative" line="155" />
+      <module_usage name="pandas.core.missing" finding="relative" line="155" />
+      <module_usage name="pandas.core.nanops" finding="relative" line="155" />
+      <module_usage name="pandas.core.sample" finding="relative" line="155" />
+      <module_usage name="pandas.core.array_algos.replace" finding="absolute" line="164" />
+      <module_usage name="pandas.core.arrays" finding="absolute" line="165" />
+      <module_usage name="pandas.core.arrays.ExtensionArray" finding="not-found" line="165" />
+      <module_usage name="pandas.core.base" finding="absolute" line="166" />
+      <module_usage name="pandas.core.construction" finding="absolute" line="167" />
+      <module_usage name="pandas.core.flags" finding="absolute" line="168" />
+      <module_usage name="pandas.core.indexes.api" finding="absolute" line="169" />
+      <module_usage name="pandas.core.internals" finding="absolute" line="178" />
+      <module_usage name="pandas.core.internals.ArrayManager" finding="not-found" line="178" />
+      <module_usage name="pandas.core.internals.BlockManager" finding="not-found" line="178" />
+      <module_usage name="pandas.core.internals.SingleArrayManager" finding="not-found" line="178" />
+      <module_usage name="pandas.core.internals.construction" finding="absolute" line="183" />
+      <module_usage name="pandas.core.methods.describe" finding="absolute" line="187" />
+      <module_usage name="pandas.core.missing" finding="absolute" line="188" />
+      <module_usage name="pandas.core.reshape.concat" finding="absolute" line="193" />
+      <module_usage name="pandas.core.shared_docs" finding="absolute" line="194" />
+      <module_usage name="pandas.core.sorting" finding="absolute" line="195" />
+      <module_usage name="pandas.core.window" finding="absolute" line="196" />
+      <module_usage name="pandas.core.window.Expanding" finding="not-found" line="196" />
+      <module_usage name="pandas.core.window.ExponentialMovingWindow" finding="not-found" line="196" />
+      <module_usage name="pandas.core.window.Rolling" finding="not-found" line="196" />
+      <module_usage name="pandas.core.window.Window" finding="not-found" line="196" />
+      <module_usage name="pandas.io.formats.format" finding="absolute" line="203" />
+      <module_usage name="pandas.io.formats.printing" finding="absolute" line="207" />
+      <module_usage name="pandas.core.computation.parsing" finding="absolute" line="639" />
+      <module_usage name="pandas.core.computation.parsing" finding="absolute" line="656" />
+      <module_usage name="pandas.core.series" finding="absolute" line="657" />
+      <module_usage name="pandas.io.formats.excel" finding="absolute" line="2426" />
+      <module_usage name="pandas.io" finding="absolute" line="2714" />
+      <module_usage name="pandas.io.json" finding="relative" line="2714" />
+      <module_usage name="pandas.io" finding="absolute" line="2873" />
+      <module_usage name="pandas.io.pytables" finding="relative" line="2873" />
+      <module_usage name="pandas.io" finding="absolute" line="3107" />
+      <module_usage name="pandas.io.sql" finding="relative" line="3107" />
+      <module_usage name="pandas.io.pickle" finding="absolute" line="3185" />
+      <module_usage name="pandas.io" finding="absolute" line="3267" />
+      <module_usage name="pandas.io.clipboards" finding="relative" line="3267" />
+      <module_usage name="pandas.io.formats.style" finding="absolute" line="3745" />
+      <module_usage name="pandas" finding="absolute" line="6621" />
+      <module_usage name="pandas.Series" finding="not-found" line="6621" />
+      <module_usage name="pandas" finding="absolute" line="7358" />
+      <module_usage name="pandas.Series" finding="not-found" line="7358" />
+      <module_usage name="pandas" finding="absolute" line="8021" />
+      <module_usage name="pandas.Series" finding="not-found" line="8021" />
+      <module_usage name="pandas.core.resample" finding="absolute" line="9257" />
+      <module_usage name="pandas.core.resample" finding="absolute" line="9801" />
+      <module_usage name="pandas.core.tools.datetimes" finding="absolute" line="11487" />
     </module_usages>
   </module>
   <module name="pandas.core.groupby" kind="CompiledPythonPackage" usage="import path parent" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\pandas\core\groupby\__init__.py" distribution="pandas">
@@ -10830,8 +10836,8 @@
   </module>
   <module name="pandas.core.groupby.groupby" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\pandas\core\groupby\groupby.py" distribution="pandas">
     <plugin-influence name="anti-bloat" influence="condition-used" condition="not use_numba" tags_used="use_numba" result="true" />
-    <optimization-time pass="1" time="volatile" micro_passes="6" max_branch_merge="582" merged_total="29776" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="582" merged_total="4716" />
+    <optimization-time pass="1" time="volatile" micro_passes="6" max_branch_merge="582" merged_total="30286" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="582" merged_total="4799" />
     <distribution-usages>
       <distribution-usage name="numpy" />
     </distribution-usages>
@@ -10845,66 +10851,68 @@
       <module_usage name="typing" finding="absolute" line="24" />
       <module_usage name="warnings" finding="absolute" line="33" />
       <module_usage name="numpy" finding="absolute" line="35" />
-      <module_usage name="pandas._config.config" finding="absolute" line="37" />
-      <module_usage name="pandas._libs" finding="absolute" line="39" />
-      <module_usage name="pandas._libs.Timestamp" finding="not-found" line="39" />
-      <module_usage name="pandas._libs.lib" finding="relative" line="39" />
-      <module_usage name="pandas._libs.algos" finding="absolute" line="43" />
-      <module_usage name="pandas._libs.groupby" finding="absolute" line="44" />
-      <module_usage name="pandas._libs.missing" finding="absolute" line="45" />
-      <module_usage name="pandas._typing" finding="absolute" line="46" />
-      <module_usage name="pandas.compat.numpy" finding="absolute" line="61" />
-      <module_usage name="pandas.compat.numpy.function" finding="relative" line="61" />
-      <module_usage name="pandas.errors" finding="absolute" line="62" />
-      <module_usage name="pandas.errors.AbstractMethodError" finding="not-found" line="62" />
-      <module_usage name="pandas.errors.DataError" finding="not-found" line="62" />
-      <module_usage name="pandas.util._decorators" finding="absolute" line="66" />
-      <module_usage name="pandas.util._exceptions" finding="absolute" line="72" />
-      <module_usage name="pandas.core.dtypes.cast" finding="absolute" line="74" />
-      <module_usage name="pandas.core.dtypes.common" finding="absolute" line="78" />
-      <module_usage name="pandas.core.dtypes.missing" finding="absolute" line="92" />
-      <module_usage name="pandas.core" finding="absolute" line="98" />
-      <module_usage name="pandas.core.algorithms" finding="relative" line="98" />
-      <module_usage name="pandas.core.sample" finding="relative" line="98" />
-      <module_usage name="pandas.core._numba" finding="absolute" line="102" />
-      <module_usage name="pandas.core._numba.executor" finding="relative" line="102" />
-      <module_usage name="pandas.core.apply" finding="absolute" line="103" />
-      <module_usage name="pandas.core.arrays" finding="absolute" line="104" />
-      <module_usage name="pandas.core.arrays.ArrowExtensionArray" finding="not-found" line="104" />
-      <module_usage name="pandas.core.arrays.BaseMaskedArray" finding="not-found" line="104" />
-      <module_usage name="pandas.core.arrays.Categorical" finding="not-found" line="104" />
-      <module_usage name="pandas.core.arrays.ExtensionArray" finding="not-found" line="104" />
-      <module_usage name="pandas.core.arrays.FloatingArray" finding="not-found" line="104" />
-      <module_usage name="pandas.core.arrays.IntegerArray" finding="not-found" line="104" />
-      <module_usage name="pandas.core.arrays.SparseArray" finding="not-found" line="104" />
-      <module_usage name="pandas.core.arrays.string_" finding="absolute" line="113" />
-      <module_usage name="pandas.core.arrays.string_arrow" finding="absolute" line="114" />
-      <module_usage name="pandas.core.base" finding="absolute" line="118" />
-      <module_usage name="pandas.core.common" finding="absolute" line="122" />
-      <module_usage name="pandas.core.frame" finding="absolute" line="123" />
-      <module_usage name="pandas.core.generic" finding="absolute" line="124" />
-      <module_usage name="pandas.core.groupby" finding="absolute" line="125" />
-      <module_usage name="pandas.core.groupby.base" finding="relative" line="125" />
-      <module_usage name="pandas.core.groupby.numba_" finding="relative" line="125" />
-      <module_usage name="pandas.core.groupby.ops" finding="relative" line="125" />
-      <module_usage name="pandas.core.groupby.grouper" finding="absolute" line="130" />
-      <module_usage name="pandas.core.groupby.indexing" finding="absolute" line="131" />
-      <module_usage name="pandas.core.indexes.api" finding="absolute" line="135" />
-      <module_usage name="pandas.core.internals.blocks" finding="absolute" line="142" />
-      <module_usage name="pandas.core.series" finding="absolute" line="143" />
-      <module_usage name="pandas.core.sorting" finding="absolute" line="144" />
-      <module_usage name="pandas.core.util.numba_" finding="absolute" line="145" />
-      <module_usage name="pandas.core.reshape.concat" finding="absolute" line="1449" />
-      <module_usage name="pandas.core.resample" finding="absolute" line="3745" />
-      <module_usage name="pandas.core.window" finding="absolute" line="3883" />
-      <module_usage name="pandas.core.window.RollingGroupby" finding="not-found" line="3883" />
-      <module_usage name="pandas.core.window" finding="absolute" line="3905" />
-      <module_usage name="pandas.core.window.ExpandingGroupby" finding="not-found" line="3905" />
-      <module_usage name="pandas.core.window" finding="absolute" line="3925" />
-      <module_usage name="pandas.core.window.ExponentialMovingWindowGroupby" finding="not-found" line="3925" />
-      <module_usage name="pandas.core.reshape.concat" finding="absolute" line="5194" />
-      <module_usage name="pandas.core.groupby.generic" finding="absolute" line="5943" />
-      <module_usage name="pandas.core.groupby.generic" finding="absolute" line="5947" />
+      <module_usage name="pandas._config" finding="absolute" line="37" />
+      <module_usage name="pandas._config.using_string_dtype" finding="not-found" line="37" />
+      <module_usage name="pandas._config.config" finding="absolute" line="38" />
+      <module_usage name="pandas._libs" finding="absolute" line="40" />
+      <module_usage name="pandas._libs.Timestamp" finding="not-found" line="40" />
+      <module_usage name="pandas._libs.lib" finding="relative" line="40" />
+      <module_usage name="pandas._libs.algos" finding="absolute" line="44" />
+      <module_usage name="pandas._libs.groupby" finding="absolute" line="45" />
+      <module_usage name="pandas._libs.missing" finding="absolute" line="46" />
+      <module_usage name="pandas._typing" finding="absolute" line="47" />
+      <module_usage name="pandas.compat.numpy" finding="absolute" line="62" />
+      <module_usage name="pandas.compat.numpy.function" finding="relative" line="62" />
+      <module_usage name="pandas.errors" finding="absolute" line="63" />
+      <module_usage name="pandas.errors.AbstractMethodError" finding="not-found" line="63" />
+      <module_usage name="pandas.errors.DataError" finding="not-found" line="63" />
+      <module_usage name="pandas.util._decorators" finding="absolute" line="67" />
+      <module_usage name="pandas.util._exceptions" finding="absolute" line="73" />
+      <module_usage name="pandas.core.dtypes.cast" finding="absolute" line="75" />
+      <module_usage name="pandas.core.dtypes.common" finding="absolute" line="79" />
+      <module_usage name="pandas.core.dtypes.missing" finding="absolute" line="93" />
+      <module_usage name="pandas.core" finding="absolute" line="99" />
+      <module_usage name="pandas.core.algorithms" finding="relative" line="99" />
+      <module_usage name="pandas.core.sample" finding="relative" line="99" />
+      <module_usage name="pandas.core._numba" finding="absolute" line="103" />
+      <module_usage name="pandas.core._numba.executor" finding="relative" line="103" />
+      <module_usage name="pandas.core.apply" finding="absolute" line="104" />
+      <module_usage name="pandas.core.arrays" finding="absolute" line="105" />
+      <module_usage name="pandas.core.arrays.ArrowExtensionArray" finding="not-found" line="105" />
+      <module_usage name="pandas.core.arrays.BaseMaskedArray" finding="not-found" line="105" />
+      <module_usage name="pandas.core.arrays.Categorical" finding="not-found" line="105" />
+      <module_usage name="pandas.core.arrays.ExtensionArray" finding="not-found" line="105" />
+      <module_usage name="pandas.core.arrays.FloatingArray" finding="not-found" line="105" />
+      <module_usage name="pandas.core.arrays.IntegerArray" finding="not-found" line="105" />
+      <module_usage name="pandas.core.arrays.SparseArray" finding="not-found" line="105" />
+      <module_usage name="pandas.core.arrays.string_" finding="absolute" line="114" />
+      <module_usage name="pandas.core.arrays.string_arrow" finding="absolute" line="115" />
+      <module_usage name="pandas.core.base" finding="absolute" line="119" />
+      <module_usage name="pandas.core.common" finding="absolute" line="123" />
+      <module_usage name="pandas.core.frame" finding="absolute" line="124" />
+      <module_usage name="pandas.core.generic" finding="absolute" line="125" />
+      <module_usage name="pandas.core.groupby" finding="absolute" line="126" />
+      <module_usage name="pandas.core.groupby.base" finding="relative" line="126" />
+      <module_usage name="pandas.core.groupby.numba_" finding="relative" line="126" />
+      <module_usage name="pandas.core.groupby.ops" finding="relative" line="126" />
+      <module_usage name="pandas.core.groupby.grouper" finding="absolute" line="131" />
+      <module_usage name="pandas.core.groupby.indexing" finding="absolute" line="132" />
+      <module_usage name="pandas.core.indexes.api" finding="absolute" line="136" />
+      <module_usage name="pandas.core.internals.blocks" finding="absolute" line="143" />
+      <module_usage name="pandas.core.series" finding="absolute" line="144" />
+      <module_usage name="pandas.core.sorting" finding="absolute" line="145" />
+      <module_usage name="pandas.core.util.numba_" finding="absolute" line="146" />
+      <module_usage name="pandas.core.reshape.concat" finding="absolute" line="1450" />
+      <module_usage name="pandas.core.resample" finding="absolute" line="3746" />
+      <module_usage name="pandas.core.window" finding="absolute" line="3884" />
+      <module_usage name="pandas.core.window.RollingGroupby" finding="not-found" line="3884" />
+      <module_usage name="pandas.core.window" finding="absolute" line="3906" />
+      <module_usage name="pandas.core.window.ExpandingGroupby" finding="not-found" line="3906" />
+      <module_usage name="pandas.core.window" finding="absolute" line="3926" />
+      <module_usage name="pandas.core.window.ExponentialMovingWindowGroupby" finding="not-found" line="3926" />
+      <module_usage name="pandas.core.reshape.concat" finding="absolute" line="5195" />
+      <module_usage name="pandas.core.groupby.generic" finding="absolute" line="5963" />
+      <module_usage name="pandas.core.groupby.generic" finding="absolute" line="5967" />
     </module_usages>
   </module>
   <module name="pandas.core.groupby.grouper" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\pandas\core\groupby\grouper.py" distribution="pandas">
@@ -10979,8 +10987,8 @@
     </module_usages>
   </module>
   <module name="pandas.core.groupby.ops" kind="CompiledPythonModule" usage="import fromlist" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\pandas\core\groupby\ops.py" distribution="pandas">
-    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="160" merged_total="8048" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="140" merged_total="1437" />
+    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="163" merged_total="8074" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="142" merged_total="1442" />
     <distribution-usages>
       <distribution-usage name="numpy" />
     </distribution-usages>
@@ -10989,30 +10997,30 @@
       <module_usage name="collections" finding="absolute" line="10" />
       <module_usage name="functools" finding="absolute" line="11" />
       <module_usage name="typing" finding="absolute" line="12" />
-      <module_usage name="numpy" finding="absolute" line="19" />
-      <module_usage name="pandas._libs" finding="absolute" line="21" />
-      <module_usage name="pandas._libs.NaT" finding="not-found" line="21" />
-      <module_usage name="pandas._libs.lib" finding="relative" line="21" />
-      <module_usage name="pandas._libs.groupby" finding="absolute" line="25" />
-      <module_usage name="pandas._typing" finding="absolute" line="26" />
-      <module_usage name="pandas.errors" finding="absolute" line="33" />
-      <module_usage name="pandas.errors.AbstractMethodError" finding="not-found" line="33" />
-      <module_usage name="pandas.util._decorators" finding="absolute" line="34" />
-      <module_usage name="pandas.core.dtypes.cast" finding="absolute" line="36" />
-      <module_usage name="pandas.core.dtypes.common" finding="absolute" line="40" />
-      <module_usage name="pandas.core.dtypes.missing" finding="absolute" line="47" />
-      <module_usage name="pandas.core.frame" finding="absolute" line="52" />
-      <module_usage name="pandas.core.groupby" finding="absolute" line="53" />
-      <module_usage name="pandas.core.groupby.grouper" finding="relative" line="53" />
-      <module_usage name="pandas.core.indexes.api" finding="absolute" line="54" />
-      <module_usage name="pandas.core.series" finding="absolute" line="60" />
-      <module_usage name="pandas.core.sorting" finding="absolute" line="61" />
-      <module_usage name="functools" finding="absolute" line="132" />
+      <module_usage name="numpy" finding="absolute" line="20" />
+      <module_usage name="pandas._libs" finding="absolute" line="22" />
+      <module_usage name="pandas._libs.NaT" finding="not-found" line="22" />
+      <module_usage name="pandas._libs.lib" finding="relative" line="22" />
+      <module_usage name="pandas._libs.groupby" finding="absolute" line="26" />
+      <module_usage name="pandas._typing" finding="absolute" line="27" />
+      <module_usage name="pandas.errors" finding="absolute" line="34" />
+      <module_usage name="pandas.errors.AbstractMethodError" finding="not-found" line="34" />
+      <module_usage name="pandas.util._decorators" finding="absolute" line="35" />
+      <module_usage name="pandas.core.dtypes.cast" finding="absolute" line="37" />
+      <module_usage name="pandas.core.dtypes.common" finding="absolute" line="41" />
+      <module_usage name="pandas.core.dtypes.missing" finding="absolute" line="48" />
+      <module_usage name="pandas.core.frame" finding="absolute" line="53" />
+      <module_usage name="pandas.core.groupby" finding="absolute" line="54" />
+      <module_usage name="pandas.core.groupby.grouper" finding="relative" line="54" />
+      <module_usage name="pandas.core.indexes.api" finding="absolute" line="55" />
+      <module_usage name="pandas.core.series" finding="absolute" line="61" />
+      <module_usage name="pandas.core.sorting" finding="absolute" line="62" />
       <module_usage name="functools" finding="absolute" line="133" />
-      <module_usage name="functools" finding="absolute" line="136" />
+      <module_usage name="functools" finding="absolute" line="134" />
       <module_usage name="functools" finding="absolute" line="137" />
-      <module_usage name="functools" finding="absolute" line="143" />
+      <module_usage name="functools" finding="absolute" line="138" />
       <module_usage name="functools" finding="absolute" line="144" />
+      <module_usage name="functools" finding="absolute" line="145" />
     </module_usages>
   </module>
   <module name="pandas.core.indexers" kind="CompiledPythonPackage" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\pandas\core\indexers\__init__.py" distribution="pandas">
@@ -11581,8 +11589,8 @@
     </module_usages>
   </module>
   <module name="pandas.core.indexing" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\pandas\core\indexing.py" distribution="pandas">
-    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="167" merged_total="20619" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="141" merged_total="3838" />
+    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="167" merged_total="20739" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="141" merged_total="3862" />
     <distribution-usages>
       <distribution-usage name="numpy" />
     </distribution-usages>
@@ -11600,39 +11608,40 @@
       <module_usage name="pandas._libs.lib" finding="absolute" line="22" />
       <module_usage name="pandas.compat" finding="absolute" line="23" />
       <module_usage name="pandas.compat.PYPY" finding="not-found" line="23" />
-      <module_usage name="pandas.errors" finding="absolute" line="24" />
-      <module_usage name="pandas.errors.AbstractMethodError" finding="not-found" line="24" />
-      <module_usage name="pandas.errors.ChainedAssignmentError" finding="not-found" line="24" />
-      <module_usage name="pandas.errors.IndexingError" finding="not-found" line="24" />
-      <module_usage name="pandas.errors.InvalidIndexError" finding="not-found" line="24" />
-      <module_usage name="pandas.errors.LossySetitemError" finding="not-found" line="24" />
-      <module_usage name="pandas.errors._chained_assignment_msg" finding="not-found" line="24" />
-      <module_usage name="pandas.errors._chained_assignment_warning_msg" finding="not-found" line="24" />
-      <module_usage name="pandas.errors._check_cacher" finding="not-found" line="24" />
-      <module_usage name="pandas.util._decorators" finding="absolute" line="34" />
-      <module_usage name="pandas.util._exceptions" finding="absolute" line="35" />
-      <module_usage name="pandas.core.dtypes.cast" finding="absolute" line="37" />
-      <module_usage name="pandas.core.dtypes.common" finding="absolute" line="41" />
-      <module_usage name="pandas.core.dtypes.concat" finding="absolute" line="53" />
-      <module_usage name="pandas.core.dtypes.dtypes" finding="absolute" line="54" />
-      <module_usage name="pandas.core.dtypes.generic" finding="absolute" line="55" />
-      <module_usage name="pandas.core.dtypes.missing" finding="absolute" line="59" />
-      <module_usage name="pandas.core" finding="absolute" line="67" />
-      <module_usage name="pandas.core.algorithms" finding="relative" line="67" />
-      <module_usage name="pandas.core.common" finding="absolute" line="68" />
-      <module_usage name="pandas.core.construction" finding="absolute" line="69" />
-      <module_usage name="pandas.core.indexers" finding="absolute" line="73" />
-      <module_usage name="pandas.core.indexers.check_array_indexer" finding="not-found" line="73" />
-      <module_usage name="pandas.core.indexers.is_list_like_indexer" finding="not-found" line="73" />
-      <module_usage name="pandas.core.indexers.is_scalar_indexer" finding="not-found" line="73" />
-      <module_usage name="pandas.core.indexers.length_of_indexer" finding="not-found" line="73" />
-      <module_usage name="pandas.core.indexes.api" finding="absolute" line="79" />
-      <module_usage name="pandas" finding="absolute" line="1961" />
-      <module_usage name="pandas.Series" finding="not-found" line="1961" />
-      <module_usage name="pandas" finding="absolute" line="2183" />
-      <module_usage name="pandas.Series" finding="not-found" line="2183" />
-      <module_usage name="pandas" finding="absolute" line="2225" />
-      <module_usage name="pandas.Series" finding="not-found" line="2225" />
+      <module_usage name="pandas.compat._constants" finding="absolute" line="24" />
+      <module_usage name="pandas.errors" finding="absolute" line="25" />
+      <module_usage name="pandas.errors.AbstractMethodError" finding="not-found" line="25" />
+      <module_usage name="pandas.errors.ChainedAssignmentError" finding="not-found" line="25" />
+      <module_usage name="pandas.errors.IndexingError" finding="not-found" line="25" />
+      <module_usage name="pandas.errors.InvalidIndexError" finding="not-found" line="25" />
+      <module_usage name="pandas.errors.LossySetitemError" finding="not-found" line="25" />
+      <module_usage name="pandas.errors._chained_assignment_msg" finding="not-found" line="25" />
+      <module_usage name="pandas.errors._chained_assignment_warning_msg" finding="not-found" line="25" />
+      <module_usage name="pandas.errors._check_cacher" finding="not-found" line="25" />
+      <module_usage name="pandas.util._decorators" finding="absolute" line="35" />
+      <module_usage name="pandas.util._exceptions" finding="absolute" line="36" />
+      <module_usage name="pandas.core.dtypes.cast" finding="absolute" line="38" />
+      <module_usage name="pandas.core.dtypes.common" finding="absolute" line="42" />
+      <module_usage name="pandas.core.dtypes.concat" finding="absolute" line="54" />
+      <module_usage name="pandas.core.dtypes.dtypes" finding="absolute" line="55" />
+      <module_usage name="pandas.core.dtypes.generic" finding="absolute" line="56" />
+      <module_usage name="pandas.core.dtypes.missing" finding="absolute" line="60" />
+      <module_usage name="pandas.core" finding="absolute" line="68" />
+      <module_usage name="pandas.core.algorithms" finding="relative" line="68" />
+      <module_usage name="pandas.core.common" finding="absolute" line="69" />
+      <module_usage name="pandas.core.construction" finding="absolute" line="70" />
+      <module_usage name="pandas.core.indexers" finding="absolute" line="74" />
+      <module_usage name="pandas.core.indexers.check_array_indexer" finding="not-found" line="74" />
+      <module_usage name="pandas.core.indexers.is_list_like_indexer" finding="not-found" line="74" />
+      <module_usage name="pandas.core.indexers.is_scalar_indexer" finding="not-found" line="74" />
+      <module_usage name="pandas.core.indexers.length_of_indexer" finding="not-found" line="74" />
+      <module_usage name="pandas.core.indexes.api" finding="absolute" line="80" />
+      <module_usage name="pandas" finding="absolute" line="1962" />
+      <module_usage name="pandas.Series" finding="not-found" line="1962" />
+      <module_usage name="pandas" finding="absolute" line="2184" />
+      <module_usage name="pandas.Series" finding="not-found" line="2184" />
+      <module_usage name="pandas" finding="absolute" line="2226" />
+      <module_usage name="pandas.Series" finding="not-found" line="2226" />
     </module_usages>
   </module>
   <module name="pandas.core.interchange" kind="CompiledPythonPackage" usage="import path parent" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\pandas\core\interchange\__init__.py" distribution="pandas">
@@ -11982,8 +11991,8 @@
     </module_usages>
   </module>
   <module name="pandas.core.internals.managers" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\pandas\core\internals\managers.py" distribution="pandas">
-    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="161" merged_total="24938" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="143" merged_total="3414" />
+    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="161" merged_total="25208" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="143" merged_total="3450" />
     <distribution-usages>
       <distribution-usage name="numpy" />
     </distribution-usages>
@@ -12301,8 +12310,8 @@
     </module_usages>
   </module>
   <module name="pandas.core.resample" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\pandas\core\resample.py" distribution="pandas">
-    <optimization-time pass="1" time="volatile" micro_passes="6" max_branch_merge="237" merged_total="15449" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="235" merged_total="2402" />
+    <optimization-time pass="1" time="volatile" micro_passes="6" max_branch_merge="237" merged_total="15407" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="235" merged_total="2397" />
     <distribution-usages>
       <distribution-usage name="numpy" />
     </distribution-usages>
@@ -12647,8 +12656,8 @@
     </module_usages>
   </module>
   <module name="pandas.core.series" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\pandas\core\series.py" distribution="pandas">
-    <optimization-time pass="1" time="volatile" micro_passes="6" max_branch_merge="985" merged_total="28347" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="984" merged_total="4460" />
+    <optimization-time pass="1" time="volatile" micro_passes="6" max_branch_merge="985" merged_total="28455" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="984" merged_total="4478" />
     <distribution-usages>
       <distribution-usage name="numpy" />
     </distribution-usages>
@@ -12674,74 +12683,74 @@
       <module_usage name="pandas.compat" finding="absolute" line="41" />
       <module_usage name="pandas.compat.PYPY" finding="not-found" line="41" />
       <module_usage name="pandas.compat._constants" finding="absolute" line="42" />
-      <module_usage name="pandas.compat._optional" finding="absolute" line="43" />
-      <module_usage name="pandas.compat.numpy" finding="absolute" line="44" />
-      <module_usage name="pandas.compat.numpy.function" finding="relative" line="44" />
-      <module_usage name="pandas.errors" finding="absolute" line="45" />
-      <module_usage name="pandas.errors.ChainedAssignmentError" finding="not-found" line="45" />
-      <module_usage name="pandas.errors.InvalidIndexError" finding="not-found" line="45" />
-      <module_usage name="pandas.errors._chained_assignment_method_msg" finding="not-found" line="45" />
-      <module_usage name="pandas.errors._chained_assignment_msg" finding="not-found" line="45" />
-      <module_usage name="pandas.errors._chained_assignment_warning_method_msg" finding="not-found" line="45" />
-      <module_usage name="pandas.errors._chained_assignment_warning_msg" finding="not-found" line="45" />
-      <module_usage name="pandas.errors._check_cacher" finding="not-found" line="45" />
-      <module_usage name="pandas.util._decorators" finding="absolute" line="54" />
-      <module_usage name="pandas.util._exceptions" finding="absolute" line="60" />
-      <module_usage name="pandas.util._validators" finding="absolute" line="61" />
-      <module_usage name="pandas.core.dtypes.astype" finding="absolute" line="67" />
-      <module_usage name="pandas.core.dtypes.cast" finding="absolute" line="68" />
-      <module_usage name="pandas.core.dtypes.common" finding="absolute" line="76" />
-      <module_usage name="pandas.core.dtypes.dtypes" finding="absolute" line="86" />
-      <module_usage name="pandas.core.dtypes.generic" finding="absolute" line="91" />
-      <module_usage name="pandas.core.dtypes.inference" finding="absolute" line="95" />
-      <module_usage name="pandas.core.dtypes.missing" finding="absolute" line="96" />
-      <module_usage name="pandas.core" finding="absolute" line="103" />
-      <module_usage name="pandas.core.algorithms" finding="relative" line="103" />
-      <module_usage name="pandas.core.base" finding="relative" line="103" />
-      <module_usage name="pandas.core.common" finding="relative" line="103" />
-      <module_usage name="pandas.core.missing" finding="relative" line="103" />
-      <module_usage name="pandas.core.nanops" finding="relative" line="103" />
-      <module_usage name="pandas.core.ops" finding="relative" line="103" />
-      <module_usage name="pandas.core.roperator" finding="relative" line="103" />
-      <module_usage name="pandas.core.accessor" finding="absolute" line="112" />
-      <module_usage name="pandas.core.apply" finding="absolute" line="113" />
-      <module_usage name="pandas.core.arrays" finding="absolute" line="114" />
-      <module_usage name="pandas.core.arrays.ExtensionArray" finding="not-found" line="114" />
-      <module_usage name="pandas.core.arrays.arrow" finding="absolute" line="115" />
-      <module_usage name="pandas.core.arrays.arrow.ListAccessor" finding="not-found" line="115" />
-      <module_usage name="pandas.core.arrays.arrow.StructAccessor" finding="not-found" line="115" />
-      <module_usage name="pandas.core.arrays.categorical" finding="absolute" line="119" />
-      <module_usage name="pandas.core.arrays.sparse" finding="absolute" line="120" />
-      <module_usage name="pandas.core.arrays.sparse.SparseAccessor" finding="not-found" line="120" />
-      <module_usage name="pandas.core.arrays.string_" finding="absolute" line="121" />
-      <module_usage name="pandas.core.construction" finding="absolute" line="122" />
-      <module_usage name="pandas.core.generic" finding="absolute" line="127" />
-      <module_usage name="pandas.core.indexers" finding="absolute" line="131" />
-      <module_usage name="pandas.core.indexers.disallow_ndim_indexing" finding="not-found" line="131" />
-      <module_usage name="pandas.core.indexers.unpack_1tuple" finding="not-found" line="131" />
-      <module_usage name="pandas.core.indexes.accessors" finding="absolute" line="135" />
-      <module_usage name="pandas.core.indexes.api" finding="absolute" line="136" />
-      <module_usage name="pandas.core.indexes.base" finding="absolute" line="144" />
-      <module_usage name="pandas.core.indexes.multi" finding="absolute" line="145" />
-      <module_usage name="pandas.core.indexing" finding="absolute" line="146" />
-      <module_usage name="pandas.core.internals" finding="absolute" line="150" />
-      <module_usage name="pandas.core.internals.SingleArrayManager" finding="not-found" line="150" />
-      <module_usage name="pandas.core.internals.SingleBlockManager" finding="not-found" line="150" />
-      <module_usage name="pandas.core.methods" finding="absolute" line="154" />
-      <module_usage name="pandas.core.methods.selectn" finding="relative" line="154" />
-      <module_usage name="pandas.core.shared_docs" finding="absolute" line="155" />
-      <module_usage name="pandas.core.sorting" finding="absolute" line="156" />
-      <module_usage name="pandas.core.strings.accessor" finding="absolute" line="160" />
-      <module_usage name="pandas.core.tools.datetimes" finding="absolute" line="161" />
-      <module_usage name="pandas.io.formats.format" finding="absolute" line="163" />
-      <module_usage name="pandas.io.formats.info" finding="absolute" line="164" />
-      <module_usage name="pandas.plotting" finding="absolute" line="169" />
-      <module_usage name="pandas.core.frame" finding="absolute" line="683" />
-      <module_usage name="pandas.core.frame" finding="absolute" line="688" />
-      <module_usage name="pandas.core.groupby.generic" finding="absolute" line="2248" />
-      <module_usage name="pandas.core.reshape.concat" finding="absolute" line="3287" />
-      <module_usage name="pandas.core.reshape.concat" finding="absolute" line="3532" />
-      <module_usage name="pandas.core.reshape.reshape" finding="absolute" line="4624" />
+      <module_usage name="pandas.compat._optional" finding="absolute" line="46" />
+      <module_usage name="pandas.compat.numpy" finding="absolute" line="47" />
+      <module_usage name="pandas.compat.numpy.function" finding="relative" line="47" />
+      <module_usage name="pandas.errors" finding="absolute" line="48" />
+      <module_usage name="pandas.errors.ChainedAssignmentError" finding="not-found" line="48" />
+      <module_usage name="pandas.errors.InvalidIndexError" finding="not-found" line="48" />
+      <module_usage name="pandas.errors._chained_assignment_method_msg" finding="not-found" line="48" />
+      <module_usage name="pandas.errors._chained_assignment_msg" finding="not-found" line="48" />
+      <module_usage name="pandas.errors._chained_assignment_warning_method_msg" finding="not-found" line="48" />
+      <module_usage name="pandas.errors._chained_assignment_warning_msg" finding="not-found" line="48" />
+      <module_usage name="pandas.errors._check_cacher" finding="not-found" line="48" />
+      <module_usage name="pandas.util._decorators" finding="absolute" line="57" />
+      <module_usage name="pandas.util._exceptions" finding="absolute" line="63" />
+      <module_usage name="pandas.util._validators" finding="absolute" line="64" />
+      <module_usage name="pandas.core.dtypes.astype" finding="absolute" line="70" />
+      <module_usage name="pandas.core.dtypes.cast" finding="absolute" line="71" />
+      <module_usage name="pandas.core.dtypes.common" finding="absolute" line="79" />
+      <module_usage name="pandas.core.dtypes.dtypes" finding="absolute" line="89" />
+      <module_usage name="pandas.core.dtypes.generic" finding="absolute" line="94" />
+      <module_usage name="pandas.core.dtypes.inference" finding="absolute" line="98" />
+      <module_usage name="pandas.core.dtypes.missing" finding="absolute" line="99" />
+      <module_usage name="pandas.core" finding="absolute" line="106" />
+      <module_usage name="pandas.core.algorithms" finding="relative" line="106" />
+      <module_usage name="pandas.core.base" finding="relative" line="106" />
+      <module_usage name="pandas.core.common" finding="relative" line="106" />
+      <module_usage name="pandas.core.missing" finding="relative" line="106" />
+      <module_usage name="pandas.core.nanops" finding="relative" line="106" />
+      <module_usage name="pandas.core.ops" finding="relative" line="106" />
+      <module_usage name="pandas.core.roperator" finding="relative" line="106" />
+      <module_usage name="pandas.core.accessor" finding="absolute" line="115" />
+      <module_usage name="pandas.core.apply" finding="absolute" line="116" />
+      <module_usage name="pandas.core.arrays" finding="absolute" line="117" />
+      <module_usage name="pandas.core.arrays.ExtensionArray" finding="not-found" line="117" />
+      <module_usage name="pandas.core.arrays.arrow" finding="absolute" line="118" />
+      <module_usage name="pandas.core.arrays.arrow.ListAccessor" finding="not-found" line="118" />
+      <module_usage name="pandas.core.arrays.arrow.StructAccessor" finding="not-found" line="118" />
+      <module_usage name="pandas.core.arrays.categorical" finding="absolute" line="122" />
+      <module_usage name="pandas.core.arrays.sparse" finding="absolute" line="123" />
+      <module_usage name="pandas.core.arrays.sparse.SparseAccessor" finding="not-found" line="123" />
+      <module_usage name="pandas.core.arrays.string_" finding="absolute" line="124" />
+      <module_usage name="pandas.core.construction" finding="absolute" line="125" />
+      <module_usage name="pandas.core.generic" finding="absolute" line="130" />
+      <module_usage name="pandas.core.indexers" finding="absolute" line="134" />
+      <module_usage name="pandas.core.indexers.disallow_ndim_indexing" finding="not-found" line="134" />
+      <module_usage name="pandas.core.indexers.unpack_1tuple" finding="not-found" line="134" />
+      <module_usage name="pandas.core.indexes.accessors" finding="absolute" line="138" />
+      <module_usage name="pandas.core.indexes.api" finding="absolute" line="139" />
+      <module_usage name="pandas.core.indexes.base" finding="absolute" line="147" />
+      <module_usage name="pandas.core.indexes.multi" finding="absolute" line="148" />
+      <module_usage name="pandas.core.indexing" finding="absolute" line="149" />
+      <module_usage name="pandas.core.internals" finding="absolute" line="153" />
+      <module_usage name="pandas.core.internals.SingleArrayManager" finding="not-found" line="153" />
+      <module_usage name="pandas.core.internals.SingleBlockManager" finding="not-found" line="153" />
+      <module_usage name="pandas.core.methods" finding="absolute" line="157" />
+      <module_usage name="pandas.core.methods.selectn" finding="relative" line="157" />
+      <module_usage name="pandas.core.shared_docs" finding="absolute" line="158" />
+      <module_usage name="pandas.core.sorting" finding="absolute" line="159" />
+      <module_usage name="pandas.core.strings.accessor" finding="absolute" line="163" />
+      <module_usage name="pandas.core.tools.datetimes" finding="absolute" line="164" />
+      <module_usage name="pandas.io.formats.format" finding="absolute" line="166" />
+      <module_usage name="pandas.io.formats.info" finding="absolute" line="167" />
+      <module_usage name="pandas.plotting" finding="absolute" line="172" />
+      <module_usage name="pandas.core.frame" finding="absolute" line="686" />
+      <module_usage name="pandas.core.frame" finding="absolute" line="691" />
+      <module_usage name="pandas.core.groupby.generic" finding="absolute" line="2251" />
+      <module_usage name="pandas.core.reshape.concat" finding="absolute" line="3290" />
+      <module_usage name="pandas.core.reshape.concat" finding="absolute" line="3535" />
+      <module_usage name="pandas.core.reshape.reshape" finding="absolute" line="4632" />
     </module_usages>
   </module>
   <module name="pandas.core.shared_docs" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\pandas\core\shared_docs.py" distribution="pandas">
@@ -12848,8 +12857,8 @@
     </module_usages>
   </module>
   <module name="pandas.core.strings.object_array" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\pandas\core\strings\object_array.py" distribution="pandas">
-    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="76" merged_total="4628" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="76" merged_total="739" />
+    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="76" merged_total="4562" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="76" merged_total="727" />
     <distribution-usages>
       <distribution-usage name="numpy" />
     </distribution-usages>
@@ -12870,9 +12879,9 @@
       <module_usage name="pandas.core.dtypes.missing" finding="absolute" line="22" />
       <module_usage name="pandas.core.strings.base" finding="absolute" line="24" />
       <module_usage name="pandas.core.arrays.string_" finding="absolute" line="226" />
-      <module_usage name="pandas" finding="absolute" line="415" />
-      <module_usage name="pandas.Series" finding="not-found" line="415" />
-      <module_usage name="functools" finding="absolute" line="436" />
+      <module_usage name="pandas" finding="absolute" line="413" />
+      <module_usage name="pandas.Series" finding="not-found" line="413" />
+      <module_usage name="functools" finding="absolute" line="434" />
     </module_usages>
   </module>
   <module name="pandas.core.tools" kind="CompiledPythonPackage" usage="import path parent" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\pandas\core\tools\__init__.py" distribution="pandas">
@@ -13744,8 +13753,8 @@
     </module_usages>
   </module>
   <module name="pandas.io.formats.format" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\pandas\io\formats\format.py" distribution="pandas">
-    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="74" merged_total="18405" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="65" merged_total="2415" />
+    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="74" merged_total="18423" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="65" merged_total="2417" />
     <distribution-usages>
       <distribution-usage name="numpy" />
     </distribution-usages>
@@ -14923,8 +14932,8 @@
     </module_usages>
   </module>
   <module name="pandas.plotting._matplotlib.timeseries" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\pandas\plotting\_matplotlib\timeseries.py" distribution="pandas">
-    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="55" merged_total="2485" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="48" merged_total="470" />
+    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="53" merged_total="2469" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="44" merged_total="466" />
     <distribution-usages>
       <distribution-usage name="numpy" />
     </distribution-usages>
@@ -14943,10 +14952,10 @@
       <module_usage name="pandas.io.formats.printing" finding="absolute" line="31" />
       <module_usage name="pandas.plotting._matplotlib.converter" finding="absolute" line="32" />
       <module_usage name="pandas.tseries.frequencies" finding="absolute" line="37" />
-      <module_usage name="pandas.plotting._matplotlib" finding="absolute" line="160" />
-      <module_usage name="pandas.plotting._matplotlib.PLOT_CLASSES" finding="not-found" line="160" />
-      <module_usage name="matplotlib" finding="not-found" line="338" />
-      <module_usage name="functools" finding="absolute" line="363" />
+      <module_usage name="pandas.plotting._matplotlib" finding="absolute" line="157" />
+      <module_usage name="pandas.plotting._matplotlib.PLOT_CLASSES" finding="not-found" line="157" />
+      <module_usage name="matplotlib" finding="not-found" line="335" />
+      <module_usage name="functools" finding="absolute" line="360" />
     </module_usages>
   </module>
   <module name="pandas.plotting._matplotlib.tools" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\pandas\plotting\_matplotlib\tools.py" distribution="pandas">
@@ -15076,20 +15085,19 @@
     </module_usages>
   </module>
   <module name="pandas.util._print_versions" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\pandas\util\_print_versions.py" distribution="pandas">
-    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="48" merged_total="964" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="39" merged_total="185" />
+    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="48" merged_total="956" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="39" merged_total="183" />
     <module_usages>
       <module_usage name="__future__" finding="absolute" line="1" />
-      <module_usage name="codecs" finding="absolute" line="3" />
-      <module_usage name="json" finding="absolute" line="4" />
-      <module_usage name="locale" finding="absolute" line="5" />
-      <module_usage name="os" finding="absolute" line="6" />
-      <module_usage name="platform" finding="absolute" line="7" />
-      <module_usage name="struct" finding="absolute" line="8" />
-      <module_usage name="sys" finding="absolute" line="9" />
-      <module_usage name="pandas.compat._optional" finding="absolute" line="15" />
-      <module_usage name="pandas._version_meson" finding="absolute" line="28" />
-      <module_usage name="pandas._version" finding="absolute" line="34" />
+      <module_usage name="json" finding="absolute" line="3" />
+      <module_usage name="locale" finding="absolute" line="4" />
+      <module_usage name="os" finding="absolute" line="5" />
+      <module_usage name="platform" finding="absolute" line="6" />
+      <module_usage name="struct" finding="absolute" line="7" />
+      <module_usage name="sys" finding="absolute" line="8" />
+      <module_usage name="pandas.compat._optional" finding="absolute" line="14" />
+      <module_usage name="pandas._version_meson" finding="absolute" line="27" />
+      <module_usage name="pandas._version" finding="absolute" line="33" />
     </module_usages>
   </module>
   <module name="pandas.util._validators" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\pandas\util\_validators.py" distribution="pandas">
@@ -15333,9 +15341,9 @@
   </module>
   <module name="pyarrow" kind="CompiledPythonPackage" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\pyarrow\__init__.py" distribution="pyarrow">
     <plugin-influence name="anti-bloat" influence="condition-used" condition="not use_setuptools" tags_used="use_setuptools" result="true" />
-    <plugin-influence name="delvewheel" influence="detection" detection="delvewheel_version" value="'1.10.1'" />
-    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="203" merged_total="3075" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="203" merged_total="570" />
+    <plugin-influence name="delvewheel" influence="detection" detection="delvewheel_version" value="'1.11.2'" />
+    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="203" merged_total="3145" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="203" merged_total="584" />
     <module_usages>
       <module_usage name="os" finding="absolute" line="1" />
       <module_usage name="os" finding="absolute" line="35" />
@@ -15351,27 +15359,27 @@
       <module_usage name="setuptools_scm.git" finding="not-found" line="64" />
       <module_usage name="pyarrow.lib" finding="absolute" line="73" />
       <module_usage name="pyarrow.lib" finding="absolute" line="74" />
-      <module_usage name="pyarrow.fs" finding="absolute" line="112" />
-      <module_usage name="pyarrow.lib" finding="absolute" line="166" />
-      <module_usage name="pyarrow.lib" finding="absolute" line="250" />
-      <module_usage name="pyarrow.lib" finding="absolute" line="253" />
-      <module_usage name="pyarrow.lib" finding="absolute" line="256" />
-      <module_usage name="pyarrow.lib" finding="absolute" line="265" />
-      <module_usage name="pyarrow.lib" finding="absolute" line="276" />
-      <module_usage name="pyarrow.lib" finding="absolute" line="281" />
-      <module_usage name="pyarrow.ipc" finding="absolute" line="293" />
-      <module_usage name="pyarrow.ipc" finding="absolute" line="294" />
-      <module_usage name="pyarrow.types" finding="absolute" line="296" />
-      <module_usage name="pyarrow.util" finding="absolute" line="302" />
-      <module_usage name="pyarrow.ipc" finding="absolute" line="306" />
-      <module_usage name="ntpath" finding="absolute" line="320" />
-      <module_usage name="subprocess" finding="absolute" line="328" />
-      <module_usage name="subprocess" finding="absolute" line="337" />
-      <module_usage name="glob" finding="absolute" line="370" />
-      <module_usage name="ntpath" finding="absolute" line="431" />
+      <module_usage name="pyarrow.fs" finding="absolute" line="114" />
+      <module_usage name="pyarrow.lib" finding="absolute" line="168" />
+      <module_usage name="pyarrow.lib" finding="absolute" line="252" />
+      <module_usage name="pyarrow.lib" finding="absolute" line="255" />
+      <module_usage name="pyarrow.lib" finding="absolute" line="258" />
+      <module_usage name="pyarrow.lib" finding="absolute" line="267" />
+      <module_usage name="pyarrow.lib" finding="absolute" line="278" />
+      <module_usage name="pyarrow.lib" finding="absolute" line="283" />
+      <module_usage name="pyarrow.ipc" finding="absolute" line="295" />
+      <module_usage name="pyarrow.ipc" finding="absolute" line="296" />
+      <module_usage name="pyarrow.types" finding="absolute" line="298" />
+      <module_usage name="pyarrow.util" finding="absolute" line="304" />
+      <module_usage name="pyarrow.ipc" finding="absolute" line="308" />
+      <module_usage name="ntpath" finding="absolute" line="322" />
+      <module_usage name="subprocess" finding="absolute" line="330" />
+      <module_usage name="subprocess" finding="absolute" line="339" />
+      <module_usage name="glob" finding="absolute" line="372" />
       <module_usage name="ntpath" finding="absolute" line="433" />
-      <module_usage name="ntpath" finding="absolute" line="439" />
-      <module_usage name="ntpath" finding="absolute" line="446" />
+      <module_usage name="ntpath" finding="absolute" line="435" />
+      <module_usage name="ntpath" finding="absolute" line="441" />
+      <module_usage name="ntpath" finding="absolute" line="448" />
     </module_usages>
   </module>
   <module name="pyarrow._acero" kind="PythonExtensionModule" usage="plugin:implicit-imports" reason="Extension module needed for standalone mode." source_path="${sys.prefix}\Lib\site-packages\pyarrow\_acero.cp313-win_amd64.pyd" distribution="pyarrow">
@@ -15543,8 +15551,8 @@
     <module_usages />
   </module>
   <module name="pyarrow.pandas_compat" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\pyarrow\pandas_compat.py" distribution="pyarrow">
-    <optimization-time pass="1" time="volatile" micro_passes="6" max_branch_merge="63" merged_total="10992" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="58" merged_total="1728" />
+    <optimization-time pass="1" time="volatile" micro_passes="6" max_branch_merge="67" merged_total="11045" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="62" merged_total="1736" />
     <distribution-usages>
       <distribution-usage name="numpy" />
       <distribution-usage name="pandas" />
@@ -15565,12 +15573,12 @@
       <module_usage name="numpy" finding="absolute" line="34" />
       <module_usage name="pyarrow" finding="absolute" line="37" />
       <module_usage name="pyarrow.lib" finding="absolute" line="38" />
-      <module_usage name="pandas.core.internals" finding="absolute" line="732" />
-      <module_usage name="pandas.api.internals" finding="not-found" line="809" />
-      <module_usage name="pandas.core.internals" finding="absolute" line="819" />
-      <module_usage name="pandas.core.internals.BlockManager" finding="not-found" line="819" />
-      <module_usage name="pandas" finding="absolute" line="820" />
-      <module_usage name="pandas.DataFrame" finding="not-found" line="820" />
+      <module_usage name="pandas.core.internals" finding="absolute" line="735" />
+      <module_usage name="pandas.api.internals" finding="not-found" line="814" />
+      <module_usage name="pandas.core.internals" finding="absolute" line="826" />
+      <module_usage name="pandas.core.internals.BlockManager" finding="not-found" line="826" />
+      <module_usage name="pandas" finding="absolute" line="827" />
+      <module_usage name="pandas.DataFrame" finding="not-found" line="827" />
     </module_usages>
   </module>
   <module name="pyarrow.parquet" kind="CompiledPythonPackage" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\pyarrow\parquet\__init__.py" distribution="pyarrow">
@@ -15602,16 +15610,17 @@
       <module_usage name="pyarrow.dataset" finding="absolute" line="157" />
       <module_usage name="pyarrow.dataset" finding="absolute" line="1346" />
       <module_usage name="ntpath" finding="absolute" line="1560" />
-      <module_usage name="pyarrow.dataset" finding="absolute" line="2185" />
+      <module_usage name="pyarrow.dataset" finding="absolute" line="2186" />
     </module_usages>
   </module>
   <module name="pyarrow.types" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\pyarrow\types.py" distribution="pyarrow">
-    <optimization-time pass="1" time="volatile" micro_passes="4" max_branch_merge="5" merged_total="620" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="3" merged_total="3" />
+    <optimization-time pass="1" time="volatile" micro_passes="4" max_branch_merge="182" merged_total="1801" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="182" merged_total="298" />
     <module_usages>
-      <module_usage name="pyarrow.lib" finding="absolute" line="21" />
-      <module_usage name="pyarrow.lib" finding="absolute" line="25" />
-      <module_usage name="pyarrow.util" finding="absolute" line="26" />
+      <module_usage name="enum" finding="absolute" line="21" />
+      <module_usage name="pyarrow.lib" finding="absolute" line="23" />
+      <module_usage name="pyarrow.lib" finding="absolute" line="27" />
+      <module_usage name="pyarrow.util" finding="absolute" line="28" />
     </module_usages>
   </module>
   <module name="pyarrow.util" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\pyarrow\util.py" distribution="pyarrow">
@@ -17799,7 +17808,7 @@
   <included_dll name="libscipy_openblas64_-860d95b1c38e637ce4509f5fa24fbf2a.dll" dest_path="numpy.libs\libscipy_openblas64_-860d95b1c38e637ce4509f5fa24fbf2a.dll" source_path="${sys.prefix}\Lib\site-packages\numpy.libs\libscipy_openblas64_-860d95b1c38e637ce4509f5fa24fbf2a.dll" package="numpy" ignored="no" reason="needed by 'numpy'" />
   <included_dll name="msvcp140-a4c2229bdc2a2a630acdc095b4d86008.dll" dest_path="numpy.libs\msvcp140-a4c2229bdc2a2a630acdc095b4d86008.dll" source_path="${sys.prefix}\Lib\site-packages\numpy.libs\msvcp140-a4c2229bdc2a2a630acdc095b4d86008.dll" package="numpy" ignored="no" reason="needed by 'numpy'" />
   <included_dll name="msvcp140-a4c2229bdc2a2a630acdc095b4d86008.dll" dest_path="pandas.libs\msvcp140-a4c2229bdc2a2a630acdc095b4d86008.dll" source_path="${sys.prefix}\Lib\site-packages\pandas.libs\msvcp140-a4c2229bdc2a2a630acdc095b4d86008.dll" package="pandas" ignored="no" reason="needed by 'pandas'" />
-  <included_dll name="msvcp140-a118642f3ae8774fb9dc223e15c4a52e.dll" dest_path="pyarrow.libs\msvcp140-a118642f3ae8774fb9dc223e15c4a52e.dll" source_path="${sys.prefix}\Lib\site-packages\pyarrow.libs\msvcp140-a118642f3ae8774fb9dc223e15c4a52e.dll" package="pyarrow" ignored="no" reason="needed by 'pyarrow'" />
+  <included_dll name="msvcp140-173e0efa998dc33612e518408bfd190c.dll" dest_path="pyarrow.libs\msvcp140-173e0efa998dc33612e518408bfd190c.dll" source_path="${sys.prefix}\Lib\site-packages\pyarrow.libs\msvcp140-173e0efa998dc33612e518408bfd190c.dll" package="pyarrow" ignored="no" reason="needed by 'pyarrow'" />
   <included_dll name="python313.dll" dest_path="python313.dll" source_path="${sys.prefix}\scripts\python313.dll" package="" ignored="no" reason="Used by 'PandasPyrarrowUsing.exe'" />
   <included_dll name="vcruntime140.dll" dest_path="vcruntime140.dll" source_path="${sys.prefix}\scripts\vcruntime140.dll" package="" ignored="no" reason="Used by 'PandasPyrarrowUsing.exe'" />
   <included_dll name="libffi-8.dll" dest_path="libffi-8.dll" source_path="${sys.prefix}\scripts\libffi-8.dll" package="" ignored="no" reason="Used by '_ctypes.pyd'" />
@@ -17821,7 +17830,7 @@
     <option value="--assume-yes-for-downloads" />
     <option value="--report=compilation-report.xml" />
     <option value="--report-diffable" />
-    <option value="--report-user-provided=pipenv_hash=826fb0d93b5f964954f5caa24b8b23a5" />
+    <option value="--report-user-provided=pipenv_hash=290c92bcd7accd64548290e5385a1e2e" />
   </command_line>
   <plugins>
     <plugin name="anti-bloat" user_enabled="no" />
@@ -17847,9 +17856,9 @@
   <distributions>
     <distribution name="Jinja2" version="3.1.6" installer="pip" />
     <distribution name="MarkupSafe" version="3.0.3" installer="pip" />
-    <distribution name="numpy" version="2.3.3" installer="pip" />
-    <distribution name="pandas" version="2.3.2" installer="pip" />
-    <distribution name="pyarrow" version="21.0.0" installer="pip" />
+    <distribution name="numpy" version="2.3.4" installer="pip" />
+    <distribution name="pandas" version="2.3.3" installer="pip" />
+    <distribution name="pyarrow" version="22.0.0" installer="pip" />
     <distribution name="python-dateutil" version="2.9.0.post0" installer="pip" />
     <distribution name="pytz" version="2025.2" installer="pip" />
     <distribution name="six" version="1.17.0" installer="pip" />
@@ -17866,7 +17875,7 @@
     </search_path>
   </python>
   <user-data>
-    <pipenv_hash>826fb0d93b5f964954f5caa24b8b23a5</pipenv_hash>
+    <pipenv_hash>290c92bcd7accd64548290e5385a1e2e</pipenv_hash>
   </user-data>
   <output run_filename="${cwd}\PandasPyrarrowUsing.dist\PandasPyrarrowUsing.exe" />
 </nuitka-compilation-report>

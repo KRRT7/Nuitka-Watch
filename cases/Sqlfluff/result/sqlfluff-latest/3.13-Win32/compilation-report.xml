@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf8'?>
-<nuitka-compilation-report nuitka_version="2.8.5" nuitka_commercial_version="not installed" mode="standalone" completion="yes">
+<nuitka-compilation-report nuitka_version="2.8.6" nuitka_commercial_version="not installed" mode="standalone" completion="yes">
   <scons_environment />
   <module name="__future__" kind="UncompiledPythonModule" usage="stdlib" reason="Including as part of the non-excluded parts of standard library." source_path="${sys.real_prefix}\Lib\__future__.py">
     <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="8" merged_total="81" />
@@ -5986,35 +5986,18 @@
     <optimization-time pass="2" time="volatile" micro_passes="1" />
     <module_usages>
       <module_usage name="os" finding="absolute" line="1" />
-      <module_usage name="regex.regex" finding="relative" line="1" />
-      <module_usage name="regex" finding="absolute" line="2" />
-      <module_usage name="regex.regex" finding="relative" line="2" />
+      <module_usage name="regex._main" finding="absolute" line="1" />
+      <module_usage name="regex._main" finding="absolute" line="2" />
     </module_usages>
   </module>
-  <module name="regex._regex" kind="PythonExtensionModule" usage="import" reason="Extension module needed for standalone mode." source_path="${sys.prefix}\Lib\site-packages\regex\_regex.cp313-win_amd64.pyd" distribution="regex">
-    <optimization-time pass="1" time="volatile" />
-    <optimization-time pass="2" time="volatile" />
-    <module_usages />
-  </module>
-  <module name="regex._regex_core" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\regex\_regex_core.py" distribution="regex">
-    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="179" merged_total="72863" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="144" merged_total="9813" />
-    <module_usages>
-      <module_usage name="enum" finding="absolute" line="16" />
-      <module_usage name="string" finding="absolute" line="17" />
-      <module_usage name="unicodedata" finding="absolute" line="18" />
-      <module_usage name="collections" finding="absolute" line="19" />
-      <module_usage name="collections.defaultdict" finding="not-found" line="19" />
-      <module_usage name="regex._regex" finding="absolute" line="21" />
-      <module_usage name="random" finding="absolute" line="293" />
-    </module_usages>
-  </module>
-  <module name="regex.regex" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\regex\regex.py" distribution="regex">
+  <module name="regex._main" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\regex\_main.py" distribution="regex">
     <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="245" merged_total="3797" />
     <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="202" merged_total="733" />
     <module_usages>
-      <module_usage name="regex._regex_core" finding="absolute" line="417" />
-      <module_usage name="regex._regex" finding="absolute" line="418" />
+      <module_usage name="regex" finding="absolute" line="417" />
+      <module_usage name="regex._regex_core" finding="relative" line="417" />
+      <module_usage name="regex" finding="absolute" line="418" />
+      <module_usage name="regex._regex" finding="relative" line="418" />
       <module_usage name="threading" finding="absolute" line="419" />
       <module_usage name="locale" finding="absolute" line="420" />
       <module_usage name="regex._regex_core" finding="absolute" line="421" />
@@ -6023,6 +6006,25 @@
       <module_usage name="regex" finding="absolute" line="454" />
       <module_usage name="regex.DEFAULT_VERSION" finding="not-found" line="454" />
       <module_usage name="copyreg" finding="absolute" line="741" />
+    </module_usages>
+  </module>
+  <module name="regex._regex" kind="PythonExtensionModule" usage="import fromlist" reason="Extension module needed for standalone mode." source_path="${sys.prefix}\Lib\site-packages\regex\_regex.cp313-win_amd64.pyd" distribution="regex">
+    <optimization-time pass="1" time="volatile" />
+    <optimization-time pass="2" time="volatile" />
+    <module_usages />
+  </module>
+  <module name="regex._regex_core" kind="CompiledPythonModule" usage="import fromlist" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\regex\_regex_core.py" distribution="regex">
+    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="179" merged_total="73501" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="144" merged_total="9903" />
+    <module_usages>
+      <module_usage name="enum" finding="absolute" line="16" />
+      <module_usage name="string" finding="absolute" line="17" />
+      <module_usage name="unicodedata" finding="absolute" line="18" />
+      <module_usage name="collections" finding="absolute" line="19" />
+      <module_usage name="collections.defaultdict" finding="not-found" line="19" />
+      <module_usage name="regex" finding="absolute" line="21" />
+      <module_usage name="regex._regex" finding="relative" line="21" />
+      <module_usage name="random" finding="absolute" line="328" />
     </module_usages>
   </module>
   <module name="reprlib" kind="UncompiledPythonModule" usage="stdlib" reason="Technically required for CPython library startup." source_path="${sys.real_prefix}\Lib\reprlib.py">
@@ -6347,10 +6349,10 @@
       <module_usage name="sqlfluff.core.helpers.string" finding="absolute" line="23" />
       <module_usage name="sqlfluff.core.plugin.host" finding="absolute" line="27" />
       <module_usage name="sqlfluff.core.types" finding="absolute" line="28" />
-      <module_usage name="sqlfluff.core.dialects" finding="absolute" line="157" />
-      <module_usage name="sqlfluff.core.dialects.dialect_selector" finding="not-found" line="157" />
-      <module_usage name="sqlfluff.core.dialects" finding="absolute" line="176" />
-      <module_usage name="sqlfluff.core.dialects.dialect_readout" finding="not-found" line="176" />
+      <module_usage name="sqlfluff.core.dialects" finding="absolute" line="159" />
+      <module_usage name="sqlfluff.core.dialects.dialect_selector" finding="not-found" line="159" />
+      <module_usage name="sqlfluff.core.dialects" finding="absolute" line="178" />
+      <module_usage name="sqlfluff.core.dialects.dialect_readout" finding="not-found" line="178" />
     </module_usages>
   </module>
   <module name="sqlfluff.core.config.ini" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\sqlfluff\core\config\ini.py" distribution="sqlfluff">
@@ -6545,8 +6547,8 @@
     </module_usages>
   </module>
   <module name="sqlfluff.core.linter.discovery" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\sqlfluff\core\linter\discovery.py" distribution="sqlfluff">
-    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="41" merged_total="2516" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="31" merged_total="341" />
+    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="42" merged_total="2551" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="32" merged_total="346" />
     <distribution-usages>
       <distribution-usage name="pathspec" />
     </distribution-usages>
@@ -6627,8 +6629,8 @@
     </module_usages>
   </module>
   <module name="sqlfluff.core.linter.linter" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\sqlfluff\core\linter\linter.py" distribution="sqlfluff">
-    <optimization-time pass="1" time="volatile" micro_passes="8" max_branch_merge="442" merged_total="13835" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="130" merged_total="1601" />
+    <optimization-time pass="1" time="volatile" micro_passes="8" max_branch_merge="447" merged_total="14000" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="132" merged_total="1620" />
     <distribution-usages>
       <distribution-usage name="regex" />
       <distribution-usage name="tqdm" />
@@ -6666,7 +6668,7 @@
       <module_usage name="sqlfluff.core.rules.fix" finding="absolute" line="42" />
       <module_usage name="sqlfluff.core.rules.noqa" finding="absolute" line="43" />
       <module_usage name="ntpath" finding="absolute" line="151" />
-      <module_usage name="sqlfluff.core.linter.runner" finding="absolute" line="1078" />
+      <module_usage name="sqlfluff.core.linter.runner" finding="absolute" line="1090" />
     </module_usages>
   </module>
   <module name="sqlfluff.core.linter.linting_result" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\sqlfluff\core\linter\linting_result.py" distribution="sqlfluff">
@@ -7545,8 +7547,8 @@
     </module_usages>
   </module>
   <module name="sqlfluff.dialects.dialect_ansi" kind="CompiledPythonModule" usage="plugin:implicit-imports" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\sqlfluff\dialects\dialect_ansi.py" distribution="sqlfluff">
-    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="261" merged_total="87493" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="261" merged_total="12451" />
+    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="267" merged_total="87808" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="267" merged_total="12496" />
     <module_usages>
       <module_usage name="collections.abc" finding="absolute" line="15" />
       <module_usage name="enum" finding="absolute" line="16" />
@@ -7604,8 +7606,8 @@
     <module_usages />
   </module>
   <module name="sqlfluff.dialects.dialect_athena" kind="CompiledPythonModule" usage="plugin:implicit-imports" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\sqlfluff\dialects\dialect_athena.py" distribution="sqlfluff">
-    <optimization-time pass="1" time="volatile" micro_passes="4" max_branch_merge="123" merged_total="7077" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="123" merged_total="1759" />
+    <optimization-time pass="1" time="volatile" micro_passes="4" max_branch_merge="155" merged_total="8194" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="155" merged_total="2038" />
     <module_usages>
       <module_usage name="sqlfluff.core.dialects" finding="absolute" line="6" />
       <module_usage name="sqlfluff.core.dialects.load_raw_dialect" finding="not-found" line="6" />
@@ -7645,8 +7647,8 @@
     <module_usages />
   </module>
   <module name="sqlfluff.dialects.dialect_bigquery" kind="CompiledPythonModule" usage="plugin:implicit-imports" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\sqlfluff\dialects\dialect_bigquery.py" distribution="sqlfluff">
-    <optimization-time pass="1" time="volatile" micro_passes="6" max_branch_merge="199" merged_total="59725" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="199" merged_total="9924" />
+    <optimization-time pass="1" time="volatile" micro_passes="6" max_branch_merge="199" merged_total="60675" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="199" merged_total="10082" />
     <module_usages>
       <module_usage name="collections.abc" finding="absolute" line="9" />
       <module_usage name="sqlfluff.core.dialects" finding="absolute" line="11" />
@@ -7692,8 +7694,8 @@
     <module_usages />
   </module>
   <module name="sqlfluff.dialects.dialect_clickhouse" kind="CompiledPythonModule" usage="plugin:implicit-imports" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\sqlfluff\dialects\dialect_clickhouse.py" distribution="sqlfluff">
-    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="374" merged_total="28961" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="374" merged_total="5777" />
+    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="392" merged_total="29527" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="392" merged_total="5890" />
     <module_usages>
       <module_usage name="sqlfluff.core.dialects" finding="absolute" line="6" />
       <module_usage name="sqlfluff.core.dialects.load_raw_dialect" finding="not-found" line="6" />
@@ -7735,8 +7737,8 @@
     <module_usages />
   </module>
   <module name="sqlfluff.dialects.dialect_databricks" kind="CompiledPythonModule" usage="plugin:implicit-imports" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\sqlfluff\dialects\dialect_databricks.py" distribution="sqlfluff">
-    <optimization-time pass="1" time="volatile" micro_passes="3" max_branch_merge="280" merged_total="12291" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="280" merged_total="4082" />
+    <optimization-time pass="1" time="volatile" micro_passes="3" max_branch_merge="280" merged_total="12872" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="280" merged_total="4275" />
     <module_usages>
       <module_usage name="sqlfluff.core.dialects" finding="absolute" line="8" />
       <module_usage name="sqlfluff.core.dialects.load_raw_dialect" finding="not-found" line="8" />
@@ -7925,8 +7927,8 @@
     <module_usages />
   </module>
   <module name="sqlfluff.dialects.dialect_flink" kind="CompiledPythonModule" usage="plugin:implicit-imports" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\sqlfluff\dialects\dialect_flink.py" distribution="sqlfluff">
-    <optimization-time pass="1" time="volatile" micro_passes="4" max_branch_merge="79" merged_total="3042" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="79" merged_total="758" />
+    <optimization-time pass="1" time="volatile" micro_passes="4" max_branch_merge="79" merged_total="3295" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="79" merged_total="821" />
     <module_usages>
       <module_usage name="sqlfluff.core.dialects" finding="absolute" line="11" />
       <module_usage name="sqlfluff.core.dialects.load_raw_dialect" finding="not-found" line="11" />
@@ -8052,13 +8054,14 @@
     <module_usages />
   </module>
   <module name="sqlfluff.dialects.dialect_mariadb" kind="CompiledPythonModule" usage="plugin:implicit-imports" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\sqlfluff\dialects\dialect_mariadb.py" distribution="sqlfluff">
-    <optimization-time pass="1" time="volatile" micro_passes="3" max_branch_merge="454" merged_total="5270" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="454" merged_total="1753" />
+    <optimization-time pass="1" time="volatile" micro_passes="3" max_branch_merge="454" merged_total="6754" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="454" merged_total="2245" />
     <module_usages>
       <module_usage name="sqlfluff.core.dialects" finding="absolute" line="6" />
       <module_usage name="sqlfluff.core.dialects.load_raw_dialect" finding="not-found" line="6" />
       <module_usage name="sqlfluff.core.parser" finding="absolute" line="7" />
       <module_usage name="sqlfluff.core.parser.AnyNumberOf" finding="not-found" line="7" />
+      <module_usage name="sqlfluff.core.parser.AnySetOf" finding="not-found" line="7" />
       <module_usage name="sqlfluff.core.parser.BaseSegment" finding="not-found" line="7" />
       <module_usage name="sqlfluff.core.parser.Bracketed" finding="not-found" line="7" />
       <module_usage name="sqlfluff.core.parser.Dedent" finding="not-found" line="7" />
@@ -8070,9 +8073,9 @@
       <module_usage name="sqlfluff.core.parser.ParseMode" finding="not-found" line="7" />
       <module_usage name="sqlfluff.core.parser.Ref" finding="not-found" line="7" />
       <module_usage name="sqlfluff.core.parser.Sequence" finding="not-found" line="7" />
-      <module_usage name="sqlfluff.dialects" finding="absolute" line="21" />
-      <module_usage name="sqlfluff.dialects.dialect_mysql" finding="relative" line="21" />
-      <module_usage name="sqlfluff.dialects.dialect_mariadb_keywords" finding="absolute" line="22" />
+      <module_usage name="sqlfluff.dialects" finding="absolute" line="22" />
+      <module_usage name="sqlfluff.dialects.dialect_mysql" finding="relative" line="22" />
+      <module_usage name="sqlfluff.dialects.dialect_mariadb_keywords" finding="absolute" line="23" />
     </module_usages>
   </module>
   <module name="sqlfluff.dialects.dialect_mariadb_keywords" kind="CompiledPythonModule" usage="plugin:implicit-imports" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\sqlfluff\dialects\dialect_mariadb_keywords.py" distribution="sqlfluff">
@@ -8107,8 +8110,8 @@
     <module_usages />
   </module>
   <module name="sqlfluff.dialects.dialect_mysql" kind="CompiledPythonModule" usage="plugin:implicit-imports" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\sqlfluff\dialects\dialect_mysql.py" distribution="sqlfluff">
-    <optimization-time pass="1" time="volatile" micro_passes="4" max_branch_merge="454" merged_total="35643" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="454" merged_total="8886" />
+    <optimization-time pass="1" time="volatile" micro_passes="4" max_branch_merge="454" merged_total="35987" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="454" merged_total="8972" />
     <module_usages>
       <module_usage name="sqlfluff.core.dialects" finding="absolute" line="7" />
       <module_usage name="sqlfluff.core.dialects.load_raw_dialect" finding="not-found" line="7" />
@@ -8152,8 +8155,8 @@
     <module_usages />
   </module>
   <module name="sqlfluff.dialects.dialect_oracle" kind="CompiledPythonModule" usage="plugin:implicit-imports" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\sqlfluff\dialects\dialect_oracle.py" distribution="sqlfluff">
-    <optimization-time pass="1" time="volatile" micro_passes="4" max_branch_merge="128" merged_total="29559" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="128" merged_total="7363" />
+    <optimization-time pass="1" time="volatile" micro_passes="4" max_branch_merge="143" merged_total="31017" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="143" merged_total="7727" />
     <module_usages>
       <module_usage name="typing" finding="absolute" line="6" />
       <module_usage name="sqlfluff.core.dialects" finding="absolute" line="8" />
@@ -8195,8 +8198,8 @@
     </module_usages>
   </module>
   <module name="sqlfluff.dialects.dialect_postgres" kind="CompiledPythonModule" usage="plugin:implicit-imports" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\sqlfluff\dialects\dialect_postgres.py" distribution="sqlfluff">
-    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="378" merged_total="101396" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="378" merged_total="20240" />
+    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="378" merged_total="104137" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="378" merged_total="20787" />
     <module_usages>
       <module_usage name="sqlfluff.core.dialects" finding="absolute" line="3" />
       <module_usage name="sqlfluff.core.dialects.load_raw_dialect" finding="not-found" line="3" />
@@ -8245,8 +8248,8 @@
     <module_usages />
   </module>
   <module name="sqlfluff.dialects.dialect_redshift" kind="CompiledPythonModule" usage="plugin:implicit-imports" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\sqlfluff\dialects\dialect_redshift.py" distribution="sqlfluff">
-    <optimization-time pass="1" time="volatile" micro_passes="4" max_branch_merge="220" merged_total="29555" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="220" merged_total="7365" />
+    <optimization-time pass="1" time="volatile" micro_passes="4" max_branch_merge="220" merged_total="32181" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="220" merged_total="8019" />
     <module_usages>
       <module_usage name="sqlfluff.core.dialects" finding="absolute" line="7" />
       <module_usage name="sqlfluff.core.dialects.load_raw_dialect" finding="not-found" line="7" />
@@ -8286,8 +8289,8 @@
     <module_usages />
   </module>
   <module name="sqlfluff.dialects.dialect_snowflake" kind="CompiledPythonModule" usage="plugin:implicit-imports" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\sqlfluff\dialects\dialect_snowflake.py" distribution="sqlfluff">
-    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="833" merged_total="131677" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="833" merged_total="26295" />
+    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="872" merged_total="136282" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="872" merged_total="27215" />
     <module_usages>
       <module_usage name="sqlfluff.core.dialects" finding="absolute" line="8" />
       <module_usage name="sqlfluff.core.dialects.load_raw_dialect" finding="not-found" line="8" />
@@ -8352,8 +8355,8 @@
     </module_usages>
   </module>
   <module name="sqlfluff.dialects.dialect_sparksql" kind="CompiledPythonModule" usage="plugin:implicit-imports" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\sqlfluff\dialects\dialect_sparksql.py" distribution="sqlfluff">
-    <optimization-time pass="1" time="volatile" micro_passes="4" max_branch_merge="356" merged_total="31676" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="356" merged_total="7895" />
+    <optimization-time pass="1" time="volatile" micro_passes="4" max_branch_merge="356" merged_total="31460" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="356" merged_total="7841" />
     <module_usages>
       <module_usage name="sqlfluff.core.dialects" finding="absolute" line="14" />
       <module_usage name="sqlfluff.core.dialects.load_raw_dialect" finding="not-found" line="14" />
@@ -8402,8 +8405,8 @@
     <module_usages />
   </module>
   <module name="sqlfluff.dialects.dialect_sqlite" kind="CompiledPythonModule" usage="plugin:implicit-imports" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\sqlfluff\dialects\dialect_sqlite.py" distribution="sqlfluff">
-    <optimization-time pass="1" time="volatile" micro_passes="4" max_branch_merge="105" merged_total="10582" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="105" merged_total="2638" />
+    <optimization-time pass="1" time="volatile" micro_passes="4" max_branch_merge="105" merged_total="10738" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="105" merged_total="2677" />
     <module_usages>
       <module_usage name="sqlfluff.core.dialects" finding="absolute" line="6" />
       <module_usage name="sqlfluff.core.dialects.load_raw_dialect" finding="not-found" line="6" />
@@ -8504,8 +8507,8 @@
     </module_usages>
   </module>
   <module name="sqlfluff.dialects.dialect_trino" kind="CompiledPythonModule" usage="plugin:implicit-imports" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\sqlfluff\dialects\dialect_trino.py" distribution="sqlfluff">
-    <optimization-time pass="1" time="volatile" micro_passes="4" max_branch_merge="151" merged_total="9062" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="151" merged_total="2259" />
+    <optimization-time pass="1" time="volatile" micro_passes="4" max_branch_merge="151" merged_total="9781" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="151" merged_total="2438" />
     <module_usages>
       <module_usage name="sqlfluff.core.dialects" finding="absolute" line="6" />
       <module_usage name="sqlfluff.core.dialects.load_raw_dialect" finding="not-found" line="6" />
@@ -8543,8 +8546,8 @@
     <module_usages />
   </module>
   <module name="sqlfluff.dialects.dialect_tsql" kind="CompiledPythonModule" usage="plugin:implicit-imports" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\sqlfluff\dialects\dialect_tsql.py" distribution="sqlfluff">
-    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="338" merged_total="99606" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="338" merged_total="19848" />
+    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="338" merged_total="110597" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="338" merged_total="22042" />
     <module_usages>
       <module_usage name="sqlfluff.core.dialects" finding="absolute" line="6" />
       <module_usage name="sqlfluff.core.dialects.load_raw_dialect" finding="not-found" line="6" />
@@ -8809,8 +8812,8 @@
     </module_usages>
   </module>
   <module name="sqlfluff.rules.aliasing.AL09" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\sqlfluff\rules\aliasing\AL09.py" distribution="sqlfluff">
-    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="73" merged_total="836" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="66" merged_total="165" />
+    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="76" merged_total="871" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="69" merged_total="172" />
     <module_usages>
       <module_usage name="sqlfluff.core.rules" finding="absolute" line="3" />
       <module_usage name="sqlfluff.core.rules.BaseRule" finding="not-found" line="3" />
@@ -8826,8 +8829,8 @@
     </module_usages>
   </module>
   <module name="sqlfluff.rules.ambiguous" kind="CompiledPythonPackage" usage="plugin:implicit-imports" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\sqlfluff\rules\ambiguous\__init__.py" distribution="sqlfluff">
-    <optimization-time pass="1" time="volatile" micro_passes="4" max_branch_merge="16" merged_total="76" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="16" merged_total="19" />
+    <optimization-time pass="1" time="volatile" micro_passes="4" max_branch_merge="18" merged_total="84" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="18" merged_total="21" />
     <module_usages>
       <module_usage name="os" finding="absolute" line="1" />
       <module_usage name="sqlfluff.core.plugin" finding="absolute" line="6" />
@@ -8843,6 +8846,7 @@
       <module_usage name="sqlfluff.rules.ambiguous.AM06" finding="absolute" line="40" />
       <module_usage name="sqlfluff.rules.ambiguous.AM07" finding="absolute" line="41" />
       <module_usage name="sqlfluff.rules.ambiguous.AM08" finding="absolute" line="42" />
+      <module_usage name="sqlfluff.rules.ambiguous.AM09" finding="absolute" line="43" />
     </module_usages>
   </module>
   <module name="sqlfluff.rules.ambiguous.AM01" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\sqlfluff\rules\ambiguous\AM01.py" distribution="sqlfluff">
@@ -8963,6 +8967,18 @@
       <module_usage name="sqlfluff.core.rules.LintResult" finding="not-found" line="6" />
       <module_usage name="sqlfluff.core.rules.RuleContext" finding="not-found" line="6" />
       <module_usage name="sqlfluff.core.rules.crawlers" finding="absolute" line="7" />
+    </module_usages>
+  </module>
+  <module name="sqlfluff.rules.ambiguous.AM09" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\sqlfluff\rules\ambiguous\AM09.py" distribution="sqlfluff">
+    <optimization-time pass="1" time="volatile" micro_passes="4" max_branch_merge="28" merged_total="379" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="27" merged_total="94" />
+    <module_usages>
+      <module_usage name="typing" finding="absolute" line="3" />
+      <module_usage name="sqlfluff.core.rules" finding="absolute" line="5" />
+      <module_usage name="sqlfluff.core.rules.BaseRule" finding="not-found" line="5" />
+      <module_usage name="sqlfluff.core.rules.LintResult" finding="not-found" line="5" />
+      <module_usage name="sqlfluff.core.rules.RuleContext" finding="not-found" line="5" />
+      <module_usage name="sqlfluff.core.rules.crawlers" finding="absolute" line="6" />
     </module_usages>
   </module>
   <module name="sqlfluff.rules.capitalisation" kind="CompiledPythonPackage" usage="plugin:implicit-imports" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\sqlfluff\rules\capitalisation\__init__.py" distribution="sqlfluff">
@@ -9143,8 +9159,8 @@
     </module_usages>
   </module>
   <module name="sqlfluff.rules.convention.CV05" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\sqlfluff\rules\convention\CV05.py" distribution="sqlfluff">
-    <optimization-time pass="1" time="volatile" micro_passes="4" max_branch_merge="74" merged_total="660" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="72" merged_total="164" />
+    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="95" merged_total="1021" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="92" merged_total="203" />
     <module_usages>
       <module_usage name="typing" finding="absolute" line="3" />
       <module_usage name="sqlfluff.core.parser" finding="absolute" line="5" />
@@ -9163,8 +9179,8 @@
     </module_usages>
   </module>
   <module name="sqlfluff.rules.convention.CV06" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\sqlfluff\rules\convention\CV06.py" distribution="sqlfluff">
-    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="136" merged_total="3697" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="133" merged_total="738" />
+    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="168" merged_total="4233" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="163" merged_total="851" />
     <module_usages>
       <module_usage name="collections.abc" finding="absolute" line="3" />
       <module_usage name="typing" finding="absolute" line="4" />
@@ -9581,8 +9597,8 @@
     </module_usages>
   </module>
   <module name="sqlfluff.rules.layout.LT15" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\sqlfluff\rules\layout\LT15.py" distribution="sqlfluff">
-    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="25" merged_total="567" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="25" merged_total="112" />
+    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="25" merged_total="570" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="25" merged_total="113" />
     <module_usages>
       <module_usage name="typing" finding="absolute" line="3" />
       <module_usage name="sqlfluff.core.rules" finding="absolute" line="5" />
@@ -9612,8 +9628,8 @@
     </module_usages>
   </module>
   <module name="sqlfluff.rules.references.RF01" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\sqlfluff\rules\references\RF01.py" distribution="sqlfluff">
-    <optimization-time pass="1" time="volatile" micro_passes="6" max_branch_merge="147" merged_total="4787" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="122" merged_total="779" />
+    <optimization-time pass="1" time="volatile" micro_passes="6" max_branch_merge="147" merged_total="5021" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="122" merged_total="817" />
     <module_usages>
       <module_usage name="dataclasses" finding="absolute" line="3" />
       <module_usage name="typing" finding="absolute" line="4" />
@@ -9732,8 +9748,8 @@
     </module_usages>
   </module>
   <module name="sqlfluff.rules.structure" kind="CompiledPythonPackage" usage="plugin:implicit-imports" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\sqlfluff\rules\structure\__init__.py" distribution="sqlfluff">
-    <optimization-time pass="1" time="volatile" micro_passes="4" max_branch_merge="22" merged_total="100" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="22" merged_total="25" />
+    <optimization-time pass="1" time="volatile" micro_passes="4" max_branch_merge="24" merged_total="108" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="24" merged_total="27" />
     <module_usages>
       <module_usage name="os" finding="absolute" line="1" />
       <module_usage name="sqlfluff.core.plugin" finding="absolute" line="3" />
@@ -9752,6 +9768,7 @@
       <module_usage name="sqlfluff.rules.structure.ST09" finding="absolute" line="40" />
       <module_usage name="sqlfluff.rules.structure.ST10" finding="absolute" line="41" />
       <module_usage name="sqlfluff.rules.structure.ST11" finding="absolute" line="42" />
+      <module_usage name="sqlfluff.rules.structure.ST12" finding="absolute" line="43" />
     </module_usages>
   </module>
   <module name="sqlfluff.rules.structure.ST01" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\sqlfluff\rules\structure\ST01.py" distribution="sqlfluff">
@@ -9794,8 +9811,8 @@
     </module_usages>
   </module>
   <module name="sqlfluff.rules.structure.ST03" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\sqlfluff\rules\structure\ST03.py" distribution="sqlfluff">
-    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="18" merged_total="553" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="18" merged_total="110" />
+    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="18" merged_total="676" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="18" merged_total="133" />
     <module_usages>
       <module_usage name="sqlfluff.core.rules" finding="absolute" line="3" />
       <module_usage name="sqlfluff.core.rules.BaseRule" finding="not-found" line="3" />
@@ -9925,23 +9942,24 @@
     </module_usages>
   </module>
   <module name="sqlfluff.rules.structure.ST09" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\sqlfluff\rules\structure\ST09.py" distribution="sqlfluff">
-    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="71" merged_total="3290" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="71" merged_total="463" />
+    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="77" merged_total="3486" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="77" merged_total="491" />
     <module_usages>
       <module_usage name="typing" finding="absolute" line="3" />
-      <module_usage name="sqlfluff.core.parser" finding="absolute" line="5" />
-      <module_usage name="sqlfluff.core.parser.BaseSegment" finding="not-found" line="5" />
-      <module_usage name="sqlfluff.core.parser.SymbolSegment" finding="not-found" line="5" />
-      <module_usage name="sqlfluff.core.rules" finding="absolute" line="6" />
-      <module_usage name="sqlfluff.core.rules.BaseRule" finding="not-found" line="6" />
-      <module_usage name="sqlfluff.core.rules.LintFix" finding="not-found" line="6" />
-      <module_usage name="sqlfluff.core.rules.LintResult" finding="not-found" line="6" />
-      <module_usage name="sqlfluff.core.rules.RuleContext" finding="not-found" line="6" />
-      <module_usage name="sqlfluff.core.rules.crawlers" finding="absolute" line="7" />
-      <module_usage name="sqlfluff.dialects.dialect_ansi" finding="absolute" line="8" />
-      <module_usage name="sqlfluff.utils.functional" finding="absolute" line="12" />
-      <module_usage name="sqlfluff.utils.functional.FunctionalContext" finding="not-found" line="12" />
-      <module_usage name="sqlfluff.utils.functional.Segments" finding="not-found" line="12" />
+      <module_usage name="sqlfluff.core.dialects.common" finding="absolute" line="5" />
+      <module_usage name="sqlfluff.core.parser" finding="absolute" line="6" />
+      <module_usage name="sqlfluff.core.parser.BaseSegment" finding="not-found" line="6" />
+      <module_usage name="sqlfluff.core.parser.SymbolSegment" finding="not-found" line="6" />
+      <module_usage name="sqlfluff.core.rules" finding="absolute" line="7" />
+      <module_usage name="sqlfluff.core.rules.BaseRule" finding="not-found" line="7" />
+      <module_usage name="sqlfluff.core.rules.LintFix" finding="not-found" line="7" />
+      <module_usage name="sqlfluff.core.rules.LintResult" finding="not-found" line="7" />
+      <module_usage name="sqlfluff.core.rules.RuleContext" finding="not-found" line="7" />
+      <module_usage name="sqlfluff.core.rules.crawlers" finding="absolute" line="8" />
+      <module_usage name="sqlfluff.dialects.dialect_ansi" finding="absolute" line="9" />
+      <module_usage name="sqlfluff.utils.functional" finding="absolute" line="13" />
+      <module_usage name="sqlfluff.utils.functional.FunctionalContext" finding="not-found" line="13" />
+      <module_usage name="sqlfluff.utils.functional.Segments" finding="not-found" line="13" />
     </module_usages>
   </module>
   <module name="sqlfluff.rules.structure.ST10" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\sqlfluff\rules\structure\ST10.py" distribution="sqlfluff">
@@ -9972,6 +9990,19 @@
       <module_usage name="sqlfluff.core.rules.crawlers" finding="absolute" line="8" />
       <module_usage name="sqlfluff.dialects.dialect_ansi" finding="absolute" line="9" />
       <module_usage name="sqlfluff.utils.analysis.query" finding="absolute" line="10" />
+    </module_usages>
+  </module>
+  <module name="sqlfluff.rules.structure.ST12" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\sqlfluff\rules\structure\ST12.py" distribution="sqlfluff">
+    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="96" merged_total="2137" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="71" merged_total="298" />
+    <module_usages>
+      <module_usage name="sqlfluff.core.rules" finding="absolute" line="5" />
+      <module_usage name="sqlfluff.core.rules.BaseRule" finding="not-found" line="5" />
+      <module_usage name="sqlfluff.core.rules.EvalResultType" finding="not-found" line="5" />
+      <module_usage name="sqlfluff.core.rules.LintFix" finding="not-found" line="5" />
+      <module_usage name="sqlfluff.core.rules.LintResult" finding="not-found" line="5" />
+      <module_usage name="sqlfluff.core.rules.RuleContext" finding="not-found" line="5" />
+      <module_usage name="sqlfluff.core.rules.crawlers" finding="absolute" line="12" />
     </module_usages>
   </module>
   <module name="sqlfluff.rules.tsql" kind="CompiledPythonPackage" usage="plugin:implicit-imports" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\sqlfluff\rules\tsql\__init__.py" distribution="sqlfluff">
@@ -10139,8 +10170,8 @@
     </module_usages>
   </module>
   <module name="sqlfluff.utils.reflow.config" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\sqlfluff\utils\reflow\config.py" distribution="sqlfluff">
-    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="87" merged_total="2370" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="33" merged_total="289" />
+    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="87" merged_total="2454" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="39" merged_total="300" />
     <module_usages>
       <module_usage name="dataclasses" finding="absolute" line="5" />
       <module_usage name="typing" finding="absolute" line="6" />
@@ -10253,8 +10284,8 @@
     </module_usages>
   </module>
   <module name="sqlfluff.utils.reflow.respace" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\sqlfluff\utils\reflow\respace.py" distribution="sqlfluff">
-    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="134" merged_total="5875" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="126" merged_total="825" />
+    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="134" merged_total="6674" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="126" merged_total="934" />
     <module_usages>
       <module_usage name="logging" finding="absolute" line="3" />
       <module_usage name="collections" finding="absolute" line="4" />
@@ -10529,16 +10560,17 @@
     </module_usages>
   </module>
   <module name="tblib.pickling_support" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\tblib\pickling_support.py" distribution="tblib">
-    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="36" merged_total="831" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="24" merged_total="145" />
+    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="56" merged_total="1290" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="42" merged_total="230" />
     <module_usages>
       <module_usage name="copyreg" finding="absolute" line="1" />
-      <module_usage name="functools" finding="absolute" line="2" />
-      <module_usage name="types" finding="absolute" line="3" />
-      <module_usage name="tblib" finding="absolute" line="5" />
-      <module_usage name="tblib.Frame" finding="not-found" line="5" />
+      <module_usage name="sys" finding="absolute" line="2" />
+      <module_usage name="functools" finding="absolute" line="3" />
+      <module_usage name="types" finding="absolute" line="4" />
       <module_usage name="tblib" finding="absolute" line="6" />
-      <module_usage name="tblib.Traceback" finding="not-found" line="6" />
+      <module_usage name="tblib.Frame" finding="not-found" line="6" />
+      <module_usage name="tblib" finding="absolute" line="7" />
+      <module_usage name="tblib.Traceback" finding="not-found" line="7" />
     </module_usages>
   </module>
   <module name="tempfile" kind="UncompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.real_prefix}\Lib\tempfile.py">
@@ -11147,7 +11179,7 @@
     <memory_usage name="before_c_code_generation" value="volatile" />
     <memory_usage name="before_running_scons" value="volatile" />
   </performance>
-  <data_file name="sqlfluff\core\default_config.cfg" source="${sys.prefix}\Lib\site-packages\sqlfluff\core\default_config.cfg" size="13586" reason="package data for 'sqlfluff.core'" tags="config,copy" />
+  <data_file name="sqlfluff\core\default_config.cfg" source="${sys.prefix}\Lib\site-packages\sqlfluff\core\default_config.cfg" size="13729" reason="package data for 'sqlfluff.core'" tags="config,copy" />
   <metadata>
     <included_metadata name="sqlfluff" reason="According to Yaml configuration 'include-metadata' for 'sqlfluff'" />
   </metadata>
@@ -11181,7 +11213,7 @@
     <option value="--assume-yes-for-downloads" />
     <option value="--report=compilation-report.xml" />
     <option value="--report-diffable" />
-    <option value="--report-user-provided=pipenv_hash=0b5a1eaa969a0a2fc2a2c976219ce106" />
+    <option value="--report-user-provided=pipenv_hash=0ba51ac634bcb38f12d68a6b46942db7" />
   </command_line>
   <plugins>
     <plugin name="anti-bloat" user_enabled="no" />
@@ -11210,11 +11242,11 @@
     <distribution name="chardet" version="5.2.0" installer="pip" />
     <distribution name="colorama" version="0.4.6" installer="pip" />
     <distribution name="pathspec" version="0.12.1" installer="pip" />
-    <distribution name="platformdirs" version="4.4.0" installer="pip" />
+    <distribution name="platformdirs" version="4.5.0" installer="pip" />
     <distribution name="pluggy" version="1.6.0" installer="pip" />
-    <distribution name="regex" version="2025.9.18" installer="pip" />
-    <distribution name="sqlfluff" version="3.4.2" installer="pip" />
-    <distribution name="tblib" version="3.1.0" installer="pip" />
+    <distribution name="regex" version="2025.11.3" installer="pip" />
+    <distribution name="sqlfluff" version="3.5.0" installer="pip" />
+    <distribution name="tblib" version="3.2.2" installer="pip" />
     <distribution name="tqdm" version="4.67.1" installer="pip" />
   </distributions>
   <python python_exe="${sys.prefix}\Scripts\python.EXE" python_flavor="CPython Official" python_version="3.13.0" os_name="Windows" os_release="11" arch_name="x86_64" filesystem_encoding="utf-8" gil="yes">
@@ -11229,7 +11261,7 @@
     </search_path>
   </python>
   <user-data>
-    <pipenv_hash>0b5a1eaa969a0a2fc2a2c976219ce106</pipenv_hash>
+    <pipenv_hash>0ba51ac634bcb38f12d68a6b46942db7</pipenv_hash>
   </user-data>
   <output run_filename="${cwd}\SqlfluffUsing.dist\SqlfluffUsing.exe" />
 </nuitka-compilation-report>

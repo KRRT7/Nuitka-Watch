@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf8'?>
-<nuitka-compilation-report nuitka_version="2.8.5" nuitka_commercial_version="not installed" mode="standalone" completion="yes">
+<nuitka-compilation-report nuitka_version="2.8.6" nuitka_commercial_version="not installed" mode="standalone" completion="yes">
   <scons_environment />
   <module name="__future__" kind="UncompiledPythonModule" usage="stdlib" reason="Including as part of the non-excluded parts of standard library." source_path="${sys.real_prefix}\lib\__future__.py">
     <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="8" merged_total="81" />
@@ -4308,8 +4308,8 @@
     </module_usages>
   </module>
   <module name="markupsafe" kind="CompiledPythonPackage" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\markupsafe\__init__.py" distribution="MarkupSafe">
-    <optimization-time pass="1" time="volatile" micro_passes="6" max_branch_merge="49" merged_total="3431" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="48" merged_total="447" />
+    <optimization-time pass="1" time="volatile" micro_passes="6" max_branch_merge="49" merged_total="3437" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="48" merged_total="448" />
     <module_usages>
       <module_usage name="os" finding="absolute" line="1" />
       <module_usage name="__future__" finding="absolute" line="1" />
@@ -16543,7 +16543,7 @@
     <option value="--assume-yes-for-downloads" />
     <option value="--report=compilation-report.xml" />
     <option value="--report-diffable" />
-    <option value="--report-user-provided=pipenv_hash=d4392394c9655e0e89e06797e42655dd" />
+    <option value="--report-user-provided=pipenv_hash=b852528733b206cc3c74a37fafc703ec" />
   </command_line>
   <plugins>
     <plugin name="anti-bloat" user_enabled="no" />
@@ -16568,7 +16568,7 @@
   </plugins>
   <distributions>
     <distribution name="Jinja2" version="3.1.6" installer="pip" />
-    <distribution name="MarkupSafe" version="3.0.2" installer="pip" />
+    <distribution name="MarkupSafe" version="3.0.3" installer="pip" />
     <distribution name="backports.tarfile" version="1.2.0" installer="pip" />
     <distribution name="jaraco.context" version="5.3.0" installer="pip" />
     <distribution name="jaraco.functools" version="4.0.1" installer="pip" />
@@ -16597,7 +16597,7 @@
     </search_path>
   </python>
   <user-data>
-    <pipenv_hash>d4392394c9655e0e89e06797e42655dd</pipenv_hash>
+    <pipenv_hash>b852528733b206cc3c74a37fafc703ec</pipenv_hash>
   </user-data>
   <output run_filename="${cwd}\PandasPyrarrowUsing.dist\PandasPyrarrowUsing.exe" />
 </nuitka-compilation-report>

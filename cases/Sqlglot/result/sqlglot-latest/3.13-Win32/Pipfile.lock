@@ -27,12 +27,12 @@
         },
         "sqlglot": {
             "hashes": [
-                "sha256:2bb4a9522c835bb41ff274497973906b42f8ec2cf7776a18b1035b1253bc81e5",
-                "sha256:4986ab43443263144c1783aeafe116e68a46f9be43f813c0ce4b914700063dbc"
+                "sha256:2270899694663acef94fa93497971837e6fadd712f4a98b32aee1e980bc82722",
+                "sha256:9a5ea8ac61826a7763de10cad45a35f0aa9bfcf7b96ee74afb2314de9089e1cb"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.9'",
-            "version": "==27.19.0"
+            "version": "==27.29.0"
         }
     },
     "develop": {}

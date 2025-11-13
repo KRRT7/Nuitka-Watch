@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf8'?>
-<nuitka-compilation-report nuitka_version="2.8.5" nuitka_commercial_version="not installed" mode="standalone" completion="yes">
+<nuitka-compilation-report nuitka_version="2.8.6" nuitka_commercial_version="not installed" mode="standalone" completion="yes">
   <scons_environment />
   <module name="__future__" kind="UncompiledPythonModule" usage="import" reason="Including as part of the non-excluded parts of standard library." source_path="${sys.real_prefix}\lib\__future__.py">
     <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="8" merged_total="81" />
@@ -4909,8 +4909,8 @@
     </module_usages>
   </module>
   <module name="typing_extensions" kind="CompiledPythonModule" usage="plugin:implicit-imports" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\typing_extensions.py" distribution="typing_extensions">
-    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="115" merged_total="35773" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="76" merged_total="4596" />
+    <optimization-time pass="1" time="volatile" micro_passes="7" max_branch_merge="138" merged_total="35584" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="73" merged_total="4565" />
     <module_usages>
       <module_usage name="abc" finding="absolute" line="1" />
       <module_usage name="builtins" finding="absolute" line="2" />
@@ -4920,23 +4920,24 @@
       <module_usage name="enum" finding="absolute" line="6" />
       <module_usage name="functools" finding="absolute" line="7" />
       <module_usage name="inspect" finding="absolute" line="8" />
-      <module_usage name="keyword" finding="absolute" line="9" />
-      <module_usage name="operator" finding="absolute" line="10" />
-      <module_usage name="sys" finding="absolute" line="11" />
-      <module_usage name="types" finding="absolute" line="12" />
-      <module_usage name="typing" finding="absolute" line="13" />
-      <module_usage name="warnings" finding="absolute" line="14" />
-      <module_usage name="functools" finding="absolute" line="354" />
-      <module_usage name="typing" finding="absolute" line="1637" />
-      <module_usage name="typing" finding="absolute" line="1742" />
-      <module_usage name="typing" finding="absolute" line="2792" />
-      <module_usage name="functools" finding="absolute" line="3201" />
-      <module_usage name="types" finding="absolute" line="3202" />
-      <module_usage name="asyncio.coroutines" finding="absolute" line="3246" />
-      <module_usage name="functools" finding="absolute" line="3247" />
-      <module_usage name="inspect" finding="absolute" line="3248" />
-      <module_usage name="_socket" finding="absolute" line="4130" />
-      <module_usage name="functools" finding="absolute" line="4265" />
+      <module_usage name="io" finding="absolute" line="9" />
+      <module_usage name="keyword" finding="absolute" line="10" />
+      <module_usage name="operator" finding="absolute" line="11" />
+      <module_usage name="sys" finding="absolute" line="12" />
+      <module_usage name="types" finding="absolute" line="13" />
+      <module_usage name="typing" finding="absolute" line="14" />
+      <module_usage name="warnings" finding="absolute" line="15" />
+      <module_usage name="functools" finding="absolute" line="441" />
+      <module_usage name="typing" finding="absolute" line="1672" />
+      <module_usage name="typing" finding="absolute" line="1777" />
+      <module_usage name="typing" finding="absolute" line="2541" />
+      <module_usage name="functools" finding="absolute" line="2952" />
+      <module_usage name="types" finding="absolute" line="2953" />
+      <module_usage name="asyncio.coroutines" finding="absolute" line="2997" />
+      <module_usage name="functools" finding="absolute" line="2998" />
+      <module_usage name="inspect" finding="absolute" line="2999" />
+      <module_usage name="_socket" finding="absolute" line="3883" />
+      <module_usage name="functools" finding="absolute" line="4015" />
     </module_usages>
   </module>
   <module name="unicodedata" kind="PythonExtensionModule" usage="stdlib" reason="Including as part of the non-excluded parts of standard library." source_path="${sys.real_prefix}\DLLs\unicodedata.pyd">
@@ -5204,7 +5205,7 @@
     <option value="--assume-yes-for-downloads" />
     <option value="--report=compilation-report.xml" />
     <option value="--report-diffable" />
-    <option value="--report-user-provided=pipenv_hash=5f46cbc4b96038f6426d435d8879daa2" />
+    <option value="--report-user-provided=pipenv_hash=d37ea8724d21ace4412f759cec61a757" />
   </command_line>
   <plugins>
     <plugin name="anti-bloat" user_enabled="no" />
@@ -5229,7 +5230,7 @@
   </plugins>
   <distributions>
     <distribution name="pydantic" version="1.9.0" installer="pip" />
-    <distribution name="typing_extensions" version="4.13.2" installer="pip" />
+    <distribution name="typing_extensions" version="4.15.0" installer="pip" />
   </distributions>
   <python python_exe="${sys.prefix}\Scripts\python.EXE" python_flavor="CPython Official" python_version="3.10.11" os_name="Windows" os_release="11" arch_name="x86_64" filesystem_encoding="utf-8">
     <search_path>
@@ -5244,7 +5245,7 @@
     </search_path>
   </python>
   <user-data>
-    <pipenv_hash>5f46cbc4b96038f6426d435d8879daa2</pipenv_hash>
+    <pipenv_hash>d37ea8724d21ace4412f759cec61a757</pipenv_hash>
   </user-data>
   <output run_filename="${cwd}\PydanticUsing.dist\PydanticUsing.exe" />
 </nuitka-compilation-report>

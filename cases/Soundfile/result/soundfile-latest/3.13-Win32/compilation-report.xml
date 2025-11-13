@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf8'?>
-<nuitka-compilation-report nuitka_version="2.8.5" nuitka_commercial_version="not installed" mode="standalone" completion="yes">
+<nuitka-compilation-report nuitka_version="2.8.6" nuitka_commercial_version="not installed" mode="standalone" completion="yes">
   <scons_environment />
   <module name="__future__" kind="UncompiledPythonModule" usage="import" reason="Including as part of the non-excluded parts of standard library." source_path="${sys.real_prefix}\Lib\__future__.py">
     <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="8" merged_total="81" />
@@ -3855,8 +3855,8 @@
     </module_usages>
   </module>
   <module name="numpy._core._ufunc_config" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\numpy\_core\_ufunc_config.py" distribution="numpy">
-    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="36" merged_total="727" />
-    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="36" merged_total="133" />
+    <optimization-time pass="1" time="volatile" micro_passes="5" max_branch_merge="36" merged_total="740" />
+    <optimization-time pass="2" time="volatile" micro_passes="1" max_branch_merge="36" merged_total="135" />
     <module_usages>
       <module_usage name="functools" finding="absolute" line="7" />
       <module_usage name="numpy._utils" finding="absolute" line="9" />
@@ -7075,7 +7075,7 @@
     <option value="--assume-yes-for-downloads" />
     <option value="--report=compilation-report.xml" />
     <option value="--report-diffable" />
-    <option value="--report-user-provided=pipenv_hash=68e406d45df6bb1af5a6270e6dbd5bd8" />
+    <option value="--report-user-provided=pipenv_hash=8848167e25ca6068ae4f840c62330041" />
   </command_line>
   <plugins>
     <plugin name="anti-bloat" user_enabled="no" />
@@ -7100,7 +7100,7 @@
   </plugins>
   <distributions>
     <distribution name="cffi" version="2.0.0" installer="pip" />
-    <distribution name="numpy" version="2.3.3" installer="pip" />
+    <distribution name="numpy" version="2.3.4" installer="pip" />
     <distribution name="soundfile" version="0.13.1" installer="pip" />
   </distributions>
   <python python_exe="${sys.prefix}\Scripts\python.EXE" python_flavor="CPython Official" python_version="3.13.0" os_name="Windows" os_release="11" arch_name="x86_64" filesystem_encoding="utf-8" gil="yes">
@@ -7115,7 +7115,7 @@
     </search_path>
   </python>
   <user-data>
-    <pipenv_hash>68e406d45df6bb1af5a6270e6dbd5bd8</pipenv_hash>
+    <pipenv_hash>8848167e25ca6068ae4f840c62330041</pipenv_hash>
   </user-data>
   <output run_filename="${cwd}\SoundfileUsing.dist\SoundfileUsing.exe" />
 </nuitka-compilation-report>
