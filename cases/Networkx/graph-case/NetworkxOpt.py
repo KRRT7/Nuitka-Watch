@@ -8,7 +8,7 @@
 # nuitka-project: --noinclude-custom-mode=networkx.testing:error
 # nuitka-project: --noinclude-custom-mode=networkx.tests:error
 # nuitka-project: --noinclude-custom-mode=numpy.distutils:error
-# nuitka-project: --noinclude-custom-mode=matplotlib:nofollow
+# nuitka-project: --nofollow-import-to=matplotlib
 # nuitka-project: --noinclude-custom-mode=pandas.util.testing:error
 # nuitka-project: --noinclude-custom-mode=pandas.testing:error
 # nuitka-project: --noinclude-custom-mode=pandas.util._tester:error
